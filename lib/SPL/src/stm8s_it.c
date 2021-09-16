@@ -1,6 +1,6 @@
 #include "stm8s_conf.h"
 #include "stm8s_it.h"
-
+#include "general.h"
 #ifndef TRAP_IRQ
 //TRAP Interrupt routine
 INTERRUPT_HANDLER_TRAP(TRAP_IRQHandler)

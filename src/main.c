@@ -6,8 +6,10 @@ uint8_t u8BuffMeasure[64U];
 void SysInit(void){
     vInitCLK();
     vInitUART();
-    vInitADC();
     vInitTIM4();
+    vInitADC();
+    vInitGPIO();
+    asm("RIM");
 }
 
 void main(void)

@@ -1,5 +1,7 @@
 #ifndef _general_h_
 #define _general_h_
+
+#define TIM4_UPD_OVF_IRQ
 //#include <stdint.h>
 //#include <stdbool.h>
 #include "stm8s_conf.h"
@@ -9,4 +11,6 @@ void vInitCLK(void);
 void vInitADC(void);
 void vInitUART(void);
 void vInitTIM4(void);
+void vInitGPIO(void);
 #endif
+

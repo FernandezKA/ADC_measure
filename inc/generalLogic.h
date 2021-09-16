@@ -7,5 +7,6 @@
 extern uint8_t u8BuffMeasure[64U];
 
 //User functions
+uint8_t u8GetSample(uint8_t chNum);
 
 #endif
