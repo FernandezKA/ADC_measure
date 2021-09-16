@@ -1,4 +1,4 @@
-main.pbi: C:\dev\MCU\STM8\ADC_measure\src\main.c \
+general.pbi: C:\dev\MCU\STM8\ADC_measure\src\general.c \
   C:\dev\MCU\STM8\ADC_measure\inc\general.h \
   C:\dev\MCU\STM8\ADC_measure\inc/stm8s_conf.h \
   C:\dev\MCU\STM8\ADC_measure\lib\SPL\inc\stm8s.h \

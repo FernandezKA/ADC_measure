@@ -1,27 +1,20 @@
-#include "stm8s_conf.h"
-/**
-  *inc->stm8s_conf.h - раскоментировать строчки с нужными хедерами 
-  *периферии и необходимыми обработчиками прерываний. Все закоментированные
-  *обработчики ведут на бесконечные циклы.
-  * 
-  *Project->Options->General Options - выбрать мк
-  *
-  *Project->Options->Debugger - выбрать отладчик
-  *
-  *Project->Options->C/C++ Compiler->Preprocessor->Defined symbols  - задать
-  *семейство процессора(перечислены в lib->SPL->inc->stm8s.h), а также задать
-  *частоты внутренних и внешних генераторов(если не задать, то будут ипользованы
-  *значения по умолчанию из stm8s.h).
-  */
-
-int SystemInit(void)
-{
-    return 0;
+#include "general.h"
+//User variables
+uint8_t u8BuffMeasure[64U];
+//Main function
+//TODO: Set frequency of sampling, get value each IRQ for OVF Tim4
+void SysInit(void){
+    vInitCLK();
+    vInitUART();
+    vInitADC();
+    vInitTIM4();
 }
 
 void main(void)
 {
-	SystemInit();
-	while (1){};
+        SysInit();
+	while (1){
+        UART1->DR = 0x64;
+        };
 }
 
