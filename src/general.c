@@ -14,7 +14,10 @@ void vInitTIM4(void){
 }
 //This procedure init ADC for measure voltage
 void vInitADC(void){
-  
+    asm("nop");
+    ADC1->CR1|=ADC1_CR1_ADON;
+    while((ADC1->CSR & ADC1_CSR_EOC) != ADC1_CSR_EOC) asm("nop");
+    asm("nop");
 }
 //This procedure config UART
 void vInitUART(void){

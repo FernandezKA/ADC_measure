@@ -46196,7 +46196,7 @@
     "display": "void vInitUART(void)",
     "location": {
       "column": "6",
-      "line": "20",
+      "line": "23",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\general.c"
     },
     "name": "vInitUART",
@@ -46210,7 +46210,7 @@
     "display": "void vInitGPIO(void)",
     "location": {
       "column": "6",
-      "line": "26",
+      "line": "29",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\general.c"
     },
     "name": "vInitGPIO",
@@ -46224,7 +46224,7 @@
     "display": "void TIM4_UPD_OVF_IRQHandler(void)",
     "location": {
       "column": "1",
-      "line": "32",
+      "line": "35",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\general.c"
     },
     "name": "TIM4_UPD_OVF_IRQHandler",
