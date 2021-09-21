@@ -1,8 +1,14 @@
 #include "general.h"
+//User variables
+uint8_t u8CountMeasure;
+uint8_t u8BuffMeasure[100U];
 //User procedure
+/******************************************************************************/
+//Init functions
+/******************************************************************************/
 //This procedure configure clocking parameters
 void vInitCLK(void){
-   CLK->CKDIVR = 0x00;
+   //CLK->CKDIVR = 0x00;
 }
 //This procedure init Timer4 for set frequency of sampling
 void vInitTIM4(void){
@@ -14,9 +20,12 @@ void vInitTIM4(void){
 }
 //This procedure init ADC for measure voltage
 void vInitADC(void){
+  ADC1->CSR|=ADC1_CSR_EOCIE|ADC1_CSR_EOC;
+  
 ADC1_DeInit();
     ADC1_Init(ADC1_CONVERSIONMODE_SINGLE, ADC1_CHANNEL_2, ADC1_PRESSEL_FCPU_D8,
             ADC1_EXTTRIG_TIM,DISABLE, ADC1_ALIGN_RIGHT,  ADC1_SCHMITTTRIG_CHANNEL2, DISABLE);
+    ADC1_DataBufferCmd(ENABLE);
     ADC1_ITConfig(ADC1_IT_EOCIE ,ENABLE);
 }
 //This procedure config UART
@@ -31,6 +40,28 @@ void vInitGPIO(void){
   GPIOB->CR2|=(1<<5);//Set push-pull
   GPIOB->ODR|=(1<<5);//Invert at active high
 }
+/******************************************************************************/
+//Semantic defined functions
+/******************************************************************************/
+//This funnction return mean value from array of samples
+uint8_t u8GetMean(uint8_t* data){
+  uint32_t u32SumValue = 0;
+  for(uint8_t i = 0; i < 100; i++){
+    u32SumValue += data[i];
+  }
+  uint32_t u32Result = u32SumValue/100;
+  return 0xFF;
+}
+//This function configure channel
+void vSelectChannel(uint8_t channel){
+  if(channel > 15){
+    channel = 0;
+  }
+  ADC1->CSR |= channel;
+}
+/******************************************************************************/
+//IRQ Handlers
+/******************************************************************************/
 //IRQ handler for TIM4
 INTERRUPT_HANDLER(TIM4_UPD_OVF_IRQHandler, 23)
 {
@@ -42,9 +73,18 @@ INTERRUPT_HANDLER(TIM4_UPD_OVF_IRQHandler, 23)
 //IRQ handler for ADC1
 INTERRUPT_HANDLER(ADC1_IRQHandler, 22)
 {
-  uint8_t ReadLow, ReadHigh;
   GPIOB->ODR^=(1<<5);
-  ReadHigh = ADC1->DRH;
-  ReadLow = ADC1->DRL;
+  u8BuffMeasure[u8CountMeasure++] = ADC1->DRH;
+  if(u8CountMeasure == 100){
+    u8CountMeasure = 0;
+    if(u8CurrentChannel < 15){
+      u8CurrentChannel++;
+      ADC1->CSR&=~(1<<0|1<<1|1<<2);
+      ADC1->CSR|=u8CurrentChannel;
+    }
+    else{
+      u8CurrentChannel = 0;
+    }
+  }
   ADC1_ClearITPendingBit(ADC1_IT_EOC);
 }

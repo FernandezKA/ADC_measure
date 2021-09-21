@@ -35004,31 +35004,145 @@
     "scope": null
   },
   {
+    "ID": "c:stm8s_rst.h@1284@macro@__STM8S_RST_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__STM8S_RST_H",
+    "location": {
+      "column": "9",
+      "line": "29",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_rst.h"
+    },
+    "name": "__STM8S_RST_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@RST_Flag_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@RST_Flag_TypeDef@RST_FLAG_EMCF",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "RST_FLAG_EMCF",
+        "location": {
+          "column": "3",
+          "line": "42",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_rst.h"
+        },
+        "name": "RST_FLAG_EMCF",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@RST_Flag_TypeDef@RST_FLAG_SWIMF",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "RST_FLAG_SWIMF",
+        "location": {
+          "column": "3",
+          "line": "43",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_rst.h"
+        },
+        "name": "RST_FLAG_SWIMF",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@RST_Flag_TypeDef@RST_FLAG_ILLOPF",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "RST_FLAG_ILLOPF",
+        "location": {
+          "column": "3",
+          "line": "44",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_rst.h"
+        },
+        "name": "RST_FLAG_ILLOPF",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@RST_Flag_TypeDef@RST_FLAG_IWDGF",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "RST_FLAG_IWDGF",
+        "location": {
+          "column": "3",
+          "line": "45",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_rst.h"
+        },
+        "name": "RST_FLAG_IWDGF",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@RST_Flag_TypeDef@RST_FLAG_WWDGF",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "RST_FLAG_WWDGF",
+        "location": {
+          "column": "3",
+          "line": "46",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_rst.h"
+        },
+        "name": "RST_FLAG_WWDGF",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "41",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_rst.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_rst.h@2332@macro@IS_RST_FLAG_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_RST_FLAG_OK",
+    "location": {
+      "column": "9",
+      "line": "66",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_rst.h"
+    },
+    "name": "IS_RST_FLAG_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
     "ID": "c:@F@RST_GetFlagStatus",
     "What": "Function",
-    "defdec": "Def",
+    "defdec": "Dec",
     "display": "FlagStatus RST_GetFlagStatus(RST_Flag_TypeDef)",
     "location": {
       "column": "12",
-      "line": "54",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\src\\stm8s_rst.c"
+      "line": "79",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_rst.h"
     },
     "name": "RST_GetFlagStatus",
-    "origin": "project_file",
+    "origin": "user_include",
     "scope": null
   },
   {
     "ID": "c:@F@RST_ClearFlag",
     "What": "Function",
-    "defdec": "Def",
+    "defdec": "Dec",
     "display": "void RST_ClearFlag(RST_Flag_TypeDef)",
     "location": {
       "column": "6",
-      "line": "69",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\src\\stm8s_rst.c"
+      "line": "80",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_rst.h"
     },
     "name": "RST_ClearFlag",
-    "origin": "project_file",
+    "origin": "user_include",
     "scope": null
   },
   {
@@ -36310,145 +36424,31 @@
     "scope": null
   },
   {
-    "ID": "c:stm8s_rst.h@1284@macro@__STM8S_RST_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__STM8S_RST_H",
-    "location": {
-      "column": "9",
-      "line": "29",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_rst.h"
-    },
-    "name": "__STM8S_RST_H",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@EA@RST_Flag_TypeDef",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "",
-    "fields": [
-      {
-        "ID": "c:@EA@RST_Flag_TypeDef@RST_FLAG_EMCF",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "RST_FLAG_EMCF",
-        "location": {
-          "column": "3",
-          "line": "42",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_rst.h"
-        },
-        "name": "RST_FLAG_EMCF",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@RST_Flag_TypeDef@RST_FLAG_SWIMF",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "RST_FLAG_SWIMF",
-        "location": {
-          "column": "3",
-          "line": "43",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_rst.h"
-        },
-        "name": "RST_FLAG_SWIMF",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@RST_Flag_TypeDef@RST_FLAG_ILLOPF",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "RST_FLAG_ILLOPF",
-        "location": {
-          "column": "3",
-          "line": "44",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_rst.h"
-        },
-        "name": "RST_FLAG_ILLOPF",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@RST_Flag_TypeDef@RST_FLAG_IWDGF",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "RST_FLAG_IWDGF",
-        "location": {
-          "column": "3",
-          "line": "45",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_rst.h"
-        },
-        "name": "RST_FLAG_IWDGF",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@RST_Flag_TypeDef@RST_FLAG_WWDGF",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "RST_FLAG_WWDGF",
-        "location": {
-          "column": "3",
-          "line": "46",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_rst.h"
-        },
-        "name": "RST_FLAG_WWDGF",
-        "origin": "user_include",
-        "scope": null
-      }
-    ],
-    "location": {
-      "column": "9",
-      "line": "41",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_rst.h"
-    },
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_rst.h@2332@macro@IS_RST_FLAG_OK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_RST_FLAG_OK",
-    "location": {
-      "column": "9",
-      "line": "66",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_rst.h"
-    },
-    "name": "IS_RST_FLAG_OK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
     "ID": "c:@F@RST_GetFlagStatus",
     "What": "Function",
-    "defdec": "Dec",
+    "defdec": "Def",
     "display": "FlagStatus RST_GetFlagStatus(RST_Flag_TypeDef)",
     "location": {
       "column": "12",
-      "line": "79",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_rst.h"
+      "line": "54",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\src\\stm8s_rst.c"
     },
     "name": "RST_GetFlagStatus",
-    "origin": "user_include",
+    "origin": "project_file",
     "scope": null
   },
   {
     "ID": "c:@F@RST_ClearFlag",
     "What": "Function",
-    "defdec": "Dec",
+    "defdec": "Def",
     "display": "void RST_ClearFlag(RST_Flag_TypeDef)",
     "location": {
       "column": "6",
-      "line": "80",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_rst.h"
+      "line": "69",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\src\\stm8s_rst.c"
     },
     "name": "RST_ClearFlag",
-    "origin": "user_include",
+    "origin": "project_file",
     "scope": null
   },
   {
@@ -36494,13 +36494,69 @@
     "scope": null
   },
   {
+    "ID": "c:@u8CountMeasure",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "u8CountMeasure",
+    "location": {
+      "column": "16",
+      "line": "12",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
+    },
+    "name": "u8CountMeasure",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@u8BuffMeasure",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "u8BuffMeasure",
+    "location": {
+      "column": "16",
+      "line": "13",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
+    },
+    "name": "u8BuffMeasure",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@u8CurrentChannel",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "u8CurrentChannel",
+    "location": {
+      "column": "16",
+      "line": "14",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
+    },
+    "name": "u8CurrentChannel",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@u8CurrentChannel",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "u8CurrentChannel",
+    "location": {
+      "column": "16",
+      "line": "14",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
+    },
+    "name": "u8CurrentChannel",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
     "ID": "c:@F@vInitCLK",
     "What": "Function",
     "defdec": "Dec",
     "display": "void vInitCLK(void)",
     "location": {
       "column": "6",
-      "line": "12",
+      "line": "16",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vInitCLK",
@@ -36514,7 +36570,7 @@
     "display": "void vInitCLK(void)",
     "location": {
       "column": "6",
-      "line": "12",
+      "line": "16",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vInitCLK",
@@ -36528,7 +36584,7 @@
     "display": "void vInitADC(void)",
     "location": {
       "column": "6",
-      "line": "13",
+      "line": "17",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vInitADC",
@@ -36542,7 +36598,7 @@
     "display": "void vInitADC(void)",
     "location": {
       "column": "6",
-      "line": "13",
+      "line": "17",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vInitADC",
@@ -36556,7 +36612,7 @@
     "display": "void vInitUART(void)",
     "location": {
       "column": "6",
-      "line": "14",
+      "line": "18",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vInitUART",
@@ -36570,7 +36626,7 @@
     "display": "void vInitUART(void)",
     "location": {
       "column": "6",
-      "line": "14",
+      "line": "18",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vInitUART",
@@ -36584,7 +36640,7 @@
     "display": "void vInitTIM4(void)",
     "location": {
       "column": "6",
-      "line": "15",
+      "line": "19",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vInitTIM4",
@@ -36598,7 +36654,7 @@
     "display": "void vInitTIM4(void)",
     "location": {
       "column": "6",
-      "line": "15",
+      "line": "19",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vInitTIM4",
@@ -36612,7 +36668,7 @@
     "display": "void vInitGPIO(void)",
     "location": {
       "column": "6",
-      "line": "16",
+      "line": "20",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vInitGPIO",
@@ -36626,10 +36682,66 @@
     "display": "void vInitGPIO(void)",
     "location": {
       "column": "6",
-      "line": "16",
+      "line": "20",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vInitGPIO",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vSelectChannel",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void vSelectChannel(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "21",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
+    },
+    "name": "vSelectChannel",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vSelectChannel",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void vSelectChannel(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "21",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
+    },
+    "name": "vSelectChannel",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@u8GetMean",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint8_t u8GetMean(uint8_t *)",
+    "location": {
+      "column": "9",
+      "line": "22",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
+    },
+    "name": "u8GetMean",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@u8GetMean",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint8_t u8GetMean(uint8_t *)",
+    "location": {
+      "column": "9",
+      "line": "22",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
+    },
+    "name": "u8GetMean",
     "origin": "user_include",
     "scope": null
   },
@@ -46456,16 +46568,16 @@
     "scope": null
   },
   {
-    "ID": "c:@u8BuffMeasure",
+    "ID": "c:@u8CurrentChannel",
     "What": "Variable",
-    "defdec": "Dec",
-    "display": "u8BuffMeasure",
+    "defdec": "Def",
+    "display": "u8CurrentChannel",
     "location": {
       "column": "9",
       "line": "3",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\main.c"
     },
-    "name": "u8BuffMeasure",
+    "name": "u8CurrentChannel",
     "origin": "project_file",
     "scope": null
   },
@@ -46498,7 +46610,7 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@387@F@main@i",
+    "ID": "c:main.c@389@F@main@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
@@ -46526,13 +46638,41 @@
     "scope": null
   },
   {
+    "ID": "c:@u8CountMeasure",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "u8CountMeasure",
+    "location": {
+      "column": "9",
+      "line": "3",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\general.c"
+    },
+    "name": "u8CountMeasure",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@u8BuffMeasure",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "u8BuffMeasure",
+    "location": {
+      "column": "9",
+      "line": "4",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\general.c"
+    },
+    "name": "u8BuffMeasure",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@vInitCLK",
     "What": "Function",
     "defdec": "Def",
     "display": "void vInitCLK(void)",
     "location": {
       "column": "6",
-      "line": "4",
+      "line": "10",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\general.c"
     },
     "name": "vInitCLK",
@@ -46546,7 +46686,7 @@
     "display": "void vInitTIM4(void)",
     "location": {
       "column": "6",
-      "line": "8",
+      "line": "14",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\general.c"
     },
     "name": "vInitTIM4",
@@ -46560,7 +46700,7 @@
     "display": "void vInitADC(void)",
     "location": {
       "column": "6",
-      "line": "16",
+      "line": "22",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\general.c"
     },
     "name": "vInitADC",
@@ -46574,7 +46714,7 @@
     "display": "void vInitUART(void)",
     "location": {
       "column": "6",
-      "line": "23",
+      "line": "32",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\general.c"
     },
     "name": "vInitUART",
@@ -46588,10 +46728,80 @@
     "display": "void vInitGPIO(void)",
     "location": {
       "column": "6",
-      "line": "29",
+      "line": "38",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\general.c"
     },
     "name": "vInitGPIO",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@u8GetMean",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "uint8_t u8GetMean(uint8_t *)",
+    "location": {
+      "column": "9",
+      "line": "47",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\general.c"
+    },
+    "name": "u8GetMean",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:general.c@1607@F@u8GetMean@u32SumValue",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "u32SumValue",
+    "location": {
+      "column": "12",
+      "line": "48",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\general.c"
+    },
+    "name": "u32SumValue",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:general.c@1640@F@u8GetMean@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "15",
+      "line": "49",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\general.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:general.c@1707@F@u8GetMean@u32Result",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "u32Result",
+    "location": {
+      "column": "12",
+      "line": "52",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\general.c"
+    },
+    "name": "u32Result",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vSelectChannel",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void vSelectChannel(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "56",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\general.c"
+    },
+    "name": "vSelectChannel",
     "origin": "project_file",
     "scope": null
   },
@@ -46602,7 +46812,7 @@
     "display": "void TIM4_UPD_OVF_IRQHandler(void)",
     "location": {
       "column": "1",
-      "line": "35",
+      "line": "66",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\general.c"
     },
     "name": "TIM4_UPD_OVF_IRQHandler",
@@ -46616,38 +46826,10 @@
     "display": "void ADC1_IRQHandler(void)",
     "location": {
       "column": "1",
-      "line": "43",
+      "line": "74",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\general.c"
     },
     "name": "ADC1_IRQHandler",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:general.c@1266@F@ADC1_IRQHandler@ReadLow",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "ReadLow",
-    "location": {
-      "column": "11",
-      "line": "45",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\general.c"
-    },
-    "name": "ReadLow",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:general.c@1266@F@ADC1_IRQHandler@ReadHigh",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "ReadHigh",
-    "location": {
-      "column": "20",
-      "line": "45",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\general.c"
-    },
-    "name": "ReadHigh",
     "origin": "project_file",
     "scope": null
   },
@@ -46666,27 +46848,13 @@
     "scope": null
   },
   {
-    "ID": "c:@u8BuffMeasure",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "u8BuffMeasure",
-    "location": {
-      "column": "16",
-      "line": "7",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\generalLogic.h"
-    },
-    "name": "u8BuffMeasure",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
     "ID": "c:@F@u8GetSample",
     "What": "Function",
     "defdec": "Dec",
     "display": "uint8_t u8GetSample(uint8_t)",
     "location": {
       "column": "9",
-      "line": "10",
+      "line": "9",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\generalLogic.h"
     },
     "name": "u8GetSample",

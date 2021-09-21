@@ -4,7 +4,6 @@
 #include "stm8s_conf.h"
 #include "general.h"
 //User variables
-extern uint8_t u8BuffMeasure[64U];
 
 //User functions
 uint8_t u8GetSample(uint8_t chNum);
