@@ -15,8 +15,20 @@ void SysInit(void){
 void main(void)
 {
         SysInit();
+        ADC1->CR1|=ADC1_CR1_ADON;
 	while (1){
-        UART1->DR = 0x64;
+          for(uint16_t i = 0; i < 0xFFFF; ++i){
+          asm("nop");
+          }
+          //GPIOB->ODR^=(1<<5);
+          ADC1->CR1|=ADC1_CR1_ADON;
         };
 }
 
+#ifdef USE_FULL_ASSERT
+void assert_failed(u8 *file, u32 line)
+{
+  asm("nop");
+  return;
+}
+#endif

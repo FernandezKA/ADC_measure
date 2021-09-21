@@ -274,7 +274,9 @@ INTERRUPT_HANDLER(ADC2_IRQHandler, 22)
 //ADC1 interrupt routine.
 INTERRUPT_HANDLER(ADC1_IRQHandler, 22)
 {
-	while (1){};
+	while (1){
+          
+        };
 }
 #endif
 #endif /* (STM8S208) || (STM8S207) || (STM8AF52Ax) || (STM8AF62Ax) */

@@ -14,10 +14,10 @@ void vInitTIM4(void){
 }
 //This procedure init ADC for measure voltage
 void vInitADC(void){
-    asm("nop");
-    ADC1->CR1|=ADC1_CR1_ADON;
-    while((ADC1->CSR & ADC1_CSR_EOC) != ADC1_CSR_EOC) asm("nop");
-    asm("nop");
+ADC1_DeInit();
+    ADC1_Init(ADC1_CONVERSIONMODE_SINGLE, ADC1_CHANNEL_2, ADC1_PRESSEL_FCPU_D8,
+            ADC1_EXTTRIG_TIM,DISABLE, ADC1_ALIGN_RIGHT,  ADC1_SCHMITTTRIG_CHANNEL2, DISABLE);
+    ADC1_ITConfig(ADC1_IT_EOCIE ,ENABLE);
 }
 //This procedure config UART
 void vInitUART(void){
@@ -36,5 +36,15 @@ INTERRUPT_HANDLER(TIM4_UPD_OVF_IRQHandler, 23)
 {
   //Time call is 1 mS
   TIM4->SR1 &=~ TIM4_SR1_UIF;//Clear IRQ flag
+  //GPIOB->ODR^=(1<<5);
+  //ADC1->CR1|=ADC1_CR1_ADON;//Get sample
+}
+//IRQ handler for ADC1
+INTERRUPT_HANDLER(ADC1_IRQHandler, 22)
+{
+  uint8_t ReadLow, ReadHigh;
   GPIOB->ODR^=(1<<5);
+  ReadHigh = ADC1->DRH;
+  ReadLow = ADC1->DRL;
+  ADC1_ClearITPendingBit(ADC1_IT_EOC);
 }
