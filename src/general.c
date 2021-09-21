@@ -8,7 +8,7 @@ uint8_t u8BuffMeasure[100U];
 /******************************************************************************/
 //This procedure configure clocking parameters
 void vInitCLK(void){
-   //CLK->CKDIVR = 0x00;
+   CLK->CKDIVR = 0x00;
 }
 //This procedure init Timer4 for set frequency of sampling
 void vInitTIM4(void){
@@ -41,7 +41,7 @@ void vInitGPIO(void){
   GPIOB->ODR|=(1<<5);//Invert at active high
 }
 /******************************************************************************/
-//Semantic defined functions
+//ADC1
 /******************************************************************************/
 //This funnction return mean value from array of samples
 uint8_t u8GetMean(uint8_t* data){
@@ -60,6 +60,30 @@ void vSelectChannel(uint8_t channel){
   ADC1->CSR |= channel;
 }
 /******************************************************************************/
+//UART
+/******************************************************************************/
+//This function send one byte
+bool vUART_Transmit(uint8_t data){
+  bool isSend = FALSE;
+  if((UART1->SR & UART1_SR_TXE) == UART1_SR_TXE){
+    UART1->DR = data;
+    isSend = TRUE;
+  }
+  return isSend;
+}
+//This function send array of bytes
+bool vUART_ArrayTransmit(uint8_t* data, uint8_t size){
+  bool isSend = FALSE;
+  for(uint8_t i = 0; i < size; ++i){
+    bool bSendByte = FALSE;
+    while(!bSendByte){
+      bSendByte = vUART_Transmit(data[i]);
+    }
+    isSend = TRUE;
+  }
+  return isSend;
+}
+/******************************************************************************/
 //IRQ Handlers
 /******************************************************************************/
 //IRQ handler for TIM4
@@ -68,7 +92,7 @@ INTERRUPT_HANDLER(TIM4_UPD_OVF_IRQHandler, 23)
   //Time call is 1 mS
   TIM4->SR1 &=~ TIM4_SR1_UIF;//Clear IRQ flag
   //GPIOB->ODR^=(1<<5);
-  //ADC1->CR1|=ADC1_CR1_ADON;//Get sample
+  ADC1->CR1|=ADC1_CR1_ADON;//Get sample
 }
 //IRQ handler for ADC1
 INTERRUPT_HANDLER(ADC1_IRQHandler, 22)
@@ -79,8 +103,9 @@ INTERRUPT_HANDLER(ADC1_IRQHandler, 22)
     u8CountMeasure = 0;
     if(u8CurrentChannel < 15){
       u8CurrentChannel++;
-      ADC1->CSR&=~(1<<0|1<<1|1<<2);
+      ADC1->CSR&=~(1<<0|1<<1|1<<2|1<<3);
       ADC1->CSR|=u8CurrentChannel;
+      asm("nop");
     }
     else{
       u8CurrentChannel = 0;

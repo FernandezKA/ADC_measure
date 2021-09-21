@@ -17,11 +17,12 @@ void main(void)
         SysInit();
         ADC1->CR1|=ADC1_CR1_ADON;
 	while (1){
-          for(uint16_t i = 0; i < 0xFF; ++i){
+          for(uint16_t i = 0; i < 0xFFFF; ++i){
           asm("nop");
           }
+          //UART1->DR = 0x64;
           //GPIOB->ODR^=(1<<5);
-          ADC1->CR1|=ADC1_CR1_ADON;
+          //ADC1->CR1|=ADC1_CR1_ADON;
         };
 }
 
