@@ -46568,16 +46568,16 @@
     "scope": null
   },
   {
-    "ID": "c:general.c@1683@F@u8GetMean@u32Result",
+    "ID": "c:general.c@1683@F@u8GetMean@u8Result",
     "What": "Variable",
     "defdec": "Def",
-    "display": "u32Result",
+    "display": "u8Result",
     "location": {
-      "column": "12",
+      "column": "11",
       "line": "52",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\general.c"
     },
-    "name": "u32Result",
+    "name": "u8Result",
     "origin": "project_file",
     "scope": null
   },
@@ -46610,7 +46610,7 @@
     "scope": null
   },
   {
-    "ID": "c:general.c@2128@F@vUART_Transmit@isSend",
+    "ID": "c:general.c@2130@F@vUART_Transmit@isSend",
     "What": "Variable",
     "defdec": "Def",
     "display": "isSend",
@@ -46638,7 +46638,7 @@
     "scope": null
   },
   {
-    "ID": "c:general.c@2365@F@vUART_ArrayTransmit@isSend",
+    "ID": "c:general.c@2367@F@vUART_ArrayTransmit@isSend",
     "What": "Variable",
     "defdec": "Def",
     "display": "isSend",
@@ -46652,7 +46652,7 @@
     "scope": null
   },
   {
-    "ID": "c:general.c@2393@F@vUART_ArrayTransmit@i",
+    "ID": "c:general.c@2395@F@vUART_ArrayTransmit@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
@@ -46666,7 +46666,7 @@
     "scope": null
   },
   {
-    "ID": "c:general.c@2429@F@vUART_ArrayTransmit@bSendByte",
+    "ID": "c:general.c@2431@F@vUART_ArrayTransmit@bSendByte",
     "What": "Variable",
     "defdec": "Def",
     "display": "bSendByte",
@@ -46792,76 +46792,6 @@
     "scope": null
   },
   {
-    "ID": "c:@u8CurrentChannel",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "u8CurrentChannel",
-    "location": {
-      "column": "9",
-      "line": "3",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\main.c"
-    },
-    "name": "u8CurrentChannel",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@SysInit",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void SysInit(void)",
-    "location": {
-      "column": "6",
-      "line": "6",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\main.c"
-    },
-    "name": "SysInit",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@main",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void main(void)",
-    "location": {
-      "column": "6",
-      "line": "15",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\main.c"
-    },
-    "name": "main",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@389@F@main@i",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "i",
-    "location": {
-      "column": "24",
-      "line": "20",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\main.c"
-    },
-    "name": "i",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@assert_failed",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void assert_failed(u8 *, u32)",
-    "location": {
-      "column": "6",
-      "line": "30",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\main.c"
-    },
-    "name": "assert_failed",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
     "ID": "c:stm8s_wwdg.h@1291@macro@__STM8S_WWDG_H",
     "What": "MacroDef",
     "defdec": "Def",
@@ -46971,6 +46901,76 @@
     },
     "name": "WWDG_SetWindowValue",
     "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@u8CurrentChannel",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "u8CurrentChannel",
+    "location": {
+      "column": "9",
+      "line": "3",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\main.c"
+    },
+    "name": "u8CurrentChannel",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SysInit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void SysInit(void)",
+    "location": {
+      "column": "6",
+      "line": "6",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\main.c"
+    },
+    "name": "SysInit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void main(void)",
+    "location": {
+      "column": "6",
+      "line": "15",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@389@F@main@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "24",
+      "line": "20",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\main.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@assert_failed",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void assert_failed(u8 *, u32)",
+    "location": {
+      "column": "6",
+      "line": "30",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\main.c"
+    },
+    "name": "assert_failed",
+    "origin": "project_file",
     "scope": null
   },
   {

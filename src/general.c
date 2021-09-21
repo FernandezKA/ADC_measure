@@ -49,8 +49,8 @@ uint8_t u8GetMean(uint8_t* data){
   for(uint8_t i = 0; i < 100; i++){
     u32SumValue += data[i];
   }
-  uint32_t u32Result = u32SumValue/100;
-  return 0xFF;
+  uint8_t u8Result = u32SumValue/100;
+  return u8Result;
 }
 //This function configure channel
 void vSelectChannel(uint8_t channel){
@@ -105,6 +105,8 @@ INTERRUPT_HANDLER(ADC1_IRQHandler, 22)
       u8CurrentChannel++;
       ADC1->CSR&=~(1<<0|1<<1|1<<2|1<<3);
       ADC1->CSR|=u8CurrentChannel;
+      vUART_Transmit(u8CurrentChannel);
+      vUART_Transmit(u8GetMean(u8BuffMeasure));
       asm("nop");
     }
     else{
