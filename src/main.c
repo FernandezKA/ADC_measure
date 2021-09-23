@@ -15,15 +15,21 @@ void SysInit(void){
 void main(void)
 {
         SysInit();
-        ADC1->CR1|=ADC1_CR1_ADON;
-	while (1){
-          for(uint16_t i = 0; i < 0xFFFF; ++i){
+        for(;;){
+        enum action eCurrentAction = eGetAction();
+        switch(eCurrentAction){
+        case select:
+          u8CurrentConfigurateADC = u8UART_Recieve() - 0x31;
+          break;
+        case prescaler:
           asm("nop");
+          break;
+        default:
+          asm("nop");//This command for debugging
+          break;
           }
-          //UART1->DR = 0x64;
-          //GPIOB->ODR^=(1<<5);
-          //ADC1->CR1|=ADC1_CR1_ADON;
-        };
+        }
+        //ADC1->CR1|=ADC1_CR1_ADON;
 }
 
 #ifdef USE_FULL_ASSERT

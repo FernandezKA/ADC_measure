@@ -2,6 +2,8 @@
 //User variables
 uint8_t u8CountMeasure;
 uint8_t u8BuffMeasure[100U];
+uint8_t u8CurrentConfigurateADC = 1;
+uint8_t u8LastChannel = 2;
 //User procedure
 /******************************************************************************/
 //Init functions
@@ -36,10 +38,43 @@ void vInitUART(void){
 }
 //This procedure config GPIO
 void vInitGPIO(void){
+  //LED at devboard
   GPIOB->DDR|=(1<<5);//Set as out
   GPIOB->CR2|=(1<<5);//Set push-pull
   GPIOB->ODR|=(1<<5);//Invert at active high
+  //Configure input channel for ADC
+  GPIO_Init(GPIOC,GPIO_PIN_4,GPIO_MODE_IN_FL_NO_IT);//Channel 2
+  GPIO_Init(GPIOD,GPIO_PIN_2,GPIO_MODE_IN_FL_NO_IT);//Channel 3
+  GPIO_Init(GPIOD,GPIO_PIN_3,GPIO_MODE_IN_FL_NO_IT);//Channel 4
 }
+/******************************************************************************/
+//General logic functions of device
+/******************************************************************************/
+//This function select next action of device
+enum action eGetAction(void){
+  uint8_t u8Request = u8UART_Recieve();
+  switch(u8Request){
+  case 'p':
+    return (enum action) prescaler;
+    break;
+  case 'c':
+    return (enum action) select;
+    break;
+  default: 
+    asm("nop");
+    return (enum action) select;
+    break;
+  }
+}
+//This function begin measure voltage at selected channels
+void vStartMeasure(void){
+   TIM4->CR1|=TIM4_CR1_CEN;
+}
+//This function select channels
+void vStopMeasure(void){
+  TIM4->CR1&=~TIM4_CR1_CEN;
+}
+//This function stop measuring
 /******************************************************************************/
 //ADC1
 /******************************************************************************/
@@ -54,9 +89,7 @@ uint8_t u8GetMean(uint8_t* data){
 }
 //This function configure channel
 void vSelectChannel(uint8_t channel){
-  if(channel > 15){
-    channel = 0;
-  }
+  ADC1->CSR&= ~(1<<3|1<<2|1<<1|1<<0);//Clear current configurate
   ADC1->CSR |= channel;
 }
 /******************************************************************************/
@@ -83,6 +116,13 @@ bool vUART_ArrayTransmit(uint8_t* data, uint8_t size){
   }
   return isSend;
 }
+//This function recieve one UART bytes
+uint8_t u8UART_Recieve(void){
+  while((UART1->SR & UART1_SR_RXNE) != UART1_SR_RXNE){
+    asm("nop");
+  }
+  return UART1->DR;
+}
 /******************************************************************************/
 //IRQ Handlers
 /******************************************************************************/
@@ -91,27 +131,56 @@ INTERRUPT_HANDLER(TIM4_UPD_OVF_IRQHandler, 23)
 {
   //Time call is 1 mS
   TIM4->SR1 &=~ TIM4_SR1_UIF;//Clear IRQ flag
-  //GPIOB->ODR^=(1<<5);
   ADC1->CR1|=ADC1_CR1_ADON;//Get sample
 }
 //IRQ handler for ADC1
 INTERRUPT_HANDLER(ADC1_IRQHandler, 22)
 {
-  GPIOB->ODR^=(1<<5);
-  u8BuffMeasure[u8CountMeasure++] = ADC1->DRH;
-  if(u8CountMeasure == 100){
-    u8CountMeasure = 0;
-    if(u8CurrentChannel < 15){
-      u8CurrentChannel++;
-      ADC1->CSR&=~(1<<0|1<<1|1<<2|1<<3);
-      ADC1->CSR|=u8CurrentChannel;
-      vUART_Transmit(u8CurrentChannel);
-      vUART_Transmit(u8GetMean(u8BuffMeasure));
-      asm("nop");
+  u8BuffMeasure[u8CountMeasure++] = ADC1->DRL;
+  if(u8CountMeasure == 100){//Select mode
+     switch(u8CurrentConfigurateADC){
+  case 1:
+    vSelectChannel(2);
+    break;
+  case 2: 
+    vSelectChannel(3);
+    break;
+  case 3: 
+    vSelectChannel(4);
+    break;
+  case 4:
+    if(u8LastChannel == 2){
+      u8LastChannel = 3;
+      vSelectChannel(3);
     }
     else{
-      u8CurrentChannel = 0;
+      u8LastChannel = 2;
+      vSelectChannel(2);
     }
+    break;
+  case 5:
+    if(u8LastChannel == 3){
+      u8LastChannel = 4;
+      vSelectChannel(4);
+    }
+    else{
+      u8LastChannel = 3;
+      vSelectChannel(3);
+    }
+    break;
+  case 6:
+    if(u8LastChannel == 2){
+      u8LastChannel = 4;
+      vSelectChannel(4);
+    }
+    else{
+      u8LastChannel = 4;
+      vSelectChannel(4);
+    }
+    break;
   }
+    u8CountMeasure = 0;
+    vUART_Transmit(u8GetMean(u8BuffMeasure));
+    }
   ADC1_ClearITPendingBit(ADC1_IT_EOC);
 }

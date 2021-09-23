@@ -3,8 +3,7 @@
 
 #define TIM4_UPD_OVF_IRQ
 #define ADC1_IRQ
-//#include <stdint.h>
-//#include <stdbool.h>
+
 #include "stm8s_conf.h"
 #include "stm8s_uart1.h"
 #include "stm8s_adc1.h"
@@ -12,6 +11,13 @@
 extern uint8_t u8CountMeasure;
 extern uint8_t u8BuffMeasure[100U];
 extern uint8_t u8CurrentChannel;
+extern uint8_t u8CurrentConfigurateADC;
+extern uint8_t u8LastChannel;
+//
+enum action{
+  prescaler = 0,
+  select = 1
+};
 //User procedures
 //Init functions
 void vInitCLK(void);
@@ -25,5 +31,10 @@ uint8_t u8GetMean(uint8_t* data);
 //UART functions
 bool vUART_Transmit(uint8_t data);
 bool vUART_ArrayTransmit(uint8_t* data, uint8_t size);
+uint8_t u8UART_Recieve(void);
+//General logic functions
+enum action eGetAction(void);
+void vStartMeasure(void);
+void vSelectChannel(uint8_t);
 #endif
 
