@@ -41,6 +41,7 @@ uint8_t u8GetMean(uint8_t* data, uint8_t u8Channel);
 bool vUART_Transmit(uint8_t data);
 bool vUART_ArrayTransmit(uint8_t* data, uint8_t size);
 uint8_t u8UART_Recieve(void);
+void vUART_SendResult(uint8_t u8Channel,uint8_t u8Result);
 //EEPROM
 void    vUpdateEEPROMConfig(uint8_t u8NumberConfig);
 void    vUpdateEEPROMChannel(uint8_t u8Channel, uint8_t u8Prescaler);

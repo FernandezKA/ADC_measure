@@ -137,6 +137,16 @@ uint8_t u8UART_Recieve(void)
   }
   return UART1->DR;
 }
+//This function send formated text with result at UART
+void vUART_SendResult(uint8_t u8Channel,uint8_t u8Result){
+  vUART_ArrayTransmit("Channel :", 9);
+  vUART_Transmit(u8Channel + 0x30);
+  vUART_ArrayTransmit("\n\r", 2);
+  //4C -> 0.1 V
+  uint8_t u8FirstDigit = (u8Result / 0x4C + 0x30);
+  vUART_Transmit(u8FirstDigit);
+  
+}
 /******************************************************************************/
 //EEPROM
 /******************************************************************************/
