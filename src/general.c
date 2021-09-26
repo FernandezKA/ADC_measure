@@ -4,9 +4,9 @@ uint8_t u8CountMeasure;
 uint8_t u8BuffMeasure[100U];
 uint8_t u8CurrentConfigurateADC = 1;
 uint8_t u8LastChannel = 2;
-uint8_t u8Prescaler_1;
-uint8_t u8Prescaler_2;
-uint8_t u8Prescaler_3;
+uint8_t u8Prescaler_1 = 1;
+uint8_t u8Prescaler_2 = 1;
+uint8_t u8Prescaler_3 = 1;
 //Definitions EEPROM regions for constants
 uint32_t PRESCALER_1 =   0x4000;
 uint32_t PRESCALER_2 =   0x4010;
@@ -231,16 +231,16 @@ INTERRUPT_HANDLER(ADC1_IRQHandler, 22)
     vUART_Transmit(u8GetMean(u8BuffMeasure, u8LastChannel));//Get mean value of voltage
     switch (u8CurrentConfigurateADC)
     {
-    case 1:
+    case 0x01:
       vSelectChannel(2);
       break;
-    case 2:
+    case 0x02:
       vSelectChannel(3);
       break;
-    case 3:
+    case 0x03:
       vSelectChannel(4);
       break;
-    case 4:
+    case 0x04:
       if (u8LastChannel == 2)
       {
         u8LastChannel = 3;
@@ -252,7 +252,7 @@ INTERRUPT_HANDLER(ADC1_IRQHandler, 22)
         vSelectChannel(2);
       }
       break;
-    case 5:
+    case 0x05:
       if (u8LastChannel == 3)
       {
         u8LastChannel = 4;
@@ -264,7 +264,7 @@ INTERRUPT_HANDLER(ADC1_IRQHandler, 22)
         vSelectChannel(3);
       }
       break;
-    case 6:
+    case 0x06:
       if (u8LastChannel == 2)
       {
         u8LastChannel = 4;
@@ -276,7 +276,7 @@ INTERRUPT_HANDLER(ADC1_IRQHandler, 22)
         vSelectChannel(4);
       }
       break;
-    case 7:
+    case 0x07:
       switch(u8LastChannel){
       case 2:
         u8LastChannel = 3;

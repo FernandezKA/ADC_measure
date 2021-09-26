@@ -49,7 +49,7 @@
         <MultiCoreRunAll>1</MultiCoreRunAll>
     </Simulator>
     <DebugChecksum>
-        <Checksum>4084978181</Checksum>
+        <Checksum>2117307846</Checksum>
     </DebugChecksum>
     <CallStack>
         <ShowArgs>0</ShowArgs>
@@ -66,11 +66,6 @@
         <GraphEnabled>0</GraphEnabled>
         <ShowTimeLog>1</ShowTimeLog>
     </DataSample>
-    <Breakpoints>
-        <Bp0>_ "STD_CODE" "{$PROJ_DIR$\lib\SPL\src\stm8s_it.c}.306.2" 1 0 0 0 "" 0 ""</Bp0>
-        <Bp1>_ "STD_CODE" "{$PROJ_DIR$\src\main.c}.37.9" 1 0 0 0 "" 0 ""</Bp1>
-        <Count>2</Count>
-    </Breakpoints>
     <TermIOLog>
         <LoggingEnabled>_ 0</LoggingEnabled>
         <LogFile>_ ""</LogFile>
@@ -80,6 +75,14 @@
         <LogFile>_ ""</LogFile>
         <Category>_ 0</Category>
     </LogFile>
+    <Breakpoints>
+        <Bp0>_ "STD_CODE" "{$PROJ_DIR$\lib\SPL\src\stm8s_it.c}.306.2" 1 0 0 0 "" 0 ""</Bp0>
+        <Bp1>_ "STD_CODE" "{$PROJ_DIR$\src\general.c}.231.5" 1 0 0 0 "" 0 ""</Bp1>
+        <Bp2>_ "STD_CODE" "{$PROJ_DIR$\src\general.c}.93.42" 1 0 0 0 "" 0 ""</Bp2>
+        <Bp3>_ "STD_CODE" "{$PROJ_DIR$\src\general.c}.238.7" 1 0 0 0 "" 0 ""</Bp3>
+        <Bp4>_ "STD_CODE" "{$PROJ_DIR$\src\main.c}.36.1" 1 0 0 0 "" 0 ""</Bp4>
+        <Count>5</Count>
+    </Breakpoints>
     <Aliases>
         <Count>0</Count>
         <SuppressDialog>0</SuppressDialog>

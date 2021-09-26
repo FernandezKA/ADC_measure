@@ -4,8 +4,10 @@ uint8_t u8CurrentChannel = 0;
 static uint8_t u8ChannelPrescale;
 static uint8_t u8Prescaler;
 //User message
+#ifndef DEBUG
 static uint8_t u8aStartMessage[28U] = {'p', '-', 's', 'e','t',' ', 'p', 'r', 'e', 's', 'k', 'a', 'l', 'e', '\n', '\r', 
 'm', '-', 's', 'e', 't', ' ', 'm', 'o', 'd', 'e', '\n', '\t'};
+#endif
 //Main function
 void SysInit(void)
 {
@@ -21,7 +23,9 @@ void SysInit(void)
 void main(void)
 {
   SysInit();
+#ifndef DEBUG
   vUART_ArrayTransmit(u8aStartMessage, 28);
+#endif
   for (;;)
   {
     enum action eCurrentAction = eGetAction();//Select next action
@@ -31,6 +35,7 @@ void main(void)
       u8CurrentConfigurateADC = u8UART_Recieve() - 0x30; //Checked
       vUpdateEEPROMConfig(u8CurrentConfigurateADC);
       break;
+      
     case prescaler://Set prescaler at format ch. number -> first digit of prescale -> second gigit of prescale
       u8ChannelPrescale = u8UART_Recieve() - 0x30U;//What of channel must be configured
       u8Prescaler = (u8UART_Recieve() - 0x30U) * 10;//Recieve first of value prescaler |first * 10 + second|

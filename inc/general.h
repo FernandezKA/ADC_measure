@@ -3,6 +3,7 @@
 
 #define TIM4_UPD_OVF_IRQ
 #define ADC1_IRQ
+#define DEBUG 
 
 #include "stm8s_conf.h"
 #include "stm8s_uart1.h"
