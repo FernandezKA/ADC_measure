@@ -779,7 +779,7 @@
                     <item>u8BuffMeasure</item>
                     <item>u8Request</item>
                     <item>u8CurrentConfigurateADC</item>
-                    <item></item>
+                    <item />
                 </expressions>
                 <col-names>
                     <item>Expression</item>

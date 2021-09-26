@@ -49,7 +49,7 @@
         <MultiCoreRunAll>1</MultiCoreRunAll>
     </Simulator>
     <DebugChecksum>
-        <Checksum>2030046533</Checksum>
+        <Checksum>4084978181</Checksum>
     </DebugChecksum>
     <CallStack>
         <ShowArgs>0</ShowArgs>
@@ -57,6 +57,10 @@
     <Disassembly>
         <MixedMode>1</MixedMode>
     </Disassembly>
+    <watch_formats>
+        <Fmt0>{W}1:u8ChannelPrescale	3	0</Fmt0>
+        <Fmt1>{W}1:u8Prescaler	3	0</Fmt1>
+    </watch_formats>
     <DataSample>
         <LogEnabled>0</LogEnabled>
         <GraphEnabled>0</GraphEnabled>
@@ -64,7 +68,7 @@
     </DataSample>
     <Breakpoints>
         <Bp0>_ "STD_CODE" "{$PROJ_DIR$\lib\SPL\src\stm8s_it.c}.306.2" 1 0 0 0 "" 0 ""</Bp0>
-        <Bp1>_ "STD_CODE" "{$PROJ_DIR$\src\main.c}.38.3" 1 0 0 0 "" 0 ""</Bp1>
+        <Bp1>_ "STD_CODE" "{$PROJ_DIR$\src\main.c}.37.9" 1 0 0 0 "" 0 ""</Bp1>
         <Count>2</Count>
     </Breakpoints>
     <TermIOLog>

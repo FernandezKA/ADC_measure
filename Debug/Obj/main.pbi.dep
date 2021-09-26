@@ -8,4 +8,5 @@ main.pbi: C:\dev\MCU\STM8\ADC_measure\src\main.c \
   C:\dev\MCU\STM8\ADC_measure\lib\SPL\inc/stm8s.h \
   C:\dev\MCU\STM8\ADC_measure\lib\SPL\inc\stm8s_gpio.h \
   C:\dev\MCU\STM8\ADC_measure\lib\SPL\inc\stm8s_uart1.h \
-  C:\dev\MCU\STM8\ADC_measure\lib\SPL\inc\stm8s_adc1.h
+  C:\dev\MCU\STM8\ADC_measure\lib\SPL\inc\stm8s_adc1.h \
+  C:\dev\MCU\STM8\ADC_measure\lib\SPL\inc\stm8s_flash.h

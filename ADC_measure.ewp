@@ -1828,9 +1828,6 @@
             <name>$PROJ_DIR$\src\general.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\src\generalLogic.c</name>
-        </file>
-        <file>
             <name>$PROJ_DIR$\src\main.c</name>
         </file>
     </group>
