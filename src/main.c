@@ -16,7 +16,7 @@ void SysInit(void)
   vInitTIM4();
   vInitADC();
   vInitGPIO();
-  vUploadValueEEPROM(&u8Prescaler_1, &u8Prescaler_2, &u8Prescaler_3, &u8CurrentConfigurateADC);//Load old value from EEPROM
+  //vUploadValueEEPROM(&u8Prescaler_1, &u8Prescaler_2, &u8Prescaler_3, &u8CurrentConfigurateADC);//Load old value from EEPROM
   asm("rim");
 }
 

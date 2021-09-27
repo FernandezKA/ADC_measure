@@ -244,7 +244,7 @@ INTERRUPT_HANDLER(ADC1_IRQHandler, 22)
   u8BuffMeasure[u8CountMeasure++] = ADC1->DRL;
   if (u8CountMeasure == 100)
   { //Select mode
-    vUART_SendResult(u8LastChannel, 0xFF);
+    vUART_SendResult(u8LastChannel, u8GetMean(u8BuffMeasure, u8LastChannel));
     //vUART_Transmit(u8GetMean(u8BuffMeasure, u8LastChannel));//Get mean value of voltage
     switch (u8CurrentConfigurateADC)
     {
