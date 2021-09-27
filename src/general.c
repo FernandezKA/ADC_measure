@@ -139,13 +139,29 @@ uint8_t u8UART_Recieve(void)
 }
 //This function send formated text with result at UART
 void vUART_SendResult(uint8_t u8Channel,uint8_t u8Result){
-  vUART_ArrayTransmit("Channel # 1", 11);
-  vUART_Transmit('1');
-  vUART_ArrayTransmit("\n\r", 2);
-  //4C -> 0.1 V
   uint8_t u8FirstDigit = (u8Result / 0x4C + 0x30);
-  vUART_Transmit(u8FirstDigit);
-  
+  uint8_t u8SecondDigit = ((u8Result%0x4C)/0x08) + 0x30U;
+  uint8_t u8aResultArray[18];
+  u8aResultArray[0]= 'c';
+  u8aResultArray[1]= 'h';
+  u8aResultArray[2]= '.';
+  u8aResultArray[3]= '#';
+  u8aResultArray[4]= u8Channel + 0x30U;
+  u8aResultArray[5]= ',';
+  u8aResultArray[6]= ' ';
+  u8aResultArray[7]= 'v';
+  u8aResultArray[8]= 'o';
+  u8aResultArray[9]= 'l';
+  u8aResultArray[10]= 't';
+  u8aResultArray[11]= '.';
+  u8aResultArray[12]= ' ';
+  u8aResultArray[13]= u8FirstDigit;
+  u8aResultArray[14]= ',';
+  u8aResultArray[15]= u8SecondDigit;
+  u8aResultArray[16]= '\n';
+  u8aResultArray[17]= '\r';
+  vUART_ArrayTransmit(u8aResultArray, 18);
+  //vUART_Transmit(u8FirstDigit);
 }
 /******************************************************************************/
 //EEPROM

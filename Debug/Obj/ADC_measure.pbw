@@ -47634,16 +47634,44 @@
     "scope": null
   },
   {
-    "ID": "c:general.c@4270@F@vUART_SendResult@u8FirstDigit",
+    "ID": "c:general.c@4151@F@vUART_SendResult@u8FirstDigit",
     "What": "Variable",
     "defdec": "Def",
     "display": "u8FirstDigit",
     "location": {
       "column": "11",
-      "line": "146",
+      "line": "142",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\general.c"
     },
     "name": "u8FirstDigit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:general.c@4203@F@vUART_SendResult@u8SecondDigit",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "u8SecondDigit",
+    "location": {
+      "column": "11",
+      "line": "143",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\general.c"
+    },
+    "name": "u8SecondDigit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:general.c@4262@F@vUART_SendResult@u8aResultArray",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "u8aResultArray",
+    "location": {
+      "column": "11",
+      "line": "144",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\general.c"
+    },
+    "name": "u8aResultArray",
     "origin": "project_file",
     "scope": null
   },
@@ -47654,7 +47682,7 @@
     "display": "void vUpdateEEPROMChannel(uint8_t, uint8_t)",
     "location": {
       "column": "6",
-      "line": "154",
+      "line": "170",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\general.c"
     },
     "name": "vUpdateEEPROMChannel",
@@ -47668,7 +47696,7 @@
     "display": "void vUpdateEEPROMConfig(uint8_t)",
     "location": {
       "column": "6",
-      "line": "177",
+      "line": "193",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\general.c"
     },
     "name": "vUpdateEEPROMConfig",
@@ -47682,7 +47710,7 @@
     "display": "uint8_t u8GetPrescaler(uint8_t)",
     "location": {
       "column": "9",
-      "line": "184",
+      "line": "200",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\general.c"
     },
     "name": "u8GetPrescaler",
@@ -47696,7 +47724,7 @@
     "display": "void vUploadValueEEPROM(uint8_t *, uint8_t *, uint8_t *, uint8_t *)",
     "location": {
       "column": "9",
-      "line": "203",
+      "line": "219",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\general.c"
     },
     "name": "vUploadValueEEPROM",
@@ -47710,7 +47738,7 @@
     "display": "void TIM4_UPD_OVF_IRQHandler(void)",
     "location": {
       "column": "1",
-      "line": "218",
+      "line": "234",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\general.c"
     },
     "name": "TIM4_UPD_OVF_IRQHandler",
@@ -47724,7 +47752,7 @@
     "display": "void ADC1_IRQHandler(void)",
     "location": {
       "column": "1",
-      "line": "226",
+      "line": "242",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\general.c"
     },
     "name": "ADC1_IRQHandler",
