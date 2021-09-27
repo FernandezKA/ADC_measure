@@ -1,13 +1,10 @@
 #include "general.h"
+#include "messages.h"
 //User variables
 uint8_t u8CurrentChannel = 0;
 static uint8_t u8ChannelPrescale;
 static uint8_t u8Prescaler;
-//User message
-#ifndef DEBUG
-static uint8_t u8aStartMessage[29U] = {'p', '-', 's', 'e','t',' ', 'p', 'r', 'e', 's', 'c', 'a', 'l', 'e','r','\n', '\r', 
-'m', '-', 's', 'e', 't', ' ', 'm', 'o', 'd', 'e', '\n', '\t'};
-#endif
+
 //Main function
 void SysInit(void)
 {
@@ -29,6 +26,7 @@ void main(void)
   for (;;)
   {
     enum action eCurrentAction = eGetAction();//Select next action
+    asm("sim");
     switch (eCurrentAction)
     {
     case select://Configure mode of work
@@ -69,6 +67,7 @@ void main(void)
       asm("nop"); //This command for debugging
       break;
     }
+    asm("rim");
   }
 }
 

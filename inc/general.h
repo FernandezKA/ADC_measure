@@ -51,5 +51,7 @@ void    vUploadValueEEPROM(uint8_t* pPrescaler_1, uint8_t* pPrescaler_2, uint8_t
 //General logic functions
 enum action eGetAction(void);
 void vSelectChannel(uint8_t);
+//Multiplexing
+void vGetMultiplex(uint8_t* u8LastChannel, uint8_t u8MultiplexRule);
 #endif
 

@@ -610,7 +610,7 @@
                 </option>
                 <option>
                     <name>IlinkIcfFile</name>
-                    <state>$TOOLKIT_DIR$\config\lnkstm8s003f3.icf</state>
+                    <state>$TOOLKIT_DIR$\config\lnkstm8s103f3.icf</state>
                 </option>
                 <option>
                     <name>IlinkIcfFileSlave</name>
@@ -1825,10 +1825,25 @@
     <group>
         <name>src</name>
         <file>
+            <name>$PROJ_DIR$\src\ADC.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\config.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\EEPROM.c</name>
+        </file>
+        <file>
             <name>$PROJ_DIR$\src\general.c</name>
         </file>
         <file>
             <name>$PROJ_DIR$\src\main.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\multilex.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\output.c</name>
         </file>
     </group>
 </project>
