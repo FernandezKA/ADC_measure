@@ -5,7 +5,7 @@ static uint8_t u8ChannelPrescale;
 static uint8_t u8Prescaler;
 //User message
 #ifndef DEBUG
-static uint8_t u8aStartMessage[28U] = {'p', '-', 's', 'e','t',' ', 'p', 'r', 'e', 's', 'k', 'a', 'l', 'e', '\n', '\r', 
+static uint8_t u8aStartMessage[29U] = {'p', '-', 's', 'e','t',' ', 'p', 'r', 'e', 's', 'c', 'a', 'l', 'e','r','\n', '\r', 
 'm', '-', 's', 'e', 't', ' ', 'm', 'o', 'd', 'e', '\n', '\t'};
 #endif
 //Main function
@@ -24,7 +24,7 @@ void main(void)
 {
   SysInit();
 #ifndef DEBUG
-  vUART_ArrayTransmit(u8aStartMessage, 28);
+  vUART_ArrayTransmit(u8aStartMessage, 29);
 #endif
   for (;;)
   {
@@ -32,7 +32,8 @@ void main(void)
     switch (eCurrentAction)
     {
     case select://Configure mode of work
-      u8CurrentConfigurateADC = u8UART_Recieve() - 0x30; //Checked
+      //Bug at recieved value from UART
+      u8CurrentConfigurateADC = u8UART_Recieve() - 0x30;
       vUpdateEEPROMConfig(u8CurrentConfigurateADC);
       break;
       

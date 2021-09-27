@@ -3,7 +3,7 @@
 
 #define TIM4_UPD_OVF_IRQ
 #define ADC1_IRQ
-#define DEBUG 
+//#define DEBUG 
 
 #include "stm8s_conf.h"
 #include "stm8s_uart1.h"
@@ -17,7 +17,7 @@ extern uint32_t CONFIGURATION;
 //User constant
 extern uint8_t u8CountMeasure;
 extern uint8_t u8BuffMeasure[100U];
-extern uint8_t u8CurrentChannel;
+//extern uint8_t u8CurrentChannel;
 extern uint8_t u8CurrentConfigurateADC;
 extern uint8_t u8LastChannel;
 extern uint8_t u8Prescaler_1;

@@ -35718,20 +35718,6 @@
     "scope": null
   },
   {
-    "ID": "c:general.h@96@macro@DEBUG",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "DEBUG",
-    "location": {
-      "column": "9",
-      "line": "6",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
-    },
-    "name": "DEBUG",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
     "ID": "c:@PRESCALER_1",
     "What": "Variable",
     "defdec": "Dec",
@@ -35868,34 +35854,6 @@
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "u8BuffMeasure",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@u8CurrentChannel",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "u8CurrentChannel",
-    "location": {
-      "column": "16",
-      "line": "20",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
-    },
-    "name": "u8CurrentChannel",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@u8CurrentChannel",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "u8CurrentChannel",
-    "location": {
-      "column": "16",
-      "line": "20",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
-    },
-    "name": "u8CurrentChannel",
     "origin": "user_include",
     "scope": null
   },
@@ -47676,7 +47634,7 @@
     "scope": null
   },
   {
-    "ID": "c:general.c@4280@F@vUART_SendResult@u8FirstDigit",
+    "ID": "c:general.c@4270@F@vUART_SendResult@u8FirstDigit",
     "What": "Variable",
     "defdec": "Def",
     "display": "u8FirstDigit",
@@ -48012,6 +47970,20 @@
     "scope": null
   },
   {
+    "ID": "c:main.c@u8aStartMessage",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "u8aStartMessage",
+    "location": {
+      "column": "16",
+      "line": "8",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\main.c"
+    },
+    "name": "u8aStartMessage",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@SysInit",
     "What": "Function",
     "defdec": "Def",
@@ -48040,7 +48012,7 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@745@F@main@eCurrentAction",
+    "ID": "c:main.c@748@F@main@eCurrentAction",
     "What": "Variable",
     "defdec": "Def",
     "display": "eCurrentAction",
@@ -48060,7 +48032,7 @@
     "display": "void assert_failed(u8 *, u32)",
     "location": {
       "column": "6",
-      "line": "75",
+      "line": "76",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\main.c"
     },
     "name": "assert_failed",

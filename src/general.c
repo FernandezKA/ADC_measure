@@ -139,8 +139,8 @@ uint8_t u8UART_Recieve(void)
 }
 //This function send formated text with result at UART
 void vUART_SendResult(uint8_t u8Channel,uint8_t u8Result){
-  vUART_ArrayTransmit("Channel :", 9);
-  vUART_Transmit(u8Channel + 0x30);
+  vUART_ArrayTransmit("Channel # 1", 11);
+  vUART_Transmit('1');
   vUART_ArrayTransmit("\n\r", 2);
   //4C -> 0.1 V
   uint8_t u8FirstDigit = (u8Result / 0x4C + 0x30);
@@ -228,7 +228,8 @@ INTERRUPT_HANDLER(ADC1_IRQHandler, 22)
   u8BuffMeasure[u8CountMeasure++] = ADC1->DRL;
   if (u8CountMeasure == 100)
   { //Select mode
-    vUART_Transmit(u8GetMean(u8BuffMeasure, u8LastChannel));//Get mean value of voltage
+    vUART_SendResult(u8LastChannel, 0xFF);
+    //vUART_Transmit(u8GetMean(u8BuffMeasure, u8LastChannel));//Get mean value of voltage
     switch (u8CurrentConfigurateADC)
     {
     case 0x01:
