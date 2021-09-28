@@ -31,26 +31,6 @@ void vUpdateEEPROMConfig(uint8_t u8NumberConfig){
   FLASH_ProgramByte(CONFIGURATION, u8NumberConfig);
   FLASH_Lock(FLASH_MEMTYPE_DATA);
 }
-
-//This function return value of current channel
-uint8_t u8GetPrescaler(uint8_t u8Channel)
-{
-  switch (u8Channel)
-  {
-  case 1:
-    return u8Prescaler_1;//FLASH_ReadByte(PRESCALER_1);
-    break;
-  case 2:
-    return u8Prescaler_2;//FLASH_ReadByte(PRESCALER_2);
-    break;
-  case 3:
-    return u8Prescaler_3;//FLASH_ReadByte(PRESCALER_3);
-    break;
-  default:
-    return 0x01;
-    break;
-  }
-}
 //This function load after power on previous setting
 void    vUploadValueEEPROM(uint8_t* pPrescaler_1, uint8_t* pPrescaler_2, uint8_t* pPrescaler_3, uint8_t* pMode){
   if(FLASH_ReadByte(PRESCALER_1) != 0x00){

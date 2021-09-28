@@ -10,6 +10,7 @@
 #include "stm8s_uart1.h"
 #include "stm8s_adc1.h"
 #include "stm8s_flash.h"
+#include <cmath>
 //Definitions EEPROM regions for constants
 extern uint32_t PRESCALER_1;
 extern uint32_t PRESCALER_2;
@@ -29,7 +30,8 @@ extern uint8_t u8Prescaler_3;
 enum FSM{
   select_mode = 0,
   prescaler_mode = 1,
-  wait = 2
+  wait = 2, 
+  save = 3
 };
 extern enum FSM MAIN;
 enum action{

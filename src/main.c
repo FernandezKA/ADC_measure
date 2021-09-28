@@ -46,7 +46,11 @@ void main(void)
       break;
       
     case wait:
-      
+      //MAIN = wait;
+      break;
+    case save:
+      asm("nop");
+      MAIN = wait;
       break;
     }
     /*switch (eCurrentAction)
@@ -65,7 +69,7 @@ void main(void)
       vSetPrescaler(u8ChannelPrescale, u8Prescaler);
       break;
     }
-    asm("rim");
+    asm("rim"); 
   }*/
   }
 }

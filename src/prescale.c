@@ -25,4 +25,20 @@ void vSetPrescaler(uint8_t u8Channel, uint8_t u8Prescaler){
         break;
       }
 }
-//This function return mean value with fact of prescaler
+//This function return prescaler value
+uint8_t u8GetPrescaler(uint8_t u8Channel){
+  switch(u8Channel){
+  case 1:
+    return u8Prescaler_1;
+    break;
+  case 2:
+    return u8Prescaler_2;
+    break;
+  case 3:
+    return u8Prescaler_3;
+    break;
+  default:
+    return 0x01;
+    break;
+  }
+}

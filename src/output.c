@@ -39,8 +39,11 @@ uint8_t u8UART_Recieve(void)
 }
 //This function send formated text with result at UART
 void vUART_SendResult(uint8_t u8Channel,uint8_t u8Result){
-  uint8_t u8FirstDigit = (u8Result / 0x4C + 0x30);
-  uint8_t u8SecondDigit = ((u8Result%0x4C)/0x08) + 0x30U;
+  double dResult = u8Result*0.013*u8GetPrescaler(u8LastChannel);
+  double dFirst, dSecond;
+  dSecond = modf(dResult, &dFirst) * 10;
+  uint8_t u8FirstDigit =(uint8_t) dFirst + 0x30;
+  uint8_t u8SecondDigit =(uint8_t) dSecond + 0x30;
   uint8_t u8aResultArray[17];
   u8aResultArray[0]= 'c';
   u8aResultArray[1]= 'h';
@@ -67,7 +70,7 @@ INTERRUPT_HANDLER(UART1_RX_IRQHandler, 18)
 {
   uint8_t u8RecievedCommand = UART1 -> DR;
   switch(u8RecievedCommand){
-  case 's':
+  case 'm':
     MAIN = select_mode;
     break;
     
@@ -78,7 +81,9 @@ INTERRUPT_HANDLER(UART1_RX_IRQHandler, 18)
   case 'w':
     MAIN = wait;
     break;
-    
+  case 's':
+    MAIN = save;
+    break;
   default:
     
     break;
