@@ -38,8 +38,8 @@ void main(void)
       asm("sim");
       vUART_ArrayTransmit("Please, enter prescaler at form \n\r number of channel, 1 digit, 2 digit\n\r", 73);
       u8ChannelPrescale = u8UART_Recieve() - 0x30U;//What of channel must be configured
-      u8Prescaler = (u8UART_Recieve() - 0x30U) * 10;//Recieve first of value prescaler |first * 10 + second|
-      u8Prescaler =  u8Prescaler + (u8UART_Recieve() - 0x30U);
+      //u8Prescaler = (u8UART_Recieve() - 0x30U) * 10;//Recieve first of value prescaler |first * 10 + second|
+      u8Prescaler = (u8UART_Recieve() - 0x30U);
       vSetPrescaler(u8ChannelPrescale, u8Prescaler);
       MAIN = wait;
       asm("rim");

@@ -1,21 +1,24 @@
-main.pbi: C:\dev\MCU\STM8\ADC_measure\inc\messages.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\xtgmath.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ycheck.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ymath.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\math.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Threads.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\yvals.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\xencoding_limits.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Product.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Defaults.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\cmath \
-  C:\dev\MCU\STM8\ADC_measure\lib\SPL\inc\stm8s_flash.h \
-  C:\dev\MCU\STM8\ADC_measure\lib\SPL\inc\stm8s_adc1.h \
-  C:\dev\MCU\STM8\ADC_measure\lib\SPL\inc\stm8s_uart1.h \
-  C:\dev\MCU\STM8\ADC_measure\lib\SPL\inc\stm8s_gpio.h \
-  C:\dev\MCU\STM8\ADC_measure\lib\SPL\inc\stm8s_clk.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\intrinsics.h \
-  C:\dev\MCU\STM8\ADC_measure\inc\stm8s_conf.h \
-  C:\dev\MCU\STM8\ADC_measure\lib\SPL\inc\stm8s.h \
+main.pbi: C:\dev\MCU\STM8\ADC_measure\src\main.c \
   C:\dev\MCU\STM8\ADC_measure\inc\general.h \
-  C:\dev\MCU\STM8\ADC_measure\src\main.c
+  C:\dev\MCU\STM8\ADC_measure\inc/stm8s_conf.h \
+  C:\dev\MCU\STM8\ADC_measure\lib\SPL\inc\stm8s.h \
+  C:\dev\MCU\STM8\ADC_measure\inc\stm8s_conf.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\intrinsics.h \
+  C:\dev\MCU\STM8\ADC_measure\lib\SPL\inc\stm8s_clk.h \
+  C:\dev\MCU\STM8\ADC_measure\lib\SPL\inc/stm8s.h \
+  C:\dev\MCU\STM8\ADC_measure\lib\SPL\inc\stm8s_gpio.h \
+  C:\dev\MCU\STM8\ADC_measure\lib\SPL\inc\stm8s_uart1.h \
+  C:\dev\MCU\STM8\ADC_measure\lib\SPL\inc\stm8s_adc1.h \
+  C:\dev\MCU\STM8\ADC_measure\lib\SPL\inc\stm8s_flash.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\cmath \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ycheck.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\yvals.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Defaults.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\LIB\dlstm8smn.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Product.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\xencoding_limits.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Threads.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\math.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ymath.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\xtgmath.h \
+  C:\dev\MCU\STM8\ADC_measure\inc\messages.h

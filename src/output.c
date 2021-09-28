@@ -39,7 +39,7 @@ uint8_t u8UART_Recieve(void)
 }
 //This function send formated text with result at UART
 void vUART_SendResult(uint8_t u8Channel,uint8_t u8Result){
-  double dResult = u8Result*0.013*u8GetPrescaler(u8LastChannel);
+  double dResult = u8Result*0.013*u8GetPrescaler(u8LastChannel-1);
   double dFirst, dSecond;
   dSecond = modf(dResult, &dFirst) * 10;
   uint8_t u8FirstDigit =(uint8_t) dFirst + 0x30;
