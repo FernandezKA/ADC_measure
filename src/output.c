@@ -58,7 +58,30 @@ void vUART_SendResult(uint8_t u8Channel,uint8_t u8Result){
   u8aResultArray[13]= u8FirstDigit;
   u8aResultArray[14]= ',';
   u8aResultArray[15]= u8SecondDigit;
-  u8aResultArray[16]= '\n';
+  u8aResultArray[16]= '\r';
   vUART_ArrayTransmit(u8aResultArray, 17);
   //vUART_Transmit(u8FirstDigit);
+}
+//uart IRQ HANDLER
+INTERRUPT_HANDLER(UART1_RX_IRQHandler, 18)
+{
+  uint8_t u8RecievedCommand = UART1 -> DR;
+  switch(u8RecievedCommand){
+  case 's':
+    MAIN = select_mode;
+    break;
+    
+  case 'p':
+    MAIN = prescaler_mode;
+    break;
+    
+  case 'w':
+    MAIN = wait;
+    break;
+    
+  default:
+    
+    break;
+  }
+  //TODO write FSM for definition
 }

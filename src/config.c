@@ -33,6 +33,7 @@ void vInitUART(void)
   UART1->BRR2 = 0x02;
   UART1->BRR1 = 0x68;
   UART1->CR2 |= UART1_CR2_TEN | UART1_CR2_REN;
+  UART1->CR2|=UART1_CR2_RIEN;
 }
 //This procedure config GPIO
 void vInitGPIO(void)

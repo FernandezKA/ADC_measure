@@ -28624,13 +28624,27 @@
     "scope": null
   },
   {
+    "ID": "c:general.h@96@macro@UART1_RX_IRQ",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART1_RX_IRQ",
+    "location": {
+      "column": "9",
+      "line": "6",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
+    },
+    "name": "UART1_RX_IRQ",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
     "ID": "c:@PRESCALER_1",
     "What": "Variable",
     "defdec": "Dec",
     "display": "PRESCALER_1",
     "location": {
       "column": "17",
-      "line": "13",
+      "line": "14",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "PRESCALER_1",
@@ -28644,7 +28658,7 @@
     "display": "PRESCALER_1",
     "location": {
       "column": "17",
-      "line": "13",
+      "line": "14",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "PRESCALER_1",
@@ -28658,7 +28672,7 @@
     "display": "PRESCALER_2",
     "location": {
       "column": "17",
-      "line": "14",
+      "line": "15",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "PRESCALER_2",
@@ -28672,7 +28686,7 @@
     "display": "PRESCALER_2",
     "location": {
       "column": "17",
-      "line": "14",
+      "line": "15",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "PRESCALER_2",
@@ -28686,7 +28700,7 @@
     "display": "PRESCALER_3",
     "location": {
       "column": "17",
-      "line": "15",
+      "line": "16",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "PRESCALER_3",
@@ -28700,7 +28714,7 @@
     "display": "PRESCALER_3",
     "location": {
       "column": "17",
-      "line": "15",
+      "line": "16",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "PRESCALER_3",
@@ -28714,7 +28728,7 @@
     "display": "CONFIGURATION",
     "location": {
       "column": "17",
-      "line": "16",
+      "line": "17",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "CONFIGURATION",
@@ -28728,7 +28742,7 @@
     "display": "CONFIGURATION",
     "location": {
       "column": "17",
-      "line": "16",
+      "line": "17",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "CONFIGURATION",
@@ -28742,7 +28756,7 @@
     "display": "u8CountMeasure",
     "location": {
       "column": "16",
-      "line": "18",
+      "line": "19",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "u8CountMeasure",
@@ -28756,7 +28770,7 @@
     "display": "u8BuffMeasure",
     "location": {
       "column": "16",
-      "line": "19",
+      "line": "20",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "u8BuffMeasure",
@@ -28770,7 +28784,7 @@
     "display": "u8CurrentConfigurateADC",
     "location": {
       "column": "16",
-      "line": "21",
+      "line": "22",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "u8CurrentConfigurateADC",
@@ -28784,7 +28798,7 @@
     "display": "u8CurrentConfigurateADC",
     "location": {
       "column": "16",
-      "line": "21",
+      "line": "22",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "u8CurrentConfigurateADC",
@@ -28798,7 +28812,7 @@
     "display": "u8LastChannel",
     "location": {
       "column": "16",
-      "line": "22",
+      "line": "23",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "u8LastChannel",
@@ -28812,7 +28826,7 @@
     "display": "u8LastChannel",
     "location": {
       "column": "16",
-      "line": "22",
+      "line": "23",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "u8LastChannel",
@@ -28826,7 +28840,7 @@
     "display": "u8Prescaler_1",
     "location": {
       "column": "16",
-      "line": "23",
+      "line": "24",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "u8Prescaler_1",
@@ -28840,7 +28854,7 @@
     "display": "u8Prescaler_1",
     "location": {
       "column": "16",
-      "line": "23",
+      "line": "24",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "u8Prescaler_1",
@@ -28854,7 +28868,7 @@
     "display": "u8Prescaler_2",
     "location": {
       "column": "16",
-      "line": "24",
+      "line": "25",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "u8Prescaler_2",
@@ -28868,7 +28882,7 @@
     "display": "u8Prescaler_2",
     "location": {
       "column": "16",
-      "line": "24",
+      "line": "25",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "u8Prescaler_2",
@@ -28882,7 +28896,7 @@
     "display": "u8Prescaler_3",
     "location": {
       "column": "16",
-      "line": "25",
+      "line": "26",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "u8Prescaler_3",
@@ -28896,10 +28910,96 @@
     "display": "u8Prescaler_3",
     "location": {
       "column": "16",
-      "line": "25",
+      "line": "26",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "u8Prescaler_3",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@E@FSM",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "FSM",
+    "fields": [
+      {
+        "ID": "c:@E@FSM@select_mode",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "select_mode",
+        "location": {
+          "column": "3",
+          "line": "30",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
+        },
+        "name": "select_mode",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@E@FSM@prescaler_mode",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "prescaler_mode",
+        "location": {
+          "column": "3",
+          "line": "31",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
+        },
+        "name": "prescaler_mode",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@E@FSM@wait",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "wait",
+        "location": {
+          "column": "3",
+          "line": "32",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
+        },
+        "name": "wait",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "6",
+      "line": "29",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
+    },
+    "name": "FSM",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@MAIN",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "MAIN",
+    "location": {
+      "column": "17",
+      "line": "34",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
+    },
+    "name": "MAIN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@MAIN",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "MAIN",
+    "location": {
+      "column": "17",
+      "line": "34",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
+    },
+    "name": "MAIN",
     "origin": "user_include",
     "scope": null
   },
@@ -28916,7 +29016,7 @@
         "display": "prescaler",
         "location": {
           "column": "3",
-          "line": "28",
+          "line": "36",
           "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
         },
         "name": "prescaler",
@@ -28930,7 +29030,7 @@
         "display": "select",
         "location": {
           "column": "3",
-          "line": "29",
+          "line": "37",
           "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
         },
         "name": "select",
@@ -28940,7 +29040,7 @@
     ],
     "location": {
       "column": "6",
-      "line": "27",
+      "line": "35",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "action",
@@ -28954,7 +29054,7 @@
     "display": "void vInitCLK(void)",
     "location": {
       "column": "6",
-      "line": "33",
+      "line": "41",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vInitCLK",
@@ -28968,7 +29068,7 @@
     "display": "void vInitCLK(void)",
     "location": {
       "column": "6",
-      "line": "33",
+      "line": "41",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vInitCLK",
@@ -28982,7 +29082,7 @@
     "display": "void vInitADC(void)",
     "location": {
       "column": "6",
-      "line": "34",
+      "line": "42",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vInitADC",
@@ -28996,7 +29096,7 @@
     "display": "void vInitADC(void)",
     "location": {
       "column": "6",
-      "line": "34",
+      "line": "42",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vInitADC",
@@ -29010,7 +29110,7 @@
     "display": "void vInitUART(void)",
     "location": {
       "column": "6",
-      "line": "35",
+      "line": "43",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vInitUART",
@@ -29024,7 +29124,7 @@
     "display": "void vInitUART(void)",
     "location": {
       "column": "6",
-      "line": "35",
+      "line": "43",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vInitUART",
@@ -29038,7 +29138,7 @@
     "display": "void vInitTIM4(void)",
     "location": {
       "column": "6",
-      "line": "36",
+      "line": "44",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vInitTIM4",
@@ -29052,7 +29152,7 @@
     "display": "void vInitTIM4(void)",
     "location": {
       "column": "6",
-      "line": "36",
+      "line": "44",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vInitTIM4",
@@ -29066,7 +29166,7 @@
     "display": "void vInitGPIO(void)",
     "location": {
       "column": "6",
-      "line": "37",
+      "line": "45",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vInitGPIO",
@@ -29080,7 +29180,7 @@
     "display": "void vInitGPIO(void)",
     "location": {
       "column": "6",
-      "line": "37",
+      "line": "45",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vInitGPIO",
@@ -29094,7 +29194,7 @@
     "display": "void vSelectChannel(uint8_t)",
     "location": {
       "column": "6",
-      "line": "39",
+      "line": "47",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vSelectChannel",
@@ -29108,7 +29208,7 @@
     "display": "void vSelectChannel(uint8_t)",
     "location": {
       "column": "6",
-      "line": "39",
+      "line": "47",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vSelectChannel",
@@ -29122,7 +29222,7 @@
     "display": "uint8_t u8GetMean(uint8_t *, uint8_t)",
     "location": {
       "column": "9",
-      "line": "40",
+      "line": "48",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "u8GetMean",
@@ -29136,7 +29236,7 @@
     "display": "uint8_t u8GetMean(uint8_t *, uint8_t)",
     "location": {
       "column": "9",
-      "line": "40",
+      "line": "48",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "u8GetMean",
@@ -29150,7 +29250,7 @@
     "display": "bool vUART_Transmit(uint8_t)",
     "location": {
       "column": "6",
-      "line": "42",
+      "line": "50",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vUART_Transmit",
@@ -29164,7 +29264,7 @@
     "display": "bool vUART_Transmit(uint8_t)",
     "location": {
       "column": "6",
-      "line": "42",
+      "line": "50",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vUART_Transmit",
@@ -29178,7 +29278,7 @@
     "display": "bool vUART_ArrayTransmit(uint8_t *, uint8_t)",
     "location": {
       "column": "6",
-      "line": "43",
+      "line": "51",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vUART_ArrayTransmit",
@@ -29192,7 +29292,7 @@
     "display": "bool vUART_ArrayTransmit(uint8_t *, uint8_t)",
     "location": {
       "column": "6",
-      "line": "43",
+      "line": "51",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vUART_ArrayTransmit",
@@ -29206,7 +29306,7 @@
     "display": "uint8_t u8UART_Recieve(void)",
     "location": {
       "column": "9",
-      "line": "44",
+      "line": "52",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "u8UART_Recieve",
@@ -29220,7 +29320,7 @@
     "display": "uint8_t u8UART_Recieve(void)",
     "location": {
       "column": "9",
-      "line": "44",
+      "line": "52",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "u8UART_Recieve",
@@ -29234,7 +29334,7 @@
     "display": "void vUART_SendResult(uint8_t, uint8_t)",
     "location": {
       "column": "6",
-      "line": "45",
+      "line": "53",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vUART_SendResult",
@@ -29248,7 +29348,7 @@
     "display": "void vUART_SendResult(uint8_t, uint8_t)",
     "location": {
       "column": "6",
-      "line": "45",
+      "line": "53",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vUART_SendResult",
@@ -29262,7 +29362,7 @@
     "display": "void vUpdateEEPROMConfig(uint8_t)",
     "location": {
       "column": "9",
-      "line": "47",
+      "line": "55",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vUpdateEEPROMConfig",
@@ -29276,7 +29376,7 @@
     "display": "void vUpdateEEPROMConfig(uint8_t)",
     "location": {
       "column": "9",
-      "line": "47",
+      "line": "55",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vUpdateEEPROMConfig",
@@ -29290,7 +29390,7 @@
     "display": "void vUpdateEEPROMChannel(uint8_t, uint8_t)",
     "location": {
       "column": "9",
-      "line": "48",
+      "line": "56",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vUpdateEEPROMChannel",
@@ -29304,7 +29404,7 @@
     "display": "void vUpdateEEPROMChannel(uint8_t, uint8_t)",
     "location": {
       "column": "9",
-      "line": "48",
+      "line": "56",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vUpdateEEPROMChannel",
@@ -29318,7 +29418,7 @@
     "display": "uint8_t u8GetPrescaler(uint8_t)",
     "location": {
       "column": "9",
-      "line": "49",
+      "line": "57",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "u8GetPrescaler",
@@ -29332,7 +29432,7 @@
     "display": "uint8_t u8GetPrescaler(uint8_t)",
     "location": {
       "column": "9",
-      "line": "49",
+      "line": "57",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "u8GetPrescaler",
@@ -29346,7 +29446,7 @@
     "display": "void vUploadValueEEPROM(uint8_t *, uint8_t *, uint8_t *, uint8_t *)",
     "location": {
       "column": "9",
-      "line": "50",
+      "line": "58",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vUploadValueEEPROM",
@@ -29360,7 +29460,7 @@
     "display": "void vUploadValueEEPROM(uint8_t *, uint8_t *, uint8_t *, uint8_t *)",
     "location": {
       "column": "9",
-      "line": "50",
+      "line": "58",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vUploadValueEEPROM",
@@ -29374,7 +29474,7 @@
     "display": "enum action eGetAction(void)",
     "location": {
       "column": "13",
-      "line": "52",
+      "line": "60",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "eGetAction",
@@ -29388,7 +29488,7 @@
     "display": "enum action eGetAction(void)",
     "location": {
       "column": "13",
-      "line": "52",
+      "line": "60",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "eGetAction",
@@ -29402,7 +29502,7 @@
     "display": "void vSelectChannel(uint8_t)",
     "location": {
       "column": "6",
-      "line": "53",
+      "line": "61",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vSelectChannel",
@@ -29416,7 +29516,7 @@
     "display": "void vSelectChannel(uint8_t)",
     "location": {
       "column": "6",
-      "line": "53",
+      "line": "61",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vSelectChannel",
@@ -29430,7 +29530,7 @@
     "display": "void vGetMultiplex(uint8_t *, uint8_t)",
     "location": {
       "column": "6",
-      "line": "55",
+      "line": "63",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vGetMultiplex",
@@ -29444,10 +29544,66 @@
     "display": "void vGetMultiplex(uint8_t *, uint8_t)",
     "location": {
       "column": "6",
-      "line": "55",
+      "line": "63",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vGetMultiplex",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vSetRulesMul",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void vSetRulesMul(uint8_t *)",
+    "location": {
+      "column": "6",
+      "line": "64",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
+    },
+    "name": "vSetRulesMul",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vSetRulesMul",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void vSetRulesMul(uint8_t *)",
+    "location": {
+      "column": "6",
+      "line": "64",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
+    },
+    "name": "vSetRulesMul",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vSetPrescaler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void vSetPrescaler(uint8_t, uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "66",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
+    },
+    "name": "vSetPrescaler",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vSetPrescaler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void vSetPrescaler(uint8_t, uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "66",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
+    },
+    "name": "vSetPrescaler",
     "origin": "user_include",
     "scope": null
   },
@@ -30790,6 +30946,996 @@
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_flash.h"
     },
     "name": "FLASH_WaitForLastOperation",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ITC_GetCPUCC",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "uint8_t ITC_GetCPUCC(void)",
+    "location": {
+      "column": "9",
+      "line": "50",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\src\\stm8s_itc.c"
+    },
+    "name": "ITC_GetCPUCC",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ITC_DeInit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void ITC_DeInit(void)",
+    "location": {
+      "column": "6",
+      "line": "80",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\src\\stm8s_itc.c"
+    },
+    "name": "ITC_DeInit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ITC_GetSoftIntStatus",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "uint8_t ITC_GetSoftIntStatus(void)",
+    "location": {
+      "column": "9",
+      "line": "97",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\src\\stm8s_itc.c"
+    },
+    "name": "ITC_GetSoftIntStatus",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ITC_GetSoftwarePriority",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "ITC_PriorityLevel_TypeDef ITC_GetSoftwarePriority(ITC_Irq_TypeDef)",
+    "location": {
+      "column": "27",
+      "line": "107",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\src\\stm8s_itc.c"
+    },
+    "name": "ITC_GetSoftwarePriority",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_itc.c@3588@F@ITC_GetSoftwarePriority@Value",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "Value",
+    "location": {
+      "column": "11",
+      "line": "109",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\src\\stm8s_itc.c"
+    },
+    "name": "Value",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_itc.c@3610@F@ITC_GetSoftwarePriority@Mask",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "Mask",
+    "location": {
+      "column": "11",
+      "line": "110",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\src\\stm8s_itc.c"
+    },
+    "name": "Mask",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ITC_SetSoftwarePriority",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void ITC_SetSoftwarePriority(ITC_Irq_TypeDef, ITC_PriorityLevel_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "220",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\src\\stm8s_itc.c"
+    },
+    "name": "ITC_SetSoftwarePriority",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_itc.c@7531@F@ITC_SetSoftwarePriority@Mask",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "Mask",
+    "location": {
+      "column": "11",
+      "line": "222",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\src\\stm8s_itc.c"
+    },
+    "name": "Mask",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_itc.c@7552@F@ITC_SetSoftwarePriority@NewPriority",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "NewPriority",
+    "location": {
+      "column": "11",
+      "line": "223",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\src\\stm8s_itc.c"
+    },
+    "name": "NewPriority",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_itc.h@1286@macro@__STM8S_ITC_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__STM8S_ITC_H",
+    "location": {
+      "column": "9",
+      "line": "30",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
+    },
+    "name": "__STM8S_ITC_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@ITC_Irq_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@ITC_Irq_TypeDef@ITC_IRQ_TLI",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "ITC_IRQ_TLI",
+        "location": {
+          "column": "3",
+          "line": "45",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
+        },
+        "name": "ITC_IRQ_TLI",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@ITC_Irq_TypeDef@ITC_IRQ_AWU",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "ITC_IRQ_AWU",
+        "location": {
+          "column": "3",
+          "line": "46",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
+        },
+        "name": "ITC_IRQ_AWU",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@ITC_Irq_TypeDef@ITC_IRQ_CLK",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "ITC_IRQ_CLK",
+        "location": {
+          "column": "3",
+          "line": "47",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
+        },
+        "name": "ITC_IRQ_CLK",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@ITC_Irq_TypeDef@ITC_IRQ_PORTA",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "ITC_IRQ_PORTA",
+        "location": {
+          "column": "3",
+          "line": "48",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
+        },
+        "name": "ITC_IRQ_PORTA",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@ITC_Irq_TypeDef@ITC_IRQ_PORTB",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "ITC_IRQ_PORTB",
+        "location": {
+          "column": "3",
+          "line": "49",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
+        },
+        "name": "ITC_IRQ_PORTB",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@ITC_Irq_TypeDef@ITC_IRQ_PORTC",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "ITC_IRQ_PORTC",
+        "location": {
+          "column": "3",
+          "line": "50",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
+        },
+        "name": "ITC_IRQ_PORTC",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@ITC_Irq_TypeDef@ITC_IRQ_PORTD",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "ITC_IRQ_PORTD",
+        "location": {
+          "column": "3",
+          "line": "51",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
+        },
+        "name": "ITC_IRQ_PORTD",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@ITC_Irq_TypeDef@ITC_IRQ_PORTE",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "ITC_IRQ_PORTE",
+        "location": {
+          "column": "3",
+          "line": "52",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
+        },
+        "name": "ITC_IRQ_PORTE",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@ITC_Irq_TypeDef@ITC_IRQ_SPI",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "ITC_IRQ_SPI",
+        "location": {
+          "column": "3",
+          "line": "63",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
+        },
+        "name": "ITC_IRQ_SPI",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@ITC_Irq_TypeDef@ITC_IRQ_TIM1_OVF",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "ITC_IRQ_TIM1_OVF",
+        "location": {
+          "column": "3",
+          "line": "64",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
+        },
+        "name": "ITC_IRQ_TIM1_OVF",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@ITC_Irq_TypeDef@ITC_IRQ_TIM1_CAPCOM",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "ITC_IRQ_TIM1_CAPCOM",
+        "location": {
+          "column": "3",
+          "line": "66",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
+        },
+        "name": "ITC_IRQ_TIM1_CAPCOM",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@ITC_Irq_TypeDef@ITC_IRQ_TIM2_OVF",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "ITC_IRQ_TIM2_OVF",
+        "location": {
+          "column": "3",
+          "line": "73",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
+        },
+        "name": "ITC_IRQ_TIM2_OVF",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@ITC_Irq_TypeDef@ITC_IRQ_TIM2_CAPCOM",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "ITC_IRQ_TIM2_CAPCOM",
+        "location": {
+          "column": "3",
+          "line": "74",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
+        },
+        "name": "ITC_IRQ_TIM2_CAPCOM",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@ITC_Irq_TypeDef@ITC_IRQ_TIM3_OVF",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "ITC_IRQ_TIM3_OVF",
+        "location": {
+          "column": "3",
+          "line": "77",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
+        },
+        "name": "ITC_IRQ_TIM3_OVF",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@ITC_Irq_TypeDef@ITC_IRQ_TIM3_CAPCOM",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "ITC_IRQ_TIM3_CAPCOM",
+        "location": {
+          "column": "3",
+          "line": "78",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
+        },
+        "name": "ITC_IRQ_TIM3_CAPCOM",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@ITC_Irq_TypeDef@ITC_IRQ_UART1_TX",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "ITC_IRQ_UART1_TX",
+        "location": {
+          "column": "3",
+          "line": "82",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
+        },
+        "name": "ITC_IRQ_UART1_TX",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@ITC_Irq_TypeDef@ITC_IRQ_UART1_RX",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "ITC_IRQ_UART1_RX",
+        "location": {
+          "column": "3",
+          "line": "83",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
+        },
+        "name": "ITC_IRQ_UART1_RX",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@ITC_Irq_TypeDef@ITC_IRQ_I2C",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "ITC_IRQ_I2C",
+        "location": {
+          "column": "3",
+          "line": "90",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
+        },
+        "name": "ITC_IRQ_I2C",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@ITC_Irq_TypeDef@ITC_IRQ_ADC1",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "ITC_IRQ_ADC1",
+        "location": {
+          "column": "3",
+          "line": "104",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
+        },
+        "name": "ITC_IRQ_ADC1",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@ITC_Irq_TypeDef@ITC_IRQ_TIM4_OVF",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "ITC_IRQ_TIM4_OVF",
+        "location": {
+          "column": "3",
+          "line": "111",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
+        },
+        "name": "ITC_IRQ_TIM4_OVF",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@ITC_Irq_TypeDef@ITC_IRQ_EEPROM_EEC",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "ITC_IRQ_EEPROM_EEC",
+        "location": {
+          "column": "3",
+          "line": "114",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
+        },
+        "name": "ITC_IRQ_EEPROM_EEC",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "44",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@ITC_PriorityLevel_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@ITC_PriorityLevel_TypeDef@ITC_PRIORITYLEVEL_0",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "ITC_PRIORITYLEVEL_0",
+        "location": {
+          "column": "3",
+          "line": "121",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
+        },
+        "name": "ITC_PRIORITYLEVEL_0",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@ITC_PriorityLevel_TypeDef@ITC_PRIORITYLEVEL_1",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "ITC_PRIORITYLEVEL_1",
+        "location": {
+          "column": "3",
+          "line": "122",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
+        },
+        "name": "ITC_PRIORITYLEVEL_1",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@ITC_PriorityLevel_TypeDef@ITC_PRIORITYLEVEL_2",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "ITC_PRIORITYLEVEL_2",
+        "location": {
+          "column": "3",
+          "line": "123",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
+        },
+        "name": "ITC_PRIORITYLEVEL_2",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@ITC_PriorityLevel_TypeDef@ITC_PRIORITYLEVEL_3",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "ITC_PRIORITYLEVEL_3",
+        "location": {
+          "column": "3",
+          "line": "124",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
+        },
+        "name": "ITC_PRIORITYLEVEL_3",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "120",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_itc.h@6185@macro@CPU_SOFT_INT_DISABLED",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CPU_SOFT_INT_DISABLED",
+    "location": {
+      "column": "9",
+      "line": "136",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
+    },
+    "name": "CPU_SOFT_INT_DISABLED",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_itc.h@6580@macro@IS_ITC_IRQ_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_ITC_IRQ_OK",
+    "location": {
+      "column": "9",
+      "line": "151",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
+    },
+    "name": "IS_ITC_IRQ_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_itc.h@6664@macro@IS_ITC_PRIORITY_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_ITC_PRIORITY_OK",
+    "location": {
+      "column": "9",
+      "line": "154",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
+    },
+    "name": "IS_ITC_PRIORITY_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_itc.h@6938@macro@IS_ITC_INTERRUPTS_DISABLED",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_ITC_INTERRUPTS_DISABLED",
+    "location": {
+      "column": "9",
+      "line": "161",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
+    },
+    "name": "IS_ITC_INTERRUPTS_DISABLED",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ITC_GetCPUCC",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint8_t ITC_GetCPUCC(void)",
+    "location": {
+      "column": "9",
+      "line": "173",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
+    },
+    "name": "ITC_GetCPUCC",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ITC_DeInit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void ITC_DeInit(void)",
+    "location": {
+      "column": "6",
+      "line": "174",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
+    },
+    "name": "ITC_DeInit",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ITC_GetSoftIntStatus",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint8_t ITC_GetSoftIntStatus(void)",
+    "location": {
+      "column": "9",
+      "line": "175",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
+    },
+    "name": "ITC_GetSoftIntStatus",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ITC_SetSoftwarePriority",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void ITC_SetSoftwarePriority(ITC_Irq_TypeDef, ITC_PriorityLevel_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "176",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
+    },
+    "name": "ITC_SetSoftwarePriority",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ITC_GetSoftwarePriority",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "ITC_PriorityLevel_TypeDef ITC_GetSoftwarePriority(ITC_Irq_TypeDef)",
+    "location": {
+      "column": "27",
+      "line": "177",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
+    },
+    "name": "ITC_GetSoftwarePriority",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_exti.h@1289@macro@__STM8S_EXTI_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__STM8S_EXTI_H",
+    "location": {
+      "column": "9",
+      "line": "30",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+    },
+    "name": "__STM8S_EXTI_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@EXTI_Sensitivity_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@EXTI_Sensitivity_TypeDef@EXTI_SENSITIVITY_FALL_LOW",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "EXTI_SENSITIVITY_FALL_LOW",
+        "location": {
+          "column": "3",
+          "line": "45",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+        },
+        "name": "EXTI_SENSITIVITY_FALL_LOW",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@EXTI_Sensitivity_TypeDef@EXTI_SENSITIVITY_RISE_ONLY",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "EXTI_SENSITIVITY_RISE_ONLY",
+        "location": {
+          "column": "3",
+          "line": "46",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+        },
+        "name": "EXTI_SENSITIVITY_RISE_ONLY",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@EXTI_Sensitivity_TypeDef@EXTI_SENSITIVITY_FALL_ONLY",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "EXTI_SENSITIVITY_FALL_ONLY",
+        "location": {
+          "column": "3",
+          "line": "47",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+        },
+        "name": "EXTI_SENSITIVITY_FALL_ONLY",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@EXTI_Sensitivity_TypeDef@EXTI_SENSITIVITY_RISE_FALL",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "EXTI_SENSITIVITY_RISE_FALL",
+        "location": {
+          "column": "3",
+          "line": "48",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+        },
+        "name": "EXTI_SENSITIVITY_RISE_FALL",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "44",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@EXTI_TLISensitivity_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@EXTI_TLISensitivity_TypeDef@EXTI_TLISENSITIVITY_FALL_ONLY",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "EXTI_TLISENSITIVITY_FALL_ONLY",
+        "location": {
+          "column": "3",
+          "line": "55",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+        },
+        "name": "EXTI_TLISENSITIVITY_FALL_ONLY",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@EXTI_TLISensitivity_TypeDef@EXTI_TLISENSITIVITY_RISE_ONLY",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "EXTI_TLISENSITIVITY_RISE_ONLY",
+        "location": {
+          "column": "3",
+          "line": "56",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+        },
+        "name": "EXTI_TLISENSITIVITY_RISE_ONLY",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "54",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@EXTI_Port_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@EXTI_Port_TypeDef@EXTI_PORT_GPIOA",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "EXTI_PORT_GPIOA",
+        "location": {
+          "column": "3",
+          "line": "63",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+        },
+        "name": "EXTI_PORT_GPIOA",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@EXTI_Port_TypeDef@EXTI_PORT_GPIOB",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "EXTI_PORT_GPIOB",
+        "location": {
+          "column": "3",
+          "line": "64",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+        },
+        "name": "EXTI_PORT_GPIOB",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@EXTI_Port_TypeDef@EXTI_PORT_GPIOC",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "EXTI_PORT_GPIOC",
+        "location": {
+          "column": "3",
+          "line": "65",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+        },
+        "name": "EXTI_PORT_GPIOC",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@EXTI_Port_TypeDef@EXTI_PORT_GPIOD",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "EXTI_PORT_GPIOD",
+        "location": {
+          "column": "3",
+          "line": "66",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+        },
+        "name": "EXTI_PORT_GPIOD",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@EXTI_Port_TypeDef@EXTI_PORT_GPIOE",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "EXTI_PORT_GPIOE",
+        "location": {
+          "column": "3",
+          "line": "67",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+        },
+        "name": "EXTI_PORT_GPIOE",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "62",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_exti.h@2992@macro@IS_EXTI_SENSITIVITY_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_EXTI_SENSITIVITY_OK",
+    "location": {
+      "column": "9",
+      "line": "83",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+    },
+    "name": "IS_EXTI_SENSITIVITY_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_exti.h@3399@macro@IS_EXTI_TLISENSITIVITY_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_EXTI_TLISENSITIVITY_OK",
+    "location": {
+      "column": "9",
+      "line": "92",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+    },
+    "name": "IS_EXTI_TLISENSITIVITY_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_exti.h@3680@macro@IS_EXTI_PORT_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_EXTI_PORT_OK",
+    "location": {
+      "column": "9",
+      "line": "99",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+    },
+    "name": "IS_EXTI_PORT_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_exti.h@4009@macro@IS_EXTI_PINMASK_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_EXTI_PINMASK_OK",
+    "location": {
+      "column": "9",
+      "line": "109",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+    },
+    "name": "IS_EXTI_PINMASK_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@EXTI_DeInit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void EXTI_DeInit(void)",
+    "location": {
+      "column": "6",
+      "line": "121",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+    },
+    "name": "EXTI_DeInit",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@EXTI_SetExtIntSensitivity",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void EXTI_SetExtIntSensitivity(EXTI_Port_TypeDef, EXTI_Sensitivity_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "122",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+    },
+    "name": "EXTI_SetExtIntSensitivity",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@EXTI_SetTLISensitivity",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void EXTI_SetTLISensitivity(EXTI_TLISensitivity_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "123",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+    },
+    "name": "EXTI_SetTLISensitivity",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@EXTI_GetExtIntSensitivity",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "EXTI_Sensitivity_TypeDef EXTI_GetExtIntSensitivity(EXTI_Port_TypeDef)",
+    "location": {
+      "column": "26",
+      "line": "124",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+    },
+    "name": "EXTI_GetExtIntSensitivity",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@EXTI_GetTLISensitivity",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "EXTI_TLISensitivity_TypeDef EXTI_GetTLISensitivity(void)",
+    "location": {
+      "column": "29",
+      "line": "125",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+    },
+    "name": "EXTI_GetTLISensitivity",
     "origin": "user_include",
     "scope": null
   },
@@ -32220,996 +33366,6 @@
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
     },
     "name": "I2C_ClearITPendingBit",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ITC_GetCPUCC",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "uint8_t ITC_GetCPUCC(void)",
-    "location": {
-      "column": "9",
-      "line": "50",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\src\\stm8s_itc.c"
-    },
-    "name": "ITC_GetCPUCC",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ITC_DeInit",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void ITC_DeInit(void)",
-    "location": {
-      "column": "6",
-      "line": "80",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\src\\stm8s_itc.c"
-    },
-    "name": "ITC_DeInit",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ITC_GetSoftIntStatus",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "uint8_t ITC_GetSoftIntStatus(void)",
-    "location": {
-      "column": "9",
-      "line": "97",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\src\\stm8s_itc.c"
-    },
-    "name": "ITC_GetSoftIntStatus",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ITC_GetSoftwarePriority",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "ITC_PriorityLevel_TypeDef ITC_GetSoftwarePriority(ITC_Irq_TypeDef)",
-    "location": {
-      "column": "27",
-      "line": "107",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\src\\stm8s_itc.c"
-    },
-    "name": "ITC_GetSoftwarePriority",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_itc.c@3588@F@ITC_GetSoftwarePriority@Value",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "Value",
-    "location": {
-      "column": "11",
-      "line": "109",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\src\\stm8s_itc.c"
-    },
-    "name": "Value",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_itc.c@3610@F@ITC_GetSoftwarePriority@Mask",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "Mask",
-    "location": {
-      "column": "11",
-      "line": "110",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\src\\stm8s_itc.c"
-    },
-    "name": "Mask",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ITC_SetSoftwarePriority",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void ITC_SetSoftwarePriority(ITC_Irq_TypeDef, ITC_PriorityLevel_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "220",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\src\\stm8s_itc.c"
-    },
-    "name": "ITC_SetSoftwarePriority",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_itc.c@7531@F@ITC_SetSoftwarePriority@Mask",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "Mask",
-    "location": {
-      "column": "11",
-      "line": "222",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\src\\stm8s_itc.c"
-    },
-    "name": "Mask",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_itc.c@7552@F@ITC_SetSoftwarePriority@NewPriority",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "NewPriority",
-    "location": {
-      "column": "11",
-      "line": "223",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\src\\stm8s_itc.c"
-    },
-    "name": "NewPriority",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_itc.h@1286@macro@__STM8S_ITC_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__STM8S_ITC_H",
-    "location": {
-      "column": "9",
-      "line": "30",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
-    },
-    "name": "__STM8S_ITC_H",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@EA@ITC_Irq_TypeDef",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "",
-    "fields": [
-      {
-        "ID": "c:@EA@ITC_Irq_TypeDef@ITC_IRQ_TLI",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "ITC_IRQ_TLI",
-        "location": {
-          "column": "3",
-          "line": "45",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
-        },
-        "name": "ITC_IRQ_TLI",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@ITC_Irq_TypeDef@ITC_IRQ_AWU",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "ITC_IRQ_AWU",
-        "location": {
-          "column": "3",
-          "line": "46",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
-        },
-        "name": "ITC_IRQ_AWU",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@ITC_Irq_TypeDef@ITC_IRQ_CLK",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "ITC_IRQ_CLK",
-        "location": {
-          "column": "3",
-          "line": "47",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
-        },
-        "name": "ITC_IRQ_CLK",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@ITC_Irq_TypeDef@ITC_IRQ_PORTA",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "ITC_IRQ_PORTA",
-        "location": {
-          "column": "3",
-          "line": "48",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
-        },
-        "name": "ITC_IRQ_PORTA",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@ITC_Irq_TypeDef@ITC_IRQ_PORTB",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "ITC_IRQ_PORTB",
-        "location": {
-          "column": "3",
-          "line": "49",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
-        },
-        "name": "ITC_IRQ_PORTB",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@ITC_Irq_TypeDef@ITC_IRQ_PORTC",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "ITC_IRQ_PORTC",
-        "location": {
-          "column": "3",
-          "line": "50",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
-        },
-        "name": "ITC_IRQ_PORTC",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@ITC_Irq_TypeDef@ITC_IRQ_PORTD",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "ITC_IRQ_PORTD",
-        "location": {
-          "column": "3",
-          "line": "51",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
-        },
-        "name": "ITC_IRQ_PORTD",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@ITC_Irq_TypeDef@ITC_IRQ_PORTE",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "ITC_IRQ_PORTE",
-        "location": {
-          "column": "3",
-          "line": "52",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
-        },
-        "name": "ITC_IRQ_PORTE",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@ITC_Irq_TypeDef@ITC_IRQ_SPI",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "ITC_IRQ_SPI",
-        "location": {
-          "column": "3",
-          "line": "63",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
-        },
-        "name": "ITC_IRQ_SPI",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@ITC_Irq_TypeDef@ITC_IRQ_TIM1_OVF",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "ITC_IRQ_TIM1_OVF",
-        "location": {
-          "column": "3",
-          "line": "64",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
-        },
-        "name": "ITC_IRQ_TIM1_OVF",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@ITC_Irq_TypeDef@ITC_IRQ_TIM1_CAPCOM",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "ITC_IRQ_TIM1_CAPCOM",
-        "location": {
-          "column": "3",
-          "line": "66",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
-        },
-        "name": "ITC_IRQ_TIM1_CAPCOM",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@ITC_Irq_TypeDef@ITC_IRQ_TIM2_OVF",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "ITC_IRQ_TIM2_OVF",
-        "location": {
-          "column": "3",
-          "line": "73",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
-        },
-        "name": "ITC_IRQ_TIM2_OVF",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@ITC_Irq_TypeDef@ITC_IRQ_TIM2_CAPCOM",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "ITC_IRQ_TIM2_CAPCOM",
-        "location": {
-          "column": "3",
-          "line": "74",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
-        },
-        "name": "ITC_IRQ_TIM2_CAPCOM",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@ITC_Irq_TypeDef@ITC_IRQ_TIM3_OVF",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "ITC_IRQ_TIM3_OVF",
-        "location": {
-          "column": "3",
-          "line": "77",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
-        },
-        "name": "ITC_IRQ_TIM3_OVF",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@ITC_Irq_TypeDef@ITC_IRQ_TIM3_CAPCOM",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "ITC_IRQ_TIM3_CAPCOM",
-        "location": {
-          "column": "3",
-          "line": "78",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
-        },
-        "name": "ITC_IRQ_TIM3_CAPCOM",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@ITC_Irq_TypeDef@ITC_IRQ_UART1_TX",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "ITC_IRQ_UART1_TX",
-        "location": {
-          "column": "3",
-          "line": "82",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
-        },
-        "name": "ITC_IRQ_UART1_TX",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@ITC_Irq_TypeDef@ITC_IRQ_UART1_RX",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "ITC_IRQ_UART1_RX",
-        "location": {
-          "column": "3",
-          "line": "83",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
-        },
-        "name": "ITC_IRQ_UART1_RX",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@ITC_Irq_TypeDef@ITC_IRQ_I2C",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "ITC_IRQ_I2C",
-        "location": {
-          "column": "3",
-          "line": "90",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
-        },
-        "name": "ITC_IRQ_I2C",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@ITC_Irq_TypeDef@ITC_IRQ_ADC1",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "ITC_IRQ_ADC1",
-        "location": {
-          "column": "3",
-          "line": "104",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
-        },
-        "name": "ITC_IRQ_ADC1",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@ITC_Irq_TypeDef@ITC_IRQ_TIM4_OVF",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "ITC_IRQ_TIM4_OVF",
-        "location": {
-          "column": "3",
-          "line": "111",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
-        },
-        "name": "ITC_IRQ_TIM4_OVF",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@ITC_Irq_TypeDef@ITC_IRQ_EEPROM_EEC",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "ITC_IRQ_EEPROM_EEC",
-        "location": {
-          "column": "3",
-          "line": "114",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
-        },
-        "name": "ITC_IRQ_EEPROM_EEC",
-        "origin": "user_include",
-        "scope": null
-      }
-    ],
-    "location": {
-      "column": "9",
-      "line": "44",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
-    },
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@EA@ITC_PriorityLevel_TypeDef",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "",
-    "fields": [
-      {
-        "ID": "c:@EA@ITC_PriorityLevel_TypeDef@ITC_PRIORITYLEVEL_0",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "ITC_PRIORITYLEVEL_0",
-        "location": {
-          "column": "3",
-          "line": "121",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
-        },
-        "name": "ITC_PRIORITYLEVEL_0",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@ITC_PriorityLevel_TypeDef@ITC_PRIORITYLEVEL_1",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "ITC_PRIORITYLEVEL_1",
-        "location": {
-          "column": "3",
-          "line": "122",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
-        },
-        "name": "ITC_PRIORITYLEVEL_1",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@ITC_PriorityLevel_TypeDef@ITC_PRIORITYLEVEL_2",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "ITC_PRIORITYLEVEL_2",
-        "location": {
-          "column": "3",
-          "line": "123",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
-        },
-        "name": "ITC_PRIORITYLEVEL_2",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@ITC_PriorityLevel_TypeDef@ITC_PRIORITYLEVEL_3",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "ITC_PRIORITYLEVEL_3",
-        "location": {
-          "column": "3",
-          "line": "124",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
-        },
-        "name": "ITC_PRIORITYLEVEL_3",
-        "origin": "user_include",
-        "scope": null
-      }
-    ],
-    "location": {
-      "column": "9",
-      "line": "120",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
-    },
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_itc.h@6185@macro@CPU_SOFT_INT_DISABLED",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "CPU_SOFT_INT_DISABLED",
-    "location": {
-      "column": "9",
-      "line": "136",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
-    },
-    "name": "CPU_SOFT_INT_DISABLED",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_itc.h@6580@macro@IS_ITC_IRQ_OK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_ITC_IRQ_OK",
-    "location": {
-      "column": "9",
-      "line": "151",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
-    },
-    "name": "IS_ITC_IRQ_OK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_itc.h@6664@macro@IS_ITC_PRIORITY_OK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_ITC_PRIORITY_OK",
-    "location": {
-      "column": "9",
-      "line": "154",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
-    },
-    "name": "IS_ITC_PRIORITY_OK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_itc.h@6938@macro@IS_ITC_INTERRUPTS_DISABLED",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_ITC_INTERRUPTS_DISABLED",
-    "location": {
-      "column": "9",
-      "line": "161",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
-    },
-    "name": "IS_ITC_INTERRUPTS_DISABLED",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ITC_GetCPUCC",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "uint8_t ITC_GetCPUCC(void)",
-    "location": {
-      "column": "9",
-      "line": "173",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
-    },
-    "name": "ITC_GetCPUCC",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ITC_DeInit",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void ITC_DeInit(void)",
-    "location": {
-      "column": "6",
-      "line": "174",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
-    },
-    "name": "ITC_DeInit",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ITC_GetSoftIntStatus",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "uint8_t ITC_GetSoftIntStatus(void)",
-    "location": {
-      "column": "9",
-      "line": "175",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
-    },
-    "name": "ITC_GetSoftIntStatus",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ITC_SetSoftwarePriority",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void ITC_SetSoftwarePriority(ITC_Irq_TypeDef, ITC_PriorityLevel_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "176",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
-    },
-    "name": "ITC_SetSoftwarePriority",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ITC_GetSoftwarePriority",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "ITC_PriorityLevel_TypeDef ITC_GetSoftwarePriority(ITC_Irq_TypeDef)",
-    "location": {
-      "column": "27",
-      "line": "177",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_itc.h"
-    },
-    "name": "ITC_GetSoftwarePriority",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_exti.h@1289@macro@__STM8S_EXTI_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__STM8S_EXTI_H",
-    "location": {
-      "column": "9",
-      "line": "30",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
-    },
-    "name": "__STM8S_EXTI_H",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@EA@EXTI_Sensitivity_TypeDef",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "",
-    "fields": [
-      {
-        "ID": "c:@EA@EXTI_Sensitivity_TypeDef@EXTI_SENSITIVITY_FALL_LOW",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "EXTI_SENSITIVITY_FALL_LOW",
-        "location": {
-          "column": "3",
-          "line": "45",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
-        },
-        "name": "EXTI_SENSITIVITY_FALL_LOW",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@EXTI_Sensitivity_TypeDef@EXTI_SENSITIVITY_RISE_ONLY",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "EXTI_SENSITIVITY_RISE_ONLY",
-        "location": {
-          "column": "3",
-          "line": "46",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
-        },
-        "name": "EXTI_SENSITIVITY_RISE_ONLY",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@EXTI_Sensitivity_TypeDef@EXTI_SENSITIVITY_FALL_ONLY",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "EXTI_SENSITIVITY_FALL_ONLY",
-        "location": {
-          "column": "3",
-          "line": "47",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
-        },
-        "name": "EXTI_SENSITIVITY_FALL_ONLY",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@EXTI_Sensitivity_TypeDef@EXTI_SENSITIVITY_RISE_FALL",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "EXTI_SENSITIVITY_RISE_FALL",
-        "location": {
-          "column": "3",
-          "line": "48",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
-        },
-        "name": "EXTI_SENSITIVITY_RISE_FALL",
-        "origin": "user_include",
-        "scope": null
-      }
-    ],
-    "location": {
-      "column": "9",
-      "line": "44",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
-    },
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@EA@EXTI_TLISensitivity_TypeDef",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "",
-    "fields": [
-      {
-        "ID": "c:@EA@EXTI_TLISensitivity_TypeDef@EXTI_TLISENSITIVITY_FALL_ONLY",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "EXTI_TLISENSITIVITY_FALL_ONLY",
-        "location": {
-          "column": "3",
-          "line": "55",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
-        },
-        "name": "EXTI_TLISENSITIVITY_FALL_ONLY",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@EXTI_TLISensitivity_TypeDef@EXTI_TLISENSITIVITY_RISE_ONLY",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "EXTI_TLISENSITIVITY_RISE_ONLY",
-        "location": {
-          "column": "3",
-          "line": "56",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
-        },
-        "name": "EXTI_TLISENSITIVITY_RISE_ONLY",
-        "origin": "user_include",
-        "scope": null
-      }
-    ],
-    "location": {
-      "column": "9",
-      "line": "54",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
-    },
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@EA@EXTI_Port_TypeDef",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "",
-    "fields": [
-      {
-        "ID": "c:@EA@EXTI_Port_TypeDef@EXTI_PORT_GPIOA",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "EXTI_PORT_GPIOA",
-        "location": {
-          "column": "3",
-          "line": "63",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
-        },
-        "name": "EXTI_PORT_GPIOA",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@EXTI_Port_TypeDef@EXTI_PORT_GPIOB",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "EXTI_PORT_GPIOB",
-        "location": {
-          "column": "3",
-          "line": "64",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
-        },
-        "name": "EXTI_PORT_GPIOB",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@EXTI_Port_TypeDef@EXTI_PORT_GPIOC",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "EXTI_PORT_GPIOC",
-        "location": {
-          "column": "3",
-          "line": "65",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
-        },
-        "name": "EXTI_PORT_GPIOC",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@EXTI_Port_TypeDef@EXTI_PORT_GPIOD",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "EXTI_PORT_GPIOD",
-        "location": {
-          "column": "3",
-          "line": "66",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
-        },
-        "name": "EXTI_PORT_GPIOD",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@EXTI_Port_TypeDef@EXTI_PORT_GPIOE",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "EXTI_PORT_GPIOE",
-        "location": {
-          "column": "3",
-          "line": "67",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
-        },
-        "name": "EXTI_PORT_GPIOE",
-        "origin": "user_include",
-        "scope": null
-      }
-    ],
-    "location": {
-      "column": "9",
-      "line": "62",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
-    },
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_exti.h@2992@macro@IS_EXTI_SENSITIVITY_OK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_EXTI_SENSITIVITY_OK",
-    "location": {
-      "column": "9",
-      "line": "83",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
-    },
-    "name": "IS_EXTI_SENSITIVITY_OK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_exti.h@3399@macro@IS_EXTI_TLISENSITIVITY_OK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_EXTI_TLISENSITIVITY_OK",
-    "location": {
-      "column": "9",
-      "line": "92",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
-    },
-    "name": "IS_EXTI_TLISENSITIVITY_OK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_exti.h@3680@macro@IS_EXTI_PORT_OK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_EXTI_PORT_OK",
-    "location": {
-      "column": "9",
-      "line": "99",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
-    },
-    "name": "IS_EXTI_PORT_OK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_exti.h@4009@macro@IS_EXTI_PINMASK_OK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_EXTI_PINMASK_OK",
-    "location": {
-      "column": "9",
-      "line": "109",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
-    },
-    "name": "IS_EXTI_PINMASK_OK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@EXTI_DeInit",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void EXTI_DeInit(void)",
-    "location": {
-      "column": "6",
-      "line": "121",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
-    },
-    "name": "EXTI_DeInit",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@EXTI_SetExtIntSensitivity",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void EXTI_SetExtIntSensitivity(EXTI_Port_TypeDef, EXTI_Sensitivity_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "122",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
-    },
-    "name": "EXTI_SetExtIntSensitivity",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@EXTI_SetTLISensitivity",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void EXTI_SetTLISensitivity(EXTI_TLISensitivity_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "123",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
-    },
-    "name": "EXTI_SetTLISensitivity",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@EXTI_GetExtIntSensitivity",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "EXTI_Sensitivity_TypeDef EXTI_GetExtIntSensitivity(EXTI_Port_TypeDef)",
-    "location": {
-      "column": "26",
-      "line": "124",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
-    },
-    "name": "EXTI_GetExtIntSensitivity",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@EXTI_GetTLISensitivity",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "EXTI_TLISensitivity_TypeDef EXTI_GetTLISensitivity(void)",
-    "location": {
-      "column": "29",
-      "line": "125",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
-    },
-    "name": "EXTI_GetTLISensitivity",
     "origin": "user_include",
     "scope": null
   },
@@ -35162,20 +35318,6 @@
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\src\\stm8s_it.c"
     },
     "name": "UART1_TX_IRQHandler",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@UART1_RX_IRQHandler",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void UART1_RX_IRQHandler(void)",
-    "location": {
-      "column": "1",
-      "line": "195",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\src\\stm8s_it.c"
-    },
-    "name": "UART1_RX_IRQHandler",
     "origin": "project_file",
     "scope": null
   },
@@ -47374,7 +47516,7 @@
     "display": "void vInitGPIO(void)",
     "location": {
       "column": "6",
-      "line": "38",
+      "line": "39",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\config.c"
     },
     "name": "vInitGPIO",
@@ -47830,6 +47972,34 @@
     "scope": null
   },
   {
+    "ID": "c:@F@vGetMultiplex",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void vGetMultiplex(uint8_t *, uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "3",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\multilex.c"
+    },
+    "name": "vGetMultiplex",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vSetRulesMul",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void vSetRulesMul(uint8_t *)",
+    "location": {
+      "column": "6",
+      "line": "73",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\multilex.c"
+    },
+    "name": "vSetRulesMul",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@u8CurrentChannel",
     "What": "Variable",
     "defdec": "Def",
@@ -47872,6 +48042,20 @@
     "scope": null
   },
   {
+    "ID": "c:@MAIN",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "MAIN",
+    "location": {
+      "column": "10",
+      "line": "7",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\main.c"
+    },
+    "name": "MAIN",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@SysInit",
     "What": "Function",
     "defdec": "Def",
@@ -47900,44 +48084,16 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@548@F@main@eCurrentAction",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "eCurrentAction",
-    "location": {
-      "column": "17",
-      "line": "28",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\main.c"
-    },
-    "name": "eCurrentAction",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
     "ID": "c:@F@assert_failed",
     "What": "Function",
     "defdec": "Def",
     "display": "void assert_failed(u8 *, u32)",
     "location": {
       "column": "6",
-      "line": "75",
+      "line": "74",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\main.c"
     },
     "name": "assert_failed",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@vGetMultiplex",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void vGetMultiplex(uint8_t *, uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "3",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\multilex.c"
-    },
-    "name": "vGetMultiplex",
     "origin": "project_file",
     "scope": null
   },
@@ -48096,6 +48252,34 @@
     "scope": null
   },
   {
+    "ID": "c:@F@UART1_RX_IRQHandler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void UART1_RX_IRQHandler(void)",
+    "location": {
+      "column": "1",
+      "line": "66",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
+    },
+    "name": "UART1_RX_IRQHandler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:output.c@1820@F@UART1_RX_IRQHandler@u8RecievedCommand",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "u8RecievedCommand",
+    "location": {
+      "column": "11",
+      "line": "68",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
+    },
+    "name": "u8RecievedCommand",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:messages.h@30@macro@_messages_h_",
     "What": "MacroDef",
     "defdec": "Def",
@@ -48121,6 +48305,20 @@
     },
     "name": "u8aStartMessage",
     "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vSetPrescaler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void vSetPrescaler(uint8_t, uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "3",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\prescale.c"
+    },
+    "name": "vSetPrescaler",
+    "origin": "project_file",
     "scope": null
   }
 ]

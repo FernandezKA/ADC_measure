@@ -1845,5 +1845,8 @@
         <file>
             <name>$PROJ_DIR$\src\output.c</name>
         </file>
+        <file>
+            <name>$PROJ_DIR$\src\prescale.c</name>
+        </file>
     </group>
 </project>

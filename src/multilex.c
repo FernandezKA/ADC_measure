@@ -69,3 +69,8 @@ void vGetMultiplex(uint8_t* u8LastChannel, uint8_t u8MultiplexRule){
       break;
     }
 }
+//This function configurate rules of multiplexing
+void vSetRulesMul(uint8_t* pu8RulseVariable){
+  *pu8RulseVariable = u8UART_Recieve() - 0x30;
+  vUpdateEEPROMConfig(*pu8RulseVariable);
+}

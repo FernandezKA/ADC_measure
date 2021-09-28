@@ -4,7 +4,7 @@
 uint8_t u8CurrentChannel = 0;
 static uint8_t u8ChannelPrescale;
 static uint8_t u8Prescaler;
-
+enum FSM MAIN = wait;
 //Main function
 void SysInit(void)
 {
@@ -25,49 +25,48 @@ void main(void)
 #endif
   for (;;)
   {
-    enum action eCurrentAction = eGetAction();//Select next action
-    asm("sim");
-    switch (eCurrentAction)
+    switch(MAIN){
+    case select_mode:
+      asm("sim");
+      vUART_ArrayTransmit("Please, enter number of mode \n\r", 31);
+      vSetRulesMul(&u8CurrentConfigurateADC);
+      MAIN = wait;
+      asm("rim");
+      break;
+      
+    case prescaler_mode:
+      asm("sim");
+      vUART_ArrayTransmit("Please, enter prescaler at form \n\r number of channel, 1 digit, 2 digit\n\r", 73);
+      u8ChannelPrescale = u8UART_Recieve() - 0x30U;//What of channel must be configured
+      u8Prescaler = (u8UART_Recieve() - 0x30U) * 10;//Recieve first of value prescaler |first * 10 + second|
+      u8Prescaler =  u8Prescaler + (u8UART_Recieve() - 0x30U);
+      vSetPrescaler(u8ChannelPrescale, u8Prescaler);
+      MAIN = wait;
+      asm("rim");
+      break;
+      
+    case wait:
+      
+      break;
+    }
+    /*switch (eCurrentAction)
     {
     case select://Configure mode of work
       //Bug at recieved value from UART
-      u8CurrentConfigurateADC = u8UART_Recieve() - 0x30;
-      vUpdateEEPROMConfig(u8CurrentConfigurateADC);
+      vSetRulesMul(&u8CurrentConfigurateADC);
+      //u8CurrentConfigurateADC = u8UART_Recieve() - 0x30;
+      //vUpdateEEPROMConfig(u8CurrentConfigurateADC);
       break;
       
     case prescaler://Set prescaler at format ch. number -> first digit of prescale -> second gigit of prescale
       u8ChannelPrescale = u8UART_Recieve() - 0x30U;//What of channel must be configured
       u8Prescaler = (u8UART_Recieve() - 0x30U) * 10;//Recieve first of value prescaler |first * 10 + second|
       u8Prescaler =  u8Prescaler + (u8UART_Recieve() - 0x30U);
-      switch (u8ChannelPrescale)
-      {
-        //Channel 1
-      case 1:
-        vUpdateEEPROMChannel(1, u8Prescaler);//Update value from eeprom
-        u8Prescaler_1 = u8Prescaler;
-        break;
-        //Channel 2
-      case 2:
-        vUpdateEEPROMChannel(2, u8Prescaler);
-        u8Prescaler_2 = u8Prescaler;
-        break;
-        //Channel 3
-      case 3:
-        vUpdateEEPROMChannel(3, u8Prescaler);
-        u8Prescaler_3 = u8Prescaler;
-        break;
-        //Case for mistake
-      default:
-        asm("nop");
-         //vUpdateEEPROM(2, 1);
-        break;
-      }
-      break;
-    default:
-      asm("nop"); //This command for debugging
+      vSetPrescaler(u8ChannelPrescale, u8Prescaler);
       break;
     }
     asm("rim");
+  }*/
   }
 }
 

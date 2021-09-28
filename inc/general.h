@@ -3,6 +3,7 @@
 
 #define TIM4_UPD_OVF_IRQ
 #define ADC1_IRQ
+#define UART1_RX_IRQ
 //#define DEBUG 
 
 #include "stm8s_conf.h"
@@ -24,6 +25,13 @@ extern uint8_t u8Prescaler_1;
 extern uint8_t u8Prescaler_2;
 extern uint8_t u8Prescaler_3;
 //
+//FSM for rules device
+enum FSM{
+  select_mode = 0,
+  prescaler_mode = 1,
+  wait = 2
+};
+extern enum FSM MAIN;
 enum action{
   prescaler = 0,
   select = 1
@@ -53,5 +61,8 @@ enum action eGetAction(void);
 void vSelectChannel(uint8_t);
 //Multiplexing
 void vGetMultiplex(uint8_t* u8LastChannel, uint8_t u8MultiplexRule);
-#endif
+void vSetRulesMul(uint8_t* pu8RulseVariable);
+//Prescaling
+void vSetPrescaler(uint8_t u8Channel, uint8_t u8Prescaler);
+#endif 
 
