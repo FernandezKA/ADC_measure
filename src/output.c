@@ -39,7 +39,7 @@ uint8_t u8UART_Recieve(void)
 }
 //This function send formated text with result at UART
 void vUART_SendResult(uint8_t u8Channel,uint8_t u8Result){
-  double dResult = u8Result*0.013*u8GetPrescaler(u8LastChannel-1);
+  double dResult = u8Result*bCalibratingCoefficient[u8Channel - 2];
   double dFirst, dSecond;
   dSecond = modf(dResult, &dFirst) * 10;
   uint8_t u8FirstDigit =(uint8_t) dFirst + 0x30;
@@ -73,19 +73,20 @@ INTERRUPT_HANDLER(UART1_RX_IRQHandler, 18)
   case 'm':
     MAIN = select_mode;
     break;
-    
   case 'p':
     MAIN = prescaler_mode;
     break;
-    
   case 'w':
     MAIN = wait;
     break;
   case 's':
     MAIN = save;
     break;
+  case 'c':
+    MAIN = calibrate;
+    break;
   default:
-    
+    MAIN = wait;
     break;
   }
   //TODO write FSM for definition

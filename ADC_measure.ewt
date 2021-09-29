@@ -2342,6 +2342,9 @@
             <name>$PROJ_DIR$\src\ADC.c</name>
         </file>
         <file>
+            <name>$PROJ_DIR$\src\calibrate.c</name>
+        </file>
+        <file>
             <name>$PROJ_DIR$\src\config.c</name>
         </file>
         <file>

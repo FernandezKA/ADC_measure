@@ -17,25 +17,6 @@ uint32_t CONFIGURATION = 0x4030;
 /******************************************************************************/
 //General logic functions of device
 /******************************************************************************/
-//This function select next action of device
-enum action eGetAction(void)
-{
-  uint8_t u8Request = u8UART_Recieve();
-  switch (u8Request)
-  {
-  case 'p':
-    return (enum action) prescaler;
-    break;
-  case 'm':
-    return (enum action) select;
-    break;
-  default:
-    return (enum action) select;
-    break;
-  }
-}
-
-    
 /******************************************************************************/
 //IRQ Handlers
 /******************************************************************************/

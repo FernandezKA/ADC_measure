@@ -25,13 +25,15 @@ extern uint8_t u8LastChannel;
 extern uint8_t u8Prescaler_1;
 extern uint8_t u8Prescaler_2;
 extern uint8_t u8Prescaler_3;
-//
+//Calibrate
+extern double bCalibratingCoefficient[3];
 //FSM for rules device
 enum FSM{
   select_mode = 0,
   prescaler_mode = 1,
   wait = 2, 
-  save = 3
+  save = 3,
+  calibrate = 4
 };
 extern enum FSM MAIN;
 enum action{
@@ -66,5 +68,8 @@ void vGetMultiplex(uint8_t* u8LastChannel, uint8_t u8MultiplexRule);
 void vSetRulesMul(uint8_t* pu8RulseVariable);
 //Prescaling
 void vSetPrescaler(uint8_t u8Channel, uint8_t u8Prescaler);
+//Calibrated
+void vGetCalibrate(uint8_t u8ChannelNum);
+double dGetCalibratingCoefficient(uint8_t u8Channel);
 #endif 
 
