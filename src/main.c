@@ -21,7 +21,10 @@ void main(void)
 {
   SysInit();
 #ifndef DEBUG
-  vUART_ArrayTransmit(u8aStartMessage, 29);
+  vUART_ArrayTransmit("Aviable commands: \n\r", 20);
+  vUART_ArrayTransmit("m-select measuring mode\n\r", 25);
+  vUART_ArrayTransmit("c-calibrate the device with know voltage\n\r", 42);
+  //vUART_ArrayTransmit("w - wait new command\n\r", 20);
 #endif
   for (;;)
   {

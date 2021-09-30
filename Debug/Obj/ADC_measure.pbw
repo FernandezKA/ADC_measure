@@ -55988,13 +55988,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1602@F@main@u8CalibratedChannel",
+    "ID": "c:main.c@1804@F@main@u8CalibratedChannel",
     "What": "Variable",
     "defdec": "Def",
     "display": "u8CalibratedChannel",
     "location": {
       "column": "15",
-      "line": "60",
+      "line": "63",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\main.c"
     },
     "name": "u8CalibratedChannel",
@@ -56008,7 +56008,7 @@
     "display": "void assert_failed(u8 *, u32)",
     "location": {
       "column": "6",
-      "line": "70",
+      "line": "73",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\main.c"
     },
     "name": "assert_failed",
@@ -56240,34 +56240,6 @@
     "scope": null
   },
   {
-    "ID": "c:@F@vGetMultiplex",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void vGetMultiplex(uint8_t *, uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "3",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\multilex.c"
-    },
-    "name": "vGetMultiplex",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@vSetRulesMul",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void vSetRulesMul(uint8_t *)",
-    "location": {
-      "column": "6",
-      "line": "73",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\multilex.c"
-    },
-    "name": "vSetRulesMul",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
     "ID": "c:@u8CountMeasure",
     "What": "Variable",
     "defdec": "Dec",
@@ -56446,6 +56418,34 @@
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\general.c"
     },
     "name": "ADC1_IRQHandler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vGetMultiplex",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void vGetMultiplex(uint8_t *, uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "3",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\multilex.c"
+    },
+    "name": "vGetMultiplex",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vSetRulesMul",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void vSetRulesMul(uint8_t *)",
+    "location": {
+      "column": "6",
+      "line": "73",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\multilex.c"
+    },
+    "name": "vSetRulesMul",
     "origin": "project_file",
     "scope": null
   },
