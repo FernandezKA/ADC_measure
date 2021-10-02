@@ -40,17 +40,21 @@ uint8_t u8UART_Recieve(void)
 //This function send formated text with result at UART
 void vUART_SendResult(uint8_t u8Channel,uint8_t u8Result){
   double dCoeff = 0;
+  uint8_t u8UsedChannel = u8Channel - 1;
+  uint8_t u8UsedSubChannel;
   switch(u8Channel){
   case 2:
-    if(CH1.u8SubChannel == 0) {
+    u8UsedSubChannel = CH1.u8SubChannel;
+    if(CH1.u8SubChannel == 0) { 
       dCoeff = CH1.u8Prescaler_1;
     }
-    else{
+    else{ 
       dCoeff = CH1.u8Prescaler_2;
     }
     break;
     
   case 3:
+    u8UsedSubChannel = CH2.u8SubChannel; 
     if(CH2.u8SubChannel == 0) {
       dCoeff = CH2.u8Prescaler_1;
     }
@@ -60,6 +64,7 @@ void vUART_SendResult(uint8_t u8Channel,uint8_t u8Result){
     break;
     
   case 4:
+    u8UsedSubChannel = CH3.u8SubChannel;
     if(CH3.u8SubChannel == 0) {
       dCoeff = CH3.u8Prescaler_1;
     }
@@ -78,15 +83,15 @@ void vUART_SendResult(uint8_t u8Channel,uint8_t u8Result){
   u8aResultArray[1]= 'h';
   u8aResultArray[2]= '.';
   u8aResultArray[3]= '#';
-  u8aResultArray[4]= u8Channel + 0x30;
-  u8aResultArray[5]= ',';
-  u8aResultArray[6]= ' ';
-  u8aResultArray[7]= 'v';
-  u8aResultArray[8]= 'o';
-  u8aResultArray[9]= 'l';
-  u8aResultArray[10]= 't';
-  u8aResultArray[11]= '.';
-  u8aResultArray[12]= ' ';
+  u8aResultArray[4]= u8UsedChannel + 0x30;
+  u8aResultArray[5]= '-';
+  u8aResultArray[6]= u8UsedSubChannel + 0x30;
+  u8aResultArray[7]= ' ';
+  u8aResultArray[8]= 'v';
+  u8aResultArray[9]= 'o';
+  u8aResultArray[10]= 'l';
+  u8aResultArray[11]= 't';
+  u8aResultArray[12]= '.';
   u8aResultArray[13]= u8FirstDigit;
   u8aResultArray[14]= ',';
   u8aResultArray[15]= u8SecondDigit;
@@ -100,9 +105,6 @@ INTERRUPT_HANDLER(UART1_RX_IRQHandler, 18)
   switch(u8RecievedCommand){
   case 'm':
     MAIN = select_mode;
-    break;
-  case 'p':
-    MAIN = prescaler_mode;
     break;
   case 'w':
     MAIN = wait;
@@ -121,4 +123,8 @@ INTERRUPT_HANDLER(UART1_RX_IRQHandler, 18)
     break;
   }
   //TODO write FSM for definition
+}
+//This function return enter digit
+uint8_t u8GetDigit(void){
+  
 }

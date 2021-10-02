@@ -43,13 +43,6 @@ void main(void)
         asm("rim");
       break;
      
-    case prescaler_mode:
-      asm("sim");
-      vUART_ArrayTransmit("Please, enter prescaler at form \n\r number of channel, 1 digit, 2 digit\n\r", 73);
-      MAIN = wait;
-      asm("rim");
-      break;
-      
     case wait:
       //MAIN = wait;
     break;

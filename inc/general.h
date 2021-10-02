@@ -37,17 +37,16 @@ extern double bCalibratingCoefficient[6];
 //FSM for rules device
 enum FSM{
   select_mode = 0,
-  prescaler_mode = 1,
-  wait = 2, 
-  save = 3,
-  calibrate = 4, 
-  subprescaler = 5
+  wait, 
+  save,
+  calibrate, 
+  subprescaler
 };
 extern enum FSM MAIN;
-enum action{
+/*enum action{
   prescaler = 0,
   select = 1
-};
+};*/
 //User procedures
 //Init functions
 void vInitCLK(void);
