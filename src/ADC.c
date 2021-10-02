@@ -11,7 +11,7 @@ uint8_t u8GetMean(uint8_t *data, uint8_t u8Channel)
   {
     u32SumValue += data[i];
   }
-  uint8_t u8Result = u32SumValue / 100 * u8GetPrescaler(u8Channel);
+  uint8_t u8Result = u32SumValue / 100;
   return u8Result;
 }
 //This function configure channel

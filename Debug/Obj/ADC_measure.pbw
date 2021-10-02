@@ -33032,348 +33032,6 @@
     "scope": null
   },
   {
-    "ID": "c:stm8s_exti.h@1289@macro@__STM8S_EXTI_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__STM8S_EXTI_H",
-    "location": {
-      "column": "9",
-      "line": "30",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
-    },
-    "name": "__STM8S_EXTI_H",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@EA@EXTI_Sensitivity_TypeDef",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "",
-    "fields": [
-      {
-        "ID": "c:@EA@EXTI_Sensitivity_TypeDef@EXTI_SENSITIVITY_FALL_LOW",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "EXTI_SENSITIVITY_FALL_LOW",
-        "location": {
-          "column": "3",
-          "line": "45",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
-        },
-        "name": "EXTI_SENSITIVITY_FALL_LOW",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@EXTI_Sensitivity_TypeDef@EXTI_SENSITIVITY_RISE_ONLY",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "EXTI_SENSITIVITY_RISE_ONLY",
-        "location": {
-          "column": "3",
-          "line": "46",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
-        },
-        "name": "EXTI_SENSITIVITY_RISE_ONLY",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@EXTI_Sensitivity_TypeDef@EXTI_SENSITIVITY_FALL_ONLY",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "EXTI_SENSITIVITY_FALL_ONLY",
-        "location": {
-          "column": "3",
-          "line": "47",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
-        },
-        "name": "EXTI_SENSITIVITY_FALL_ONLY",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@EXTI_Sensitivity_TypeDef@EXTI_SENSITIVITY_RISE_FALL",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "EXTI_SENSITIVITY_RISE_FALL",
-        "location": {
-          "column": "3",
-          "line": "48",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
-        },
-        "name": "EXTI_SENSITIVITY_RISE_FALL",
-        "origin": "user_include",
-        "scope": null
-      }
-    ],
-    "location": {
-      "column": "9",
-      "line": "44",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
-    },
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@EA@EXTI_TLISensitivity_TypeDef",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "",
-    "fields": [
-      {
-        "ID": "c:@EA@EXTI_TLISensitivity_TypeDef@EXTI_TLISENSITIVITY_FALL_ONLY",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "EXTI_TLISENSITIVITY_FALL_ONLY",
-        "location": {
-          "column": "3",
-          "line": "55",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
-        },
-        "name": "EXTI_TLISENSITIVITY_FALL_ONLY",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@EXTI_TLISensitivity_TypeDef@EXTI_TLISENSITIVITY_RISE_ONLY",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "EXTI_TLISENSITIVITY_RISE_ONLY",
-        "location": {
-          "column": "3",
-          "line": "56",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
-        },
-        "name": "EXTI_TLISENSITIVITY_RISE_ONLY",
-        "origin": "user_include",
-        "scope": null
-      }
-    ],
-    "location": {
-      "column": "9",
-      "line": "54",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
-    },
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@EA@EXTI_Port_TypeDef",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "",
-    "fields": [
-      {
-        "ID": "c:@EA@EXTI_Port_TypeDef@EXTI_PORT_GPIOA",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "EXTI_PORT_GPIOA",
-        "location": {
-          "column": "3",
-          "line": "63",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
-        },
-        "name": "EXTI_PORT_GPIOA",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@EXTI_Port_TypeDef@EXTI_PORT_GPIOB",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "EXTI_PORT_GPIOB",
-        "location": {
-          "column": "3",
-          "line": "64",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
-        },
-        "name": "EXTI_PORT_GPIOB",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@EXTI_Port_TypeDef@EXTI_PORT_GPIOC",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "EXTI_PORT_GPIOC",
-        "location": {
-          "column": "3",
-          "line": "65",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
-        },
-        "name": "EXTI_PORT_GPIOC",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@EXTI_Port_TypeDef@EXTI_PORT_GPIOD",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "EXTI_PORT_GPIOD",
-        "location": {
-          "column": "3",
-          "line": "66",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
-        },
-        "name": "EXTI_PORT_GPIOD",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@EXTI_Port_TypeDef@EXTI_PORT_GPIOE",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "EXTI_PORT_GPIOE",
-        "location": {
-          "column": "3",
-          "line": "67",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
-        },
-        "name": "EXTI_PORT_GPIOE",
-        "origin": "user_include",
-        "scope": null
-      }
-    ],
-    "location": {
-      "column": "9",
-      "line": "62",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
-    },
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_exti.h@2992@macro@IS_EXTI_SENSITIVITY_OK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_EXTI_SENSITIVITY_OK",
-    "location": {
-      "column": "9",
-      "line": "83",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
-    },
-    "name": "IS_EXTI_SENSITIVITY_OK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_exti.h@3399@macro@IS_EXTI_TLISENSITIVITY_OK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_EXTI_TLISENSITIVITY_OK",
-    "location": {
-      "column": "9",
-      "line": "92",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
-    },
-    "name": "IS_EXTI_TLISENSITIVITY_OK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_exti.h@3680@macro@IS_EXTI_PORT_OK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_EXTI_PORT_OK",
-    "location": {
-      "column": "9",
-      "line": "99",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
-    },
-    "name": "IS_EXTI_PORT_OK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_exti.h@4009@macro@IS_EXTI_PINMASK_OK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_EXTI_PINMASK_OK",
-    "location": {
-      "column": "9",
-      "line": "109",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
-    },
-    "name": "IS_EXTI_PINMASK_OK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@EXTI_DeInit",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void EXTI_DeInit(void)",
-    "location": {
-      "column": "6",
-      "line": "121",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
-    },
-    "name": "EXTI_DeInit",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@EXTI_SetExtIntSensitivity",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void EXTI_SetExtIntSensitivity(EXTI_Port_TypeDef, EXTI_Sensitivity_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "122",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
-    },
-    "name": "EXTI_SetExtIntSensitivity",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@EXTI_SetTLISensitivity",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void EXTI_SetTLISensitivity(EXTI_TLISensitivity_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "123",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
-    },
-    "name": "EXTI_SetTLISensitivity",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@EXTI_GetExtIntSensitivity",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "EXTI_Sensitivity_TypeDef EXTI_GetExtIntSensitivity(EXTI_Port_TypeDef)",
-    "location": {
-      "column": "26",
-      "line": "124",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
-    },
-    "name": "EXTI_GetExtIntSensitivity",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@EXTI_GetTLISensitivity",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "EXTI_TLISensitivity_TypeDef EXTI_GetTLISensitivity(void)",
-    "location": {
-      "column": "29",
-      "line": "125",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
-    },
-    "name": "EXTI_GetTLISensitivity",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
     "ID": "c:stm8s_i2c.c@1484@macro@REGISTER_Mask",
     "What": "MacroDef",
     "defdec": "Def",
@@ -37624,708 +37282,6 @@
     "scope": null
   },
   {
-    "ID": "c:ymath.h@98@macro@_YMATH",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_YMATH",
-    "location": {
-      "column": "9",
-      "line": "4",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
-    },
-    "name": "_YMATH",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ymath.h@320@macro@_DENORM",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DENORM",
-    "location": {
-      "column": "9",
-      "line": "19",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
-    },
-    "name": "_DENORM",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ymath.h@368@macro@_FINITE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_FINITE",
-    "location": {
-      "column": "9",
-      "line": "20",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
-    },
-    "name": "_FINITE",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ymath.h@398@macro@_INFCODE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_INFCODE",
-    "location": {
-      "column": "9",
-      "line": "21",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
-    },
-    "name": "_INFCODE",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ymath.h@425@macro@_NANCODE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_NANCODE",
-    "location": {
-      "column": "9",
-      "line": "22",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
-    },
-    "name": "_NANCODE",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@__iar_Dtest",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "short __iar_Dtest(double)",
-    "location": {
-      "column": "36",
-      "line": "29",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
-    },
-    "name": "__iar_Dtest",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@__iar_Dsign",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "int __iar_Dsign(double)",
-    "location": {
-      "column": "36",
-      "line": "30",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
-    },
-    "name": "__iar_Dsign",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@UA@_Dconst",
-    "What": "Union",
-    "defdec": "Def",
-    "display": "",
-    "location": {
-      "column": "9",
-      "line": "46",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
-    },
-    "members": [
-      {
-        "ID": "c:@UA@_Dconst@FI@_Word",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "_Word",
-        "location": {
-          "column": "18",
-          "line": "48",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
-        },
-        "name": "_Word",
-        "origin": "system_include",
-        "scope": "_anonymous_ymath_h_46_9"
-      },
-      {
-        "ID": "c:@UA@_Dconst@FI@_Float",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "_Float",
-        "location": {
-          "column": "9",
-          "line": "49",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
-        },
-        "name": "_Float",
-        "origin": "system_include",
-        "scope": "_anonymous_ymath_h_46_9"
-      },
-      {
-        "ID": "c:@UA@_Dconst@FI@_Double",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "_Double",
-        "location": {
-          "column": "10",
-          "line": "50",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
-        },
-        "name": "_Double",
-        "origin": "system_include",
-        "scope": "_anonymous_ymath_h_46_9"
-      },
-      {
-        "ID": "c:@UA@_Dconst@FI@_Long_double",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "_Long_double",
-        "location": {
-          "column": "15",
-          "line": "51",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
-        },
-        "name": "_Long_double",
-        "origin": "system_include",
-        "scope": "_anonymous_ymath_h_46_9"
-      },
-      {
-        "ID": "c:@T@_Dconst",
-        "What": "TypedefDecl",
-        "defdec": "Def",
-        "display": "union _Dconst",
-        "location": {
-          "column": "3",
-          "line": "52",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
-        },
-        "name": "_Dconst",
-        "origin": "system_include",
-        "scope": "_anonymous_ymath_h_46_9"
-      }
-    ],
-    "name": "",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@__iar_Cosh",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "double __iar_Cosh(double, double)",
-    "location": {
-      "column": "36",
-      "line": "55",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
-    },
-    "name": "__iar_Cosh",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@__iar_Erfc",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "double __iar_Erfc(double)",
-    "location": {
-      "column": "38",
-      "line": "57",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
-    },
-    "name": "__iar_Erfc",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@__iar_Exp",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "short __iar_Exp(double *, double, long)",
-    "location": {
-      "column": "36",
-      "line": "59",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
-    },
-    "name": "__iar_Exp",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@__iar_Log",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "double __iar_Log(double, int)",
-    "location": {
-      "column": "36",
-      "line": "60",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
-    },
-    "name": "__iar_Log",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@__iar_Log_small",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "double __iar_Log_small(double, int)",
-    "location": {
-      "column": "32",
-      "line": "62",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
-    },
-    "name": "__iar_Log_small",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@__iar_Logpoly",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "double __iar_Logpoly(double)",
-    "location": {
-      "column": "36",
-      "line": "64",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
-    },
-    "name": "__iar_Logpoly",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@__iar_Quad",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "unsigned int __iar_Quad(double *)",
-    "location": {
-      "column": "36",
-      "line": "65",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
-    },
-    "name": "__iar_Quad",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@__iar_QuadXp",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "unsigned int __iar_QuadXp(double *)",
-    "location": {
-      "column": "36",
-      "line": "66",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
-    },
-    "name": "__iar_QuadXp",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@__iar_Quadph",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "unsigned int __iar_Quadph(double *, double)",
-    "location": {
-      "column": "36",
-      "line": "67",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
-    },
-    "name": "__iar_Quadph",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@__iar_Rint",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "double __iar_Rint(double)",
-    "location": {
-      "column": "36",
-      "line": "68",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
-    },
-    "name": "__iar_Rint",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@__iar_Sin",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "double __iar_Sin(double, unsigned int)",
-    "location": {
-      "column": "36",
-      "line": "69",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
-    },
-    "name": "__iar_Sin",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@__iar_Sin_small",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "double __iar_Sin_small(double, unsigned int)",
-    "location": {
-      "column": "32",
-      "line": "71",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
-    },
-    "name": "__iar_Sin_small",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@__iar_Sinh",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "double __iar_Sinh(double, double)",
-    "location": {
-      "column": "36",
-      "line": "73",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
-    },
-    "name": "__iar_Sinh",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@__iar_Tgamma",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "double __iar_Tgamma(double *, short *)",
-    "location": {
-      "column": "36",
-      "line": "74",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
-    },
-    "name": "__iar_Tgamma",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@__stm8abi_HUGE_VALF",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "__stm8abi_HUGE_VALF",
-    "location": {
-      "column": "37",
-      "line": "134",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
-    },
-    "name": "__stm8abi_HUGE_VALF",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@__stm8abi_INFINITY",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "__stm8abi_INFINITY",
-    "location": {
-      "column": "37",
-      "line": "135",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
-    },
-    "name": "__stm8abi_INFINITY",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@__stm8abi_NAN",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "__stm8abi_NAN",
-    "location": {
-      "column": "37",
-      "line": "136",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
-    },
-    "name": "__stm8abi_NAN",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@__stm8abi_HUGE_VAL",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "__stm8abi_HUGE_VAL",
-    "location": {
-      "column": "38",
-      "line": "137",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
-    },
-    "name": "__stm8abi_HUGE_VAL",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@__stm8abi_HUGE_VALL",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "__stm8abi_HUGE_VALL",
-    "location": {
-      "column": "43",
-      "line": "138",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
-    },
-    "name": "__stm8abi_HUGE_VALL",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@atan2l",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "long double atan2l(long double, long double)",
-    "location": {
-      "column": "36",
-      "line": "141",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
-    },
-    "name": "atan2l",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@cosl",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "long double cosl(long double)",
-    "location": {
-      "column": "36",
-      "line": "142",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
-    },
-    "name": "cosl",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@expl",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "long double expl(long double)",
-    "location": {
-      "column": "36",
-      "line": "143",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
-    },
-    "name": "expl",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ldexpl",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "long double ldexpl(long double, int)",
-    "location": {
-      "column": "36",
-      "line": "144",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
-    },
-    "name": "ldexpl",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@logl",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "long double logl(long double)",
-    "location": {
-      "column": "36",
-      "line": "145",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
-    },
-    "name": "logl",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@powl",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "long double powl(long double, long double)",
-    "location": {
-      "column": "36",
-      "line": "146",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
-    },
-    "name": "powl",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@sinl",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "long double sinl(long double)",
-    "location": {
-      "column": "36",
-      "line": "147",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
-    },
-    "name": "sinl",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@sqrtl",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "long double sqrtl(long double)",
-    "location": {
-      "column": "36",
-      "line": "148",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
-    },
-    "name": "sqrtl",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@tanl",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "long double tanl(long double)",
-    "location": {
-      "column": "36",
-      "line": "149",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
-    },
-    "name": "tanl",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@atan2f",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "float atan2f(float, float)",
-    "location": {
-      "column": "30",
-      "line": "151",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
-    },
-    "name": "atan2f",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@cosf",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "float cosf(float)",
-    "location": {
-      "column": "30",
-      "line": "152",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
-    },
-    "name": "cosf",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@expf",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "float expf(float)",
-    "location": {
-      "column": "30",
-      "line": "153",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
-    },
-    "name": "expf",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ldexpf",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "float ldexpf(float, int)",
-    "location": {
-      "column": "30",
-      "line": "154",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
-    },
-    "name": "ldexpf",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@logf",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "float logf(float)",
-    "location": {
-      "column": "30",
-      "line": "155",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
-    },
-    "name": "logf",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@powf",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "float powf(float, float)",
-    "location": {
-      "column": "30",
-      "line": "156",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
-    },
-    "name": "powf",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@sinf",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "float sinf(float)",
-    "location": {
-      "column": "30",
-      "line": "157",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
-    },
-    "name": "sinf",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@sqrtf",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "float sqrtf(float)",
-    "location": {
-      "column": "30",
-      "line": "158",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
-    },
-    "name": "sqrtf",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@tanf",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "float tanf(float)",
-    "location": {
-      "column": "30",
-      "line": "159",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
-    },
-    "name": "tanf",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
     "ID": "c:yvals.h@120@macro@_YVALS",
     "What": "MacroDef",
     "defdec": "Def",
@@ -40082,6 +39038,708 @@
     "scope": null
   },
   {
+    "ID": "c:ymath.h@98@macro@_YMATH",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_YMATH",
+    "location": {
+      "column": "9",
+      "line": "4",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
+    },
+    "name": "_YMATH",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ymath.h@320@macro@_DENORM",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DENORM",
+    "location": {
+      "column": "9",
+      "line": "19",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
+    },
+    "name": "_DENORM",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ymath.h@368@macro@_FINITE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_FINITE",
+    "location": {
+      "column": "9",
+      "line": "20",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
+    },
+    "name": "_FINITE",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ymath.h@398@macro@_INFCODE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_INFCODE",
+    "location": {
+      "column": "9",
+      "line": "21",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
+    },
+    "name": "_INFCODE",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ymath.h@425@macro@_NANCODE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_NANCODE",
+    "location": {
+      "column": "9",
+      "line": "22",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
+    },
+    "name": "_NANCODE",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@__iar_Dtest",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "short __iar_Dtest(double)",
+    "location": {
+      "column": "36",
+      "line": "29",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
+    },
+    "name": "__iar_Dtest",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@__iar_Dsign",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int __iar_Dsign(double)",
+    "location": {
+      "column": "36",
+      "line": "30",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
+    },
+    "name": "__iar_Dsign",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@UA@_Dconst",
+    "What": "Union",
+    "defdec": "Def",
+    "display": "",
+    "location": {
+      "column": "9",
+      "line": "46",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
+    },
+    "members": [
+      {
+        "ID": "c:@UA@_Dconst@FI@_Word",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "_Word",
+        "location": {
+          "column": "18",
+          "line": "48",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
+        },
+        "name": "_Word",
+        "origin": "system_include",
+        "scope": "_anonymous_ymath_h_46_9"
+      },
+      {
+        "ID": "c:@UA@_Dconst@FI@_Float",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "_Float",
+        "location": {
+          "column": "9",
+          "line": "49",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
+        },
+        "name": "_Float",
+        "origin": "system_include",
+        "scope": "_anonymous_ymath_h_46_9"
+      },
+      {
+        "ID": "c:@UA@_Dconst@FI@_Double",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "_Double",
+        "location": {
+          "column": "10",
+          "line": "50",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
+        },
+        "name": "_Double",
+        "origin": "system_include",
+        "scope": "_anonymous_ymath_h_46_9"
+      },
+      {
+        "ID": "c:@UA@_Dconst@FI@_Long_double",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "_Long_double",
+        "location": {
+          "column": "15",
+          "line": "51",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
+        },
+        "name": "_Long_double",
+        "origin": "system_include",
+        "scope": "_anonymous_ymath_h_46_9"
+      },
+      {
+        "ID": "c:@T@_Dconst",
+        "What": "TypedefDecl",
+        "defdec": "Def",
+        "display": "union _Dconst",
+        "location": {
+          "column": "3",
+          "line": "52",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
+        },
+        "name": "_Dconst",
+        "origin": "system_include",
+        "scope": "_anonymous_ymath_h_46_9"
+      }
+    ],
+    "name": "",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@__iar_Cosh",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "double __iar_Cosh(double, double)",
+    "location": {
+      "column": "36",
+      "line": "55",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
+    },
+    "name": "__iar_Cosh",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@__iar_Erfc",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "double __iar_Erfc(double)",
+    "location": {
+      "column": "38",
+      "line": "57",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
+    },
+    "name": "__iar_Erfc",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@__iar_Exp",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "short __iar_Exp(double *, double, long)",
+    "location": {
+      "column": "36",
+      "line": "59",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
+    },
+    "name": "__iar_Exp",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@__iar_Log",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "double __iar_Log(double, int)",
+    "location": {
+      "column": "36",
+      "line": "60",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
+    },
+    "name": "__iar_Log",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@__iar_Log_small",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "double __iar_Log_small(double, int)",
+    "location": {
+      "column": "32",
+      "line": "62",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
+    },
+    "name": "__iar_Log_small",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@__iar_Logpoly",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "double __iar_Logpoly(double)",
+    "location": {
+      "column": "36",
+      "line": "64",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
+    },
+    "name": "__iar_Logpoly",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@__iar_Quad",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "unsigned int __iar_Quad(double *)",
+    "location": {
+      "column": "36",
+      "line": "65",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
+    },
+    "name": "__iar_Quad",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@__iar_QuadXp",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "unsigned int __iar_QuadXp(double *)",
+    "location": {
+      "column": "36",
+      "line": "66",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
+    },
+    "name": "__iar_QuadXp",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@__iar_Quadph",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "unsigned int __iar_Quadph(double *, double)",
+    "location": {
+      "column": "36",
+      "line": "67",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
+    },
+    "name": "__iar_Quadph",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@__iar_Rint",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "double __iar_Rint(double)",
+    "location": {
+      "column": "36",
+      "line": "68",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
+    },
+    "name": "__iar_Rint",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@__iar_Sin",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "double __iar_Sin(double, unsigned int)",
+    "location": {
+      "column": "36",
+      "line": "69",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
+    },
+    "name": "__iar_Sin",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@__iar_Sin_small",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "double __iar_Sin_small(double, unsigned int)",
+    "location": {
+      "column": "32",
+      "line": "71",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
+    },
+    "name": "__iar_Sin_small",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@__iar_Sinh",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "double __iar_Sinh(double, double)",
+    "location": {
+      "column": "36",
+      "line": "73",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
+    },
+    "name": "__iar_Sinh",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@__iar_Tgamma",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "double __iar_Tgamma(double *, short *)",
+    "location": {
+      "column": "36",
+      "line": "74",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
+    },
+    "name": "__iar_Tgamma",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@__stm8abi_HUGE_VALF",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "__stm8abi_HUGE_VALF",
+    "location": {
+      "column": "37",
+      "line": "134",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
+    },
+    "name": "__stm8abi_HUGE_VALF",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@__stm8abi_INFINITY",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "__stm8abi_INFINITY",
+    "location": {
+      "column": "37",
+      "line": "135",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
+    },
+    "name": "__stm8abi_INFINITY",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@__stm8abi_NAN",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "__stm8abi_NAN",
+    "location": {
+      "column": "37",
+      "line": "136",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
+    },
+    "name": "__stm8abi_NAN",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@__stm8abi_HUGE_VAL",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "__stm8abi_HUGE_VAL",
+    "location": {
+      "column": "38",
+      "line": "137",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
+    },
+    "name": "__stm8abi_HUGE_VAL",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@__stm8abi_HUGE_VALL",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "__stm8abi_HUGE_VALL",
+    "location": {
+      "column": "43",
+      "line": "138",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
+    },
+    "name": "__stm8abi_HUGE_VALL",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@atan2l",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "long double atan2l(long double, long double)",
+    "location": {
+      "column": "36",
+      "line": "141",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
+    },
+    "name": "atan2l",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@cosl",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "long double cosl(long double)",
+    "location": {
+      "column": "36",
+      "line": "142",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
+    },
+    "name": "cosl",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@expl",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "long double expl(long double)",
+    "location": {
+      "column": "36",
+      "line": "143",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
+    },
+    "name": "expl",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ldexpl",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "long double ldexpl(long double, int)",
+    "location": {
+      "column": "36",
+      "line": "144",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
+    },
+    "name": "ldexpl",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@logl",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "long double logl(long double)",
+    "location": {
+      "column": "36",
+      "line": "145",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
+    },
+    "name": "logl",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@powl",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "long double powl(long double, long double)",
+    "location": {
+      "column": "36",
+      "line": "146",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
+    },
+    "name": "powl",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@sinl",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "long double sinl(long double)",
+    "location": {
+      "column": "36",
+      "line": "147",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
+    },
+    "name": "sinl",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@sqrtl",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "long double sqrtl(long double)",
+    "location": {
+      "column": "36",
+      "line": "148",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
+    },
+    "name": "sqrtl",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@tanl",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "long double tanl(long double)",
+    "location": {
+      "column": "36",
+      "line": "149",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
+    },
+    "name": "tanl",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@atan2f",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "float atan2f(float, float)",
+    "location": {
+      "column": "30",
+      "line": "151",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
+    },
+    "name": "atan2f",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@cosf",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "float cosf(float)",
+    "location": {
+      "column": "30",
+      "line": "152",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
+    },
+    "name": "cosf",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@expf",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "float expf(float)",
+    "location": {
+      "column": "30",
+      "line": "153",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
+    },
+    "name": "expf",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ldexpf",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "float ldexpf(float, int)",
+    "location": {
+      "column": "30",
+      "line": "154",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
+    },
+    "name": "ldexpf",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@logf",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "float logf(float)",
+    "location": {
+      "column": "30",
+      "line": "155",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
+    },
+    "name": "logf",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@powf",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "float powf(float, float)",
+    "location": {
+      "column": "30",
+      "line": "156",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
+    },
+    "name": "powf",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@sinf",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "float sinf(float)",
+    "location": {
+      "column": "30",
+      "line": "157",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
+    },
+    "name": "sinf",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@sqrtf",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "float sqrtf(float)",
+    "location": {
+      "column": "30",
+      "line": "158",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
+    },
+    "name": "sqrtf",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@tanf",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "float tanf(float)",
+    "location": {
+      "column": "30",
+      "line": "159",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ymath.h"
+    },
+    "name": "tanf",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
     "ID": "c:@F@GPIO_DeInit",
     "What": "Function",
     "defdec": "Def",
@@ -40218,132 +39876,6 @@
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\src\\stm8s_gpio.c"
     },
     "name": "GPIO_ExternalPullUpConfig",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ITC_GetCPUCC",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "uint8_t ITC_GetCPUCC(void)",
-    "location": {
-      "column": "9",
-      "line": "50",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\src\\stm8s_itc.c"
-    },
-    "name": "ITC_GetCPUCC",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ITC_DeInit",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void ITC_DeInit(void)",
-    "location": {
-      "column": "6",
-      "line": "80",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\src\\stm8s_itc.c"
-    },
-    "name": "ITC_DeInit",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ITC_GetSoftIntStatus",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "uint8_t ITC_GetSoftIntStatus(void)",
-    "location": {
-      "column": "9",
-      "line": "97",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\src\\stm8s_itc.c"
-    },
-    "name": "ITC_GetSoftIntStatus",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ITC_GetSoftwarePriority",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "ITC_PriorityLevel_TypeDef ITC_GetSoftwarePriority(ITC_Irq_TypeDef)",
-    "location": {
-      "column": "27",
-      "line": "107",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\src\\stm8s_itc.c"
-    },
-    "name": "ITC_GetSoftwarePriority",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_itc.c@3588@F@ITC_GetSoftwarePriority@Value",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "Value",
-    "location": {
-      "column": "11",
-      "line": "109",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\src\\stm8s_itc.c"
-    },
-    "name": "Value",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_itc.c@3610@F@ITC_GetSoftwarePriority@Mask",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "Mask",
-    "location": {
-      "column": "11",
-      "line": "110",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\src\\stm8s_itc.c"
-    },
-    "name": "Mask",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ITC_SetSoftwarePriority",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void ITC_SetSoftwarePriority(ITC_Irq_TypeDef, ITC_PriorityLevel_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "220",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\src\\stm8s_itc.c"
-    },
-    "name": "ITC_SetSoftwarePriority",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_itc.c@7531@F@ITC_SetSoftwarePriority@Mask",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "Mask",
-    "location": {
-      "column": "11",
-      "line": "222",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\src\\stm8s_itc.c"
-    },
-    "name": "Mask",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_itc.c@7552@F@ITC_SetSoftwarePriority@NewPriority",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "NewPriority",
-    "location": {
-      "column": "11",
-      "line": "223",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\src\\stm8s_itc.c"
-    },
-    "name": "NewPriority",
     "origin": "project_file",
     "scope": null
   },
@@ -40600,86 +40132,200 @@
     "scope": null
   },
   {
-    "ID": "c:@u8Prescaler_1",
+    "ID": "c:@u8UsedChannel_1",
     "What": "Variable",
     "defdec": "Dec",
-    "display": "u8Prescaler_1",
+    "display": "u8UsedChannel_1",
     "location": {
       "column": "16",
       "line": "25",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
-    "name": "u8Prescaler_1",
+    "name": "u8UsedChannel_1",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@u8Prescaler_1",
+    "ID": "c:@u8UsedChannel_1",
     "What": "Variable",
     "defdec": "Dec",
-    "display": "u8Prescaler_1",
+    "display": "u8UsedChannel_1",
     "location": {
       "column": "16",
       "line": "25",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
-    "name": "u8Prescaler_1",
+    "name": "u8UsedChannel_1",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@u8Prescaler_2",
+    "ID": "c:@u8UsedChannel_2",
     "What": "Variable",
     "defdec": "Dec",
-    "display": "u8Prescaler_2",
+    "display": "u8UsedChannel_2",
     "location": {
       "column": "16",
       "line": "26",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
-    "name": "u8Prescaler_2",
+    "name": "u8UsedChannel_2",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@u8Prescaler_2",
+    "ID": "c:@u8UsedChannel_2",
     "What": "Variable",
     "defdec": "Dec",
-    "display": "u8Prescaler_2",
+    "display": "u8UsedChannel_2",
     "location": {
       "column": "16",
       "line": "26",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
-    "name": "u8Prescaler_2",
+    "name": "u8UsedChannel_2",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@u8Prescaler_3",
+    "ID": "c:@u8UsedChannel_3",
     "What": "Variable",
     "defdec": "Dec",
-    "display": "u8Prescaler_3",
+    "display": "u8UsedChannel_3",
     "location": {
       "column": "16",
       "line": "27",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
-    "name": "u8Prescaler_3",
+    "name": "u8UsedChannel_3",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@u8Prescaler_3",
+    "ID": "c:@u8UsedChannel_3",
     "What": "Variable",
     "defdec": "Dec",
-    "display": "u8Prescaler_3",
+    "display": "u8UsedChannel_3",
     "location": {
       "column": "16",
       "line": "27",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
-    "name": "u8Prescaler_3",
+    "name": "u8UsedChannel_3",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@S@ChannelSet",
+    "What": "Struct",
+    "defdec": "Def",
+    "display": "ChannelSet",
+    "location": {
+      "column": "8",
+      "line": "28",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
+    },
+    "members": [
+      {
+        "ID": "c:@S@ChannelSet@FI@u8SubChannel",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "u8SubChannel",
+        "location": {
+          "column": "11",
+          "line": "29",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
+        },
+        "name": "u8SubChannel",
+        "origin": "user_include",
+        "scope": "ChannelSet"
+      },
+      {
+        "ID": "c:@S@ChannelSet@FI@u8Prescaler_1",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "u8Prescaler_1",
+        "location": {
+          "column": "10",
+          "line": "30",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
+        },
+        "name": "u8Prescaler_1",
+        "origin": "user_include",
+        "scope": "ChannelSet"
+      },
+      {
+        "ID": "c:@S@ChannelSet@FI@u8Prescaler_2",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "u8Prescaler_2",
+        "location": {
+          "column": "10",
+          "line": "31",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
+        },
+        "name": "u8Prescaler_2",
+        "origin": "user_include",
+        "scope": "ChannelSet"
+      }
+    ],
+    "name": "ChannelSet",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:general.h@T@CS",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "struct ChannelSet",
+    "location": {
+      "column": "27",
+      "line": "33",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
+    },
+    "name": "CS",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@CH1",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "CH1",
+    "location": {
+      "column": "11",
+      "line": "34",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
+    },
+    "name": "CH1",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@CH2",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "CH2",
+    "location": {
+      "column": "16",
+      "line": "34",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
+    },
+    "name": "CH2",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@CH3",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "CH3",
+    "location": {
+      "column": "21",
+      "line": "34",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
+    },
+    "name": "CH3",
     "origin": "user_include",
     "scope": null
   },
@@ -40690,7 +40336,7 @@
     "display": "bCalibratingCoefficient",
     "location": {
       "column": "15",
-      "line": "29",
+      "line": "36",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "bCalibratingCoefficient",
@@ -40710,7 +40356,7 @@
         "display": "select_mode",
         "location": {
           "column": "3",
-          "line": "32",
+          "line": "39",
           "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
         },
         "name": "select_mode",
@@ -40724,7 +40370,7 @@
         "display": "prescaler_mode",
         "location": {
           "column": "3",
-          "line": "33",
+          "line": "40",
           "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
         },
         "name": "prescaler_mode",
@@ -40738,7 +40384,7 @@
         "display": "wait",
         "location": {
           "column": "3",
-          "line": "34",
+          "line": "41",
           "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
         },
         "name": "wait",
@@ -40752,7 +40398,7 @@
         "display": "save",
         "location": {
           "column": "3",
-          "line": "35",
+          "line": "42",
           "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
         },
         "name": "save",
@@ -40766,17 +40412,31 @@
         "display": "calibrate",
         "location": {
           "column": "3",
-          "line": "36",
+          "line": "43",
           "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
         },
         "name": "calibrate",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@E@FSM@subprescaler",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "subprescaler",
+        "location": {
+          "column": "3",
+          "line": "44",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
+        },
+        "name": "subprescaler",
         "origin": "user_include",
         "scope": null
       }
     ],
     "location": {
       "column": "6",
-      "line": "31",
+      "line": "38",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "FSM",
@@ -40790,7 +40450,7 @@
     "display": "MAIN",
     "location": {
       "column": "17",
-      "line": "38",
+      "line": "46",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "MAIN",
@@ -40804,7 +40464,7 @@
     "display": "MAIN",
     "location": {
       "column": "17",
-      "line": "38",
+      "line": "46",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "MAIN",
@@ -40824,7 +40484,7 @@
         "display": "prescaler",
         "location": {
           "column": "3",
-          "line": "40",
+          "line": "48",
           "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
         },
         "name": "prescaler",
@@ -40838,7 +40498,7 @@
         "display": "select",
         "location": {
           "column": "3",
-          "line": "41",
+          "line": "49",
           "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
         },
         "name": "select",
@@ -40848,7 +40508,7 @@
     ],
     "location": {
       "column": "6",
-      "line": "39",
+      "line": "47",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "action",
@@ -40862,7 +40522,7 @@
     "display": "void vInitCLK(void)",
     "location": {
       "column": "6",
-      "line": "45",
+      "line": "53",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vInitCLK",
@@ -40876,7 +40536,7 @@
     "display": "void vInitCLK(void)",
     "location": {
       "column": "6",
-      "line": "45",
+      "line": "53",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vInitCLK",
@@ -40890,7 +40550,7 @@
     "display": "void vInitADC(void)",
     "location": {
       "column": "6",
-      "line": "46",
+      "line": "54",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vInitADC",
@@ -40904,7 +40564,7 @@
     "display": "void vInitADC(void)",
     "location": {
       "column": "6",
-      "line": "46",
+      "line": "54",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vInitADC",
@@ -40918,7 +40578,7 @@
     "display": "void vInitUART(void)",
     "location": {
       "column": "6",
-      "line": "47",
+      "line": "55",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vInitUART",
@@ -40932,7 +40592,7 @@
     "display": "void vInitUART(void)",
     "location": {
       "column": "6",
-      "line": "47",
+      "line": "55",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vInitUART",
@@ -40946,7 +40606,7 @@
     "display": "void vInitTIM4(void)",
     "location": {
       "column": "6",
-      "line": "48",
+      "line": "56",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vInitTIM4",
@@ -40960,7 +40620,7 @@
     "display": "void vInitTIM4(void)",
     "location": {
       "column": "6",
-      "line": "48",
+      "line": "56",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vInitTIM4",
@@ -40974,7 +40634,7 @@
     "display": "void vInitGPIO(void)",
     "location": {
       "column": "6",
-      "line": "49",
+      "line": "57",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vInitGPIO",
@@ -40988,7 +40648,7 @@
     "display": "void vInitGPIO(void)",
     "location": {
       "column": "6",
-      "line": "49",
+      "line": "57",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vInitGPIO",
@@ -41002,7 +40662,7 @@
     "display": "void vSelectChannel(uint8_t)",
     "location": {
       "column": "6",
-      "line": "51",
+      "line": "59",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vSelectChannel",
@@ -41016,7 +40676,7 @@
     "display": "void vSelectChannel(uint8_t)",
     "location": {
       "column": "6",
-      "line": "51",
+      "line": "59",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vSelectChannel",
@@ -41030,7 +40690,7 @@
     "display": "uint8_t u8GetMean(uint8_t *, uint8_t)",
     "location": {
       "column": "9",
-      "line": "52",
+      "line": "60",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "u8GetMean",
@@ -41044,7 +40704,7 @@
     "display": "uint8_t u8GetMean(uint8_t *, uint8_t)",
     "location": {
       "column": "9",
-      "line": "52",
+      "line": "60",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "u8GetMean",
@@ -41058,7 +40718,7 @@
     "display": "bool vUART_Transmit(uint8_t)",
     "location": {
       "column": "6",
-      "line": "54",
+      "line": "62",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vUART_Transmit",
@@ -41072,7 +40732,7 @@
     "display": "bool vUART_Transmit(uint8_t)",
     "location": {
       "column": "6",
-      "line": "54",
+      "line": "62",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vUART_Transmit",
@@ -41086,7 +40746,7 @@
     "display": "bool vUART_ArrayTransmit(uint8_t *, uint8_t)",
     "location": {
       "column": "6",
-      "line": "55",
+      "line": "63",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vUART_ArrayTransmit",
@@ -41100,7 +40760,7 @@
     "display": "bool vUART_ArrayTransmit(uint8_t *, uint8_t)",
     "location": {
       "column": "6",
-      "line": "55",
+      "line": "63",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vUART_ArrayTransmit",
@@ -41114,7 +40774,7 @@
     "display": "uint8_t u8UART_Recieve(void)",
     "location": {
       "column": "9",
-      "line": "56",
+      "line": "64",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "u8UART_Recieve",
@@ -41128,7 +40788,7 @@
     "display": "uint8_t u8UART_Recieve(void)",
     "location": {
       "column": "9",
-      "line": "56",
+      "line": "64",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "u8UART_Recieve",
@@ -41142,7 +40802,7 @@
     "display": "void vUART_SendResult(uint8_t, uint8_t)",
     "location": {
       "column": "6",
-      "line": "57",
+      "line": "65",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vUART_SendResult",
@@ -41156,7 +40816,7 @@
     "display": "void vUART_SendResult(uint8_t, uint8_t)",
     "location": {
       "column": "6",
-      "line": "57",
+      "line": "65",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vUART_SendResult",
@@ -41170,7 +40830,7 @@
     "display": "void vUpdateEEPROMConfig(uint8_t)",
     "location": {
       "column": "9",
-      "line": "59",
+      "line": "67",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vUpdateEEPROMConfig",
@@ -41184,7 +40844,7 @@
     "display": "void vUpdateEEPROMConfig(uint8_t)",
     "location": {
       "column": "9",
-      "line": "59",
+      "line": "67",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vUpdateEEPROMConfig",
@@ -41198,7 +40858,7 @@
     "display": "void vUpdateEEPROMChannel(uint8_t, uint8_t)",
     "location": {
       "column": "9",
-      "line": "60",
+      "line": "68",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vUpdateEEPROMChannel",
@@ -41212,7 +40872,7 @@
     "display": "void vUpdateEEPROMChannel(uint8_t, uint8_t)",
     "location": {
       "column": "9",
-      "line": "60",
+      "line": "68",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vUpdateEEPROMChannel",
@@ -41226,21 +40886,7 @@
     "display": "uint8_t u8GetPrescaler(uint8_t)",
     "location": {
       "column": "9",
-      "line": "61",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
-    },
-    "name": "u8GetPrescaler",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@u8GetPrescaler",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "uint8_t u8GetPrescaler(uint8_t)",
-    "location": {
-      "column": "9",
-      "line": "61",
+      "line": "69",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "u8GetPrescaler",
@@ -41254,7 +40900,7 @@
     "display": "void vUploadValueEEPROM(uint8_t *, uint8_t *, uint8_t *, uint8_t *)",
     "location": {
       "column": "9",
-      "line": "62",
+      "line": "70",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vUploadValueEEPROM",
@@ -41268,7 +40914,7 @@
     "display": "void vUploadValueEEPROM(uint8_t *, uint8_t *, uint8_t *, uint8_t *)",
     "location": {
       "column": "9",
-      "line": "62",
+      "line": "70",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vUploadValueEEPROM",
@@ -41282,7 +40928,7 @@
     "display": "enum action eGetAction(void)",
     "location": {
       "column": "13",
-      "line": "64",
+      "line": "72",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "eGetAction",
@@ -41296,7 +40942,7 @@
     "display": "void vSelectChannel(uint8_t)",
     "location": {
       "column": "6",
-      "line": "65",
+      "line": "73",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vSelectChannel",
@@ -41310,7 +40956,7 @@
     "display": "void vSelectChannel(uint8_t)",
     "location": {
       "column": "6",
-      "line": "65",
+      "line": "73",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vSelectChannel",
@@ -41324,7 +40970,7 @@
     "display": "void vGetMultiplex(uint8_t *, uint8_t)",
     "location": {
       "column": "6",
-      "line": "67",
+      "line": "75",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vGetMultiplex",
@@ -41338,7 +40984,7 @@
     "display": "void vGetMultiplex(uint8_t *, uint8_t)",
     "location": {
       "column": "6",
-      "line": "67",
+      "line": "75",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vGetMultiplex",
@@ -41352,7 +40998,7 @@
     "display": "void vSetRulesMul(uint8_t *)",
     "location": {
       "column": "6",
-      "line": "68",
+      "line": "76",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vSetRulesMul",
@@ -41366,7 +41012,7 @@
     "display": "void vSetRulesMul(uint8_t *)",
     "location": {
       "column": "6",
-      "line": "68",
+      "line": "76",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vSetRulesMul",
@@ -41380,21 +41026,7 @@
     "display": "void vSetPrescaler(uint8_t, uint8_t)",
     "location": {
       "column": "6",
-      "line": "70",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
-    },
-    "name": "vSetPrescaler",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@vSetPrescaler",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void vSetPrescaler(uint8_t, uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "70",
+      "line": "78",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vSetPrescaler",
@@ -41408,7 +41040,7 @@
     "display": "void vGetCalibrate(uint8_t)",
     "location": {
       "column": "6",
-      "line": "72",
+      "line": "80",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vGetCalibrate",
@@ -41422,7 +41054,7 @@
     "display": "void vGetCalibrate(uint8_t)",
     "location": {
       "column": "6",
-      "line": "72",
+      "line": "80",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vGetCalibrate",
@@ -41433,10 +41065,10 @@
     "ID": "c:@F@dGetCalibratingCoefficient",
     "What": "Function",
     "defdec": "Dec",
-    "display": "double dGetCalibratingCoefficient(uint8_t)",
+    "display": "double dGetCalibratingCoefficient(uint8_t, uint8_t)",
     "location": {
       "column": "8",
-      "line": "73",
+      "line": "81",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "dGetCalibratingCoefficient",
@@ -41447,13 +41079,537 @@
     "ID": "c:@F@dGetCalibratingCoefficient",
     "What": "Function",
     "defdec": "Dec",
-    "display": "double dGetCalibratingCoefficient(uint8_t)",
+    "display": "double dGetCalibratingCoefficient(uint8_t, uint8_t)",
     "location": {
       "column": "8",
-      "line": "73",
+      "line": "81",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "dGetCalibratingCoefficient",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vExportData",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void vExportData(void)",
+    "location": {
+      "column": "8",
+      "line": "82",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
+    },
+    "name": "vExportData",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vExportData",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void vExportData(void)",
+    "location": {
+      "column": "8",
+      "line": "82",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
+    },
+    "name": "vExportData",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vSelechSub",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void vSelechSub(uint8_t, uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "83",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
+    },
+    "name": "vSelechSub",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vSelechSub",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void vSelechSub(uint8_t, uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "83",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
+    },
+    "name": "vSelechSub",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ITC_GetCPUCC",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "uint8_t ITC_GetCPUCC(void)",
+    "location": {
+      "column": "9",
+      "line": "50",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\src\\stm8s_itc.c"
+    },
+    "name": "ITC_GetCPUCC",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ITC_DeInit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void ITC_DeInit(void)",
+    "location": {
+      "column": "6",
+      "line": "81",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\src\\stm8s_itc.c"
+    },
+    "name": "ITC_DeInit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ITC_GetSoftIntStatus",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "uint8_t ITC_GetSoftIntStatus(void)",
+    "location": {
+      "column": "9",
+      "line": "98",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\src\\stm8s_itc.c"
+    },
+    "name": "ITC_GetSoftIntStatus",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ITC_GetSoftwarePriority",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "ITC_PriorityLevel_TypeDef ITC_GetSoftwarePriority(ITC_Irq_TypeDef)",
+    "location": {
+      "column": "27",
+      "line": "108",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\src\\stm8s_itc.c"
+    },
+    "name": "ITC_GetSoftwarePriority",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_itc.c@3601@F@ITC_GetSoftwarePriority@Value",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "Value",
+    "location": {
+      "column": "11",
+      "line": "110",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\src\\stm8s_itc.c"
+    },
+    "name": "Value",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_itc.c@3623@F@ITC_GetSoftwarePriority@Mask",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "Mask",
+    "location": {
+      "column": "11",
+      "line": "111",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\src\\stm8s_itc.c"
+    },
+    "name": "Mask",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ITC_SetSoftwarePriority",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void ITC_SetSoftwarePriority(ITC_Irq_TypeDef, ITC_PriorityLevel_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "221",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\src\\stm8s_itc.c"
+    },
+    "name": "ITC_SetSoftwarePriority",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_itc.c@7544@F@ITC_SetSoftwarePriority@Mask",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "Mask",
+    "location": {
+      "column": "11",
+      "line": "223",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\src\\stm8s_itc.c"
+    },
+    "name": "Mask",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_itc.c@7565@F@ITC_SetSoftwarePriority@NewPriority",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "NewPriority",
+    "location": {
+      "column": "11",
+      "line": "224",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\src\\stm8s_itc.c"
+    },
+    "name": "NewPriority",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_exti.h@1289@macro@__STM8S_EXTI_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__STM8S_EXTI_H",
+    "location": {
+      "column": "9",
+      "line": "30",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+    },
+    "name": "__STM8S_EXTI_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@EXTI_Sensitivity_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@EXTI_Sensitivity_TypeDef@EXTI_SENSITIVITY_FALL_LOW",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "EXTI_SENSITIVITY_FALL_LOW",
+        "location": {
+          "column": "3",
+          "line": "45",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+        },
+        "name": "EXTI_SENSITIVITY_FALL_LOW",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@EXTI_Sensitivity_TypeDef@EXTI_SENSITIVITY_RISE_ONLY",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "EXTI_SENSITIVITY_RISE_ONLY",
+        "location": {
+          "column": "3",
+          "line": "46",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+        },
+        "name": "EXTI_SENSITIVITY_RISE_ONLY",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@EXTI_Sensitivity_TypeDef@EXTI_SENSITIVITY_FALL_ONLY",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "EXTI_SENSITIVITY_FALL_ONLY",
+        "location": {
+          "column": "3",
+          "line": "47",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+        },
+        "name": "EXTI_SENSITIVITY_FALL_ONLY",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@EXTI_Sensitivity_TypeDef@EXTI_SENSITIVITY_RISE_FALL",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "EXTI_SENSITIVITY_RISE_FALL",
+        "location": {
+          "column": "3",
+          "line": "48",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+        },
+        "name": "EXTI_SENSITIVITY_RISE_FALL",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "44",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@EXTI_TLISensitivity_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@EXTI_TLISensitivity_TypeDef@EXTI_TLISENSITIVITY_FALL_ONLY",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "EXTI_TLISENSITIVITY_FALL_ONLY",
+        "location": {
+          "column": "3",
+          "line": "55",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+        },
+        "name": "EXTI_TLISENSITIVITY_FALL_ONLY",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@EXTI_TLISensitivity_TypeDef@EXTI_TLISENSITIVITY_RISE_ONLY",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "EXTI_TLISENSITIVITY_RISE_ONLY",
+        "location": {
+          "column": "3",
+          "line": "56",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+        },
+        "name": "EXTI_TLISENSITIVITY_RISE_ONLY",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "54",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@EXTI_Port_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@EXTI_Port_TypeDef@EXTI_PORT_GPIOA",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "EXTI_PORT_GPIOA",
+        "location": {
+          "column": "3",
+          "line": "63",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+        },
+        "name": "EXTI_PORT_GPIOA",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@EXTI_Port_TypeDef@EXTI_PORT_GPIOB",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "EXTI_PORT_GPIOB",
+        "location": {
+          "column": "3",
+          "line": "64",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+        },
+        "name": "EXTI_PORT_GPIOB",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@EXTI_Port_TypeDef@EXTI_PORT_GPIOC",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "EXTI_PORT_GPIOC",
+        "location": {
+          "column": "3",
+          "line": "65",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+        },
+        "name": "EXTI_PORT_GPIOC",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@EXTI_Port_TypeDef@EXTI_PORT_GPIOD",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "EXTI_PORT_GPIOD",
+        "location": {
+          "column": "3",
+          "line": "66",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+        },
+        "name": "EXTI_PORT_GPIOD",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@EXTI_Port_TypeDef@EXTI_PORT_GPIOE",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "EXTI_PORT_GPIOE",
+        "location": {
+          "column": "3",
+          "line": "67",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+        },
+        "name": "EXTI_PORT_GPIOE",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "62",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_exti.h@2992@macro@IS_EXTI_SENSITIVITY_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_EXTI_SENSITIVITY_OK",
+    "location": {
+      "column": "9",
+      "line": "83",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+    },
+    "name": "IS_EXTI_SENSITIVITY_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_exti.h@3399@macro@IS_EXTI_TLISENSITIVITY_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_EXTI_TLISENSITIVITY_OK",
+    "location": {
+      "column": "9",
+      "line": "92",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+    },
+    "name": "IS_EXTI_TLISENSITIVITY_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_exti.h@3680@macro@IS_EXTI_PORT_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_EXTI_PORT_OK",
+    "location": {
+      "column": "9",
+      "line": "99",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+    },
+    "name": "IS_EXTI_PORT_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_exti.h@4009@macro@IS_EXTI_PINMASK_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_EXTI_PINMASK_OK",
+    "location": {
+      "column": "9",
+      "line": "109",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+    },
+    "name": "IS_EXTI_PINMASK_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@EXTI_DeInit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void EXTI_DeInit(void)",
+    "location": {
+      "column": "6",
+      "line": "121",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+    },
+    "name": "EXTI_DeInit",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@EXTI_SetExtIntSensitivity",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void EXTI_SetExtIntSensitivity(EXTI_Port_TypeDef, EXTI_Sensitivity_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "122",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+    },
+    "name": "EXTI_SetExtIntSensitivity",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@EXTI_SetTLISensitivity",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void EXTI_SetTLISensitivity(EXTI_TLISensitivity_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "123",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+    },
+    "name": "EXTI_SetTLISensitivity",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@EXTI_GetExtIntSensitivity",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "EXTI_Sensitivity_TypeDef EXTI_GetExtIntSensitivity(EXTI_Port_TypeDef)",
+    "location": {
+      "column": "26",
+      "line": "124",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+    },
+    "name": "EXTI_GetExtIntSensitivity",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@EXTI_GetTLISensitivity",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "EXTI_TLISensitivity_TypeDef EXTI_GetTLISensitivity(void)",
+    "location": {
+      "column": "29",
+      "line": "125",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+    },
+    "name": "EXTI_GetTLISensitivity",
     "origin": "user_include",
     "scope": null
   },
@@ -55652,6 +55808,188 @@
     "scope": null
   },
   {
+    "ID": "c:@bCalibratingCoefficient",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "bCalibratingCoefficient",
+    "location": {
+      "column": "8",
+      "line": "2",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\calibrate.c"
+    },
+    "name": "bCalibratingCoefficient",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vGetCalibrate",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void vGetCalibrate(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "4",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\calibrate.c"
+    },
+    "name": "vGetCalibrate",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:calibrate.c@235@F@vGetCalibrate@u8Subnumber",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "u8Subnumber",
+    "location": {
+      "column": "11",
+      "line": "8",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\calibrate.c"
+    },
+    "name": "u8Subnumber",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:calibrate.c@472@F@vGetCalibrate@u8WholePart",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "u8WholePart",
+    "location": {
+      "column": "11",
+      "line": "14",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\calibrate.c"
+    },
+    "name": "u8WholePart",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:calibrate.c@587@F@vGetCalibrate@u8FraqtionalPart",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "u8FraqtionalPart",
+    "location": {
+      "column": "11",
+      "line": "16",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\calibrate.c"
+    },
+    "name": "u8FraqtionalPart",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:calibrate.c@671@F@vGetCalibrate@dEthValue",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "dEthValue",
+    "location": {
+      "column": "10",
+      "line": "18",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\calibrate.c"
+    },
+    "name": "dEthValue",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:calibrate.c@761@F@vGetCalibrate@u8LastChannelLocal",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "u8LastChannelLocal",
+    "location": {
+      "column": "11",
+      "line": "20",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\calibrate.c"
+    },
+    "name": "u8LastChannelLocal",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:calibrate.c@841@F@vGetCalibrate@u32LocalSum",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "u32LocalSum",
+    "location": {
+      "column": "12",
+      "line": "22",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\calibrate.c"
+    },
+    "name": "u32LocalSum",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:calibrate.c@877@F@vGetCalibrate@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "15",
+      "line": "23",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\calibrate.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:calibrate.c@947@F@vGetCalibrate@u8Mean",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "u8Mean",
+    "location": {
+      "column": "9",
+      "line": "26",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\calibrate.c"
+    },
+    "name": "u8Mean",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:calibrate.c@1023@F@vGetCalibrate@u8DebugIndex",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "u8DebugIndex",
+    "location": {
+      "column": "11",
+      "line": "28",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\calibrate.c"
+    },
+    "name": "u8DebugIndex",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@dGetCalibratingCoefficient",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "double dGetCalibratingCoefficient(uint8_t, uint8_t)",
+    "location": {
+      "column": "8",
+      "line": "32",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\calibrate.c"
+    },
+    "name": "dGetCalibratingCoefficient",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vSelechSub",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void vSelechSub(uint8_t, uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "36",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\calibrate.c"
+    },
+    "name": "vSelechSub",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@vInitCLK",
     "What": "Function",
     "defdec": "Def",
@@ -55764,146 +56102,6 @@
     "scope": null
   },
   {
-    "ID": "c:@bCalibratingCoefficient",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "bCalibratingCoefficient",
-    "location": {
-      "column": "8",
-      "line": "2",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\calibrate.c"
-    },
-    "name": "bCalibratingCoefficient",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@vGetCalibrate",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void vGetCalibrate(uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "4",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\calibrate.c"
-    },
-    "name": "vGetCalibrate",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:calibrate.c@311@F@vGetCalibrate@u8WholePart",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "u8WholePart",
-    "location": {
-      "column": "11",
-      "line": "9",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\calibrate.c"
-    },
-    "name": "u8WholePart",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:calibrate.c@426@F@vGetCalibrate@u8FraqtionalPart",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "u8FraqtionalPart",
-    "location": {
-      "column": "11",
-      "line": "11",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\calibrate.c"
-    },
-    "name": "u8FraqtionalPart",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:calibrate.c@510@F@vGetCalibrate@dEthValue",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "dEthValue",
-    "location": {
-      "column": "10",
-      "line": "13",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\calibrate.c"
-    },
-    "name": "dEthValue",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:calibrate.c@600@F@vGetCalibrate@u8LastChannelLocal",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "u8LastChannelLocal",
-    "location": {
-      "column": "11",
-      "line": "15",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\calibrate.c"
-    },
-    "name": "u8LastChannelLocal",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:calibrate.c@680@F@vGetCalibrate@u32LocalSum",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "u32LocalSum",
-    "location": {
-      "column": "12",
-      "line": "17",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\calibrate.c"
-    },
-    "name": "u32LocalSum",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:calibrate.c@716@F@vGetCalibrate@i",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "i",
-    "location": {
-      "column": "15",
-      "line": "18",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\calibrate.c"
-    },
-    "name": "i",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:calibrate.c@786@F@vGetCalibrate@u8Mean",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "u8Mean",
-    "location": {
-      "column": "9",
-      "line": "21",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\calibrate.c"
-    },
-    "name": "u8Mean",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@dGetCalibratingCoefficient",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "double dGetCalibratingCoefficient(uint8_t)",
-    "location": {
-      "column": "8",
-      "line": "26",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\calibrate.c"
-    },
-    "name": "dGetCalibratingCoefficient",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
     "ID": "c:@u8CurrentChannel",
     "What": "Variable",
     "defdec": "Def",
@@ -55918,41 +56116,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@u8ChannelPrescale",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "u8ChannelPrescale",
-    "location": {
-      "column": "16",
-      "line": "5",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\main.c"
-    },
-    "name": "u8ChannelPrescale",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@u8Prescaler",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "u8Prescaler",
-    "location": {
-      "column": "16",
-      "line": "6",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\main.c"
-    },
-    "name": "u8Prescaler",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
     "ID": "c:@MAIN",
     "What": "Variable",
     "defdec": "Def",
     "display": "MAIN",
     "location": {
       "column": "10",
-      "line": "7",
+      "line": "5",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\main.c"
     },
     "name": "MAIN",
@@ -55966,7 +56136,7 @@
     "display": "void SysInit(void)",
     "location": {
       "column": "6",
-      "line": "9",
+      "line": "7",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\main.c"
     },
     "name": "SysInit",
@@ -55980,7 +56150,7 @@
     "display": "void main(void)",
     "location": {
       "column": "6",
-      "line": "20",
+      "line": "18",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\main.c"
     },
     "name": "main",
@@ -55988,13 +56158,41 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1804@F@main@u8CalibratedChannel",
+    "ID": "c:main.c@655@F@main@u8Channel",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "u8Channel",
+    "location": {
+      "column": "17",
+      "line": "30",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\main.c"
+    },
+    "name": "u8Channel",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@655@F@main@u8Subchannel",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "u8Subchannel",
+    "location": {
+      "column": "28",
+      "line": "30",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\main.c"
+    },
+    "name": "u8Subchannel",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@1608@F@main@u8CalibratedChannel",
     "What": "Variable",
     "defdec": "Def",
     "display": "u8CalibratedChannel",
     "location": {
       "column": "15",
-      "line": "63",
+      "line": "65",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\main.c"
     },
     "name": "u8CalibratedChannel",
@@ -56008,7 +56206,7 @@
     "display": "void assert_failed(u8 *, u32)",
     "location": {
       "column": "6",
-      "line": "73",
+      "line": "76",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\main.c"
     },
     "name": "assert_failed",
@@ -56128,13 +56326,27 @@
     "scope": null
   },
   {
-    "ID": "c:output.c@1029@F@vUART_SendResult@dResult",
+    "ID": "c:output.c@1029@F@vUART_SendResult@dCoeff",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "dCoeff",
+    "location": {
+      "column": "10",
+      "line": "42",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
+    },
+    "name": "dCoeff",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:output.c@1543@F@vUART_SendResult@dResult",
     "What": "Variable",
     "defdec": "Def",
     "display": "dResult",
     "location": {
       "column": "10",
-      "line": "42",
+      "line": "71",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
     },
     "name": "dResult",
@@ -56142,13 +56354,13 @@
     "scope": null
   },
   {
-    "ID": "c:output.c@1098@F@vUART_SendResult@dFirst",
+    "ID": "c:output.c@1580@F@vUART_SendResult@dFirst",
     "What": "Variable",
     "defdec": "Def",
     "display": "dFirst",
     "location": {
       "column": "10",
-      "line": "43",
+      "line": "72",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
     },
     "name": "dFirst",
@@ -56156,13 +56368,13 @@
     "scope": null
   },
   {
-    "ID": "c:output.c@1098@F@vUART_SendResult@dSecond",
+    "ID": "c:output.c@1580@F@vUART_SendResult@dSecond",
     "What": "Variable",
     "defdec": "Dec",
     "display": "dSecond",
     "location": {
       "column": "18",
-      "line": "43",
+      "line": "72",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
     },
     "name": "dSecond",
@@ -56170,13 +56382,13 @@
     "scope": null
   },
   {
-    "ID": "c:output.c@1167@F@vUART_SendResult@u8FirstDigit",
+    "ID": "c:output.c@1649@F@vUART_SendResult@u8FirstDigit",
     "What": "Variable",
     "defdec": "Def",
     "display": "u8FirstDigit",
     "location": {
       "column": "11",
-      "line": "45",
+      "line": "74",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
     },
     "name": "u8FirstDigit",
@@ -56184,13 +56396,13 @@
     "scope": null
   },
   {
-    "ID": "c:output.c@1217@F@vUART_SendResult@u8SecondDigit",
+    "ID": "c:output.c@1699@F@vUART_SendResult@u8SecondDigit",
     "What": "Variable",
     "defdec": "Def",
     "display": "u8SecondDigit",
     "location": {
       "column": "11",
-      "line": "46",
+      "line": "75",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
     },
     "name": "u8SecondDigit",
@@ -56198,13 +56410,13 @@
     "scope": null
   },
   {
-    "ID": "c:output.c@1269@F@vUART_SendResult@u8aResultArray",
+    "ID": "c:output.c@1751@F@vUART_SendResult@u8aResultArray",
     "What": "Variable",
     "defdec": "Def",
     "display": "u8aResultArray",
     "location": {
       "column": "11",
-      "line": "47",
+      "line": "76",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
     },
     "name": "u8aResultArray",
@@ -56218,7 +56430,7 @@
     "display": "void UART1_RX_IRQHandler(void)",
     "location": {
       "column": "1",
-      "line": "69",
+      "line": "97",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
     },
     "name": "UART1_RX_IRQHandler",
@@ -56226,13 +56438,13 @@
     "scope": null
   },
   {
-    "ID": "c:output.c@1949@F@UART1_RX_IRQHandler@u8RecievedCommand",
+    "ID": "c:output.c@2395@F@UART1_RX_IRQHandler@u8RecievedCommand",
     "What": "Variable",
     "defdec": "Def",
     "display": "u8RecievedCommand",
     "location": {
       "column": "11",
-      "line": "71",
+      "line": "99",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
     },
     "name": "u8RecievedCommand",
@@ -56296,44 +56508,86 @@
     "scope": null
   },
   {
-    "ID": "c:@u8Prescaler_1",
+    "ID": "c:@u8UsedChannel_1",
     "What": "Variable",
     "defdec": "Def",
-    "display": "u8Prescaler_1",
+    "display": "u8UsedChannel_1",
     "location": {
       "column": "9",
       "line": "7",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\general.c"
     },
-    "name": "u8Prescaler_1",
+    "name": "u8UsedChannel_1",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:@u8Prescaler_2",
+    "ID": "c:@u8UsedChannel_2",
     "What": "Variable",
     "defdec": "Def",
-    "display": "u8Prescaler_2",
+    "display": "u8UsedChannel_2",
     "location": {
       "column": "9",
       "line": "8",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\general.c"
     },
-    "name": "u8Prescaler_2",
+    "name": "u8UsedChannel_2",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:@u8Prescaler_3",
+    "ID": "c:@u8UsedChannel_3",
     "What": "Variable",
     "defdec": "Def",
-    "display": "u8Prescaler_3",
+    "display": "u8UsedChannel_3",
     "location": {
       "column": "9",
       "line": "9",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\general.c"
     },
-    "name": "u8Prescaler_3",
+    "name": "u8UsedChannel_3",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@CH1",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "CH1",
+    "location": {
+      "column": "4",
+      "line": "10",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\general.c"
+    },
+    "name": "CH1",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@CH2",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "CH2",
+    "location": {
+      "column": "9",
+      "line": "10",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\general.c"
+    },
+    "name": "CH2",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@CH3",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "CH3",
+    "location": {
+      "column": "14",
+      "line": "10",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\general.c"
+    },
+    "name": "CH3",
     "origin": "project_file",
     "scope": null
   },
@@ -56344,7 +56598,7 @@
     "display": "PRESCALER_1",
     "location": {
       "column": "10",
-      "line": "11",
+      "line": "12",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\general.c"
     },
     "name": "PRESCALER_1",
@@ -56358,7 +56612,7 @@
     "display": "PRESCALER_2",
     "location": {
       "column": "10",
-      "line": "12",
+      "line": "13",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\general.c"
     },
     "name": "PRESCALER_2",
@@ -56372,7 +56626,7 @@
     "display": "PRESCALER_3",
     "location": {
       "column": "10",
-      "line": "13",
+      "line": "14",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\general.c"
     },
     "name": "PRESCALER_3",
@@ -56386,7 +56640,7 @@
     "display": "CONFIGURATION",
     "location": {
       "column": "10",
-      "line": "14",
+      "line": "15",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\general.c"
     },
     "name": "CONFIGURATION",
@@ -56400,7 +56654,7 @@
     "display": "void TIM4_UPD_OVF_IRQHandler(void)",
     "location": {
       "column": "1",
-      "line": "24",
+      "line": "25",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\general.c"
     },
     "name": "TIM4_UPD_OVF_IRQHandler",
@@ -56414,10 +56668,24 @@
     "display": "void ADC1_IRQHandler(void)",
     "location": {
       "column": "1",
-      "line": "32",
+      "line": "33",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\general.c"
     },
     "name": "ADC1_IRQHandler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vExportData",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void vExportData(void)",
+    "location": {
+      "column": "6",
+      "line": "45",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\general.c"
+    },
+    "name": "vExportData",
     "origin": "project_file",
     "scope": null
   },
@@ -56475,34 +56743,6 @@
     },
     "name": "u8aStartMessage",
     "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@vSetPrescaler",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void vSetPrescaler(uint8_t, uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "3",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\prescale.c"
-    },
-    "name": "vSetPrescaler",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@u8GetPrescaler",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "uint8_t u8GetPrescaler(uint8_t)",
-    "location": {
-      "column": "9",
-      "line": "29",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\prescale.c"
-    },
-    "name": "u8GetPrescaler",
-    "origin": "project_file",
     "scope": null
   }
 ]

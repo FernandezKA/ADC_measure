@@ -22,18 +22,26 @@ extern uint8_t u8BuffMeasure[100U];
 //extern uint8_t u8CurrentChannel;
 extern uint8_t u8CurrentConfigurateADC;
 extern uint8_t u8LastChannel;
-extern uint8_t u8Prescaler_1;
-extern uint8_t u8Prescaler_2;
-extern uint8_t u8Prescaler_3;
+extern uint8_t u8UsedChannel_1;
+extern uint8_t u8UsedChannel_2;
+extern uint8_t u8UsedChannel_3;
+struct ChannelSet{
+  uint8_t u8SubChannel;
+  double u8Prescaler_1;
+  double u8Prescaler_2;
+};
+typedef struct ChannelSet CS;
+extern CS CH1, CH2, CH3;
 //Calibrate
-extern double bCalibratingCoefficient[3];
+extern double bCalibratingCoefficient[6];
 //FSM for rules device
 enum FSM{
   select_mode = 0,
   prescaler_mode = 1,
   wait = 2, 
   save = 3,
-  calibrate = 4
+  calibrate = 4, 
+  subprescaler = 5
 };
 extern enum FSM MAIN;
 enum action{
@@ -70,6 +78,8 @@ void vSetRulesMul(uint8_t* pu8RulseVariable);
 void vSetPrescaler(uint8_t u8Channel, uint8_t u8Prescaler);
 //Calibrated
 void vGetCalibrate(uint8_t u8ChannelNum);
-double dGetCalibratingCoefficient(uint8_t u8Channel);
+double dGetCalibratingCoefficient(uint8_t u8Channel, uint8_t u8Subnumber);
+void   vExportData(void);
+void vSelechSub(uint8_t u8Channel, uint8_t u8Subchannel);
 #endif 
 

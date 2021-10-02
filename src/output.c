@@ -39,7 +39,36 @@ uint8_t u8UART_Recieve(void)
 }
 //This function send formated text with result at UART
 void vUART_SendResult(uint8_t u8Channel,uint8_t u8Result){
-  double dResult = u8Result*bCalibratingCoefficient[u8Channel - 2];
+  double dCoeff = 0;
+  switch(u8Channel){
+  case 2:
+    if(CH1.u8SubChannel == 0) {
+      dCoeff = CH1.u8Prescaler_1;
+    }
+    else{
+      dCoeff = CH1.u8Prescaler_2;
+    }
+    break;
+    
+  case 3:
+    if(CH2.u8SubChannel == 0) {
+      dCoeff = CH2.u8Prescaler_1;
+    }
+    else{
+      dCoeff = CH2.u8Prescaler_2;
+    }
+    break;
+    
+  case 4:
+    if(CH3.u8SubChannel == 0) {
+      dCoeff = CH3.u8Prescaler_1;
+    }
+    else{
+      dCoeff = CH3.u8Prescaler_2;
+    }
+    break;
+  }
+  double dResult = u8Result*dCoeff;
   double dFirst, dSecond;
   dSecond = modf(dResult, &dFirst) * 10;
   uint8_t u8FirstDigit =(uint8_t) dFirst + 0x30;
@@ -49,7 +78,7 @@ void vUART_SendResult(uint8_t u8Channel,uint8_t u8Result){
   u8aResultArray[1]= 'h';
   u8aResultArray[2]= '.';
   u8aResultArray[3]= '#';
-  u8aResultArray[4]= u8Channel + 0x30U;
+  u8aResultArray[4]= u8Channel + 0x30;
   u8aResultArray[5]= ',';
   u8aResultArray[6]= ' ';
   u8aResultArray[7]= 'v';
@@ -63,7 +92,6 @@ void vUART_SendResult(uint8_t u8Channel,uint8_t u8Result){
   u8aResultArray[15]= u8SecondDigit;
   u8aResultArray[16]= '\r';
   vUART_ArrayTransmit(u8aResultArray, 17);
-  //vUART_Transmit(u8FirstDigit);
 }
 //uart IRQ HANDLER
 INTERRUPT_HANDLER(UART1_RX_IRQHandler, 18)
@@ -84,6 +112,9 @@ INTERRUPT_HANDLER(UART1_RX_IRQHandler, 18)
     break;
   case 'c':
     MAIN = calibrate;
+    break;
+  case 'a':
+    MAIN = subprescaler;
     break;
   default:
     MAIN = wait;

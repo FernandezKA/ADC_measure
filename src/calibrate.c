@@ -1,7 +1,12 @@
 #include "general.h"
-double bCalibratingCoefficient[3];
+double bCalibratingCoefficient[6];
 //This function get calibrating device
 void vGetCalibrate(uint8_t u8ChannelNum){
+  //Get info
+   vUART_ArrayTransmit("Enter subnumber\n\r", 17);
+  //Enter channel number
+  uint8_t u8Subnumber = u8UART_Recieve() - 0x30;
+  //Enter voltage
   vUART_ArrayTransmit("Enter measured voltage\n\r", 24);
   vUART_ArrayTransmit("In form xx, x \n\r", 16);
   //2 gidit of whole, 1 digit of fraq
@@ -20,14 +25,26 @@ void vGetCalibrate(uint8_t u8ChannelNum){
   }
   float u8Mean = u32LocalSum/0x40U;
   vSelectChannel(u8LastChannelLocal);
-  bCalibratingCoefficient[u8ChannelNum - 1] =  dEthValue / u8Mean;
+  uint8_t u8DebugIndex = (u8ChannelNum * 2) - 2 + u8Subnumber;
+  bCalibratingCoefficient[u8DebugIndex] =  dEthValue / u8Mean;
 }
 //This function return calibrating value for current channel
-double dGetCalibratingCoefficient(uint8_t u8Channel){
-  if(u8Channel < 0x03){
-    return bCalibratingCoefficient[u8Channel - 1];
-  }
-  else{
-    return 1;
+double dGetCalibratingCoefficient(uint8_t u8Channel, uint8_t u8Subnumber){
+  return bCalibratingCoefficient[(u8Channel *2) - 2 + u8Subnumber];
+}
+//This function select subchannel
+void vSelechSub(uint8_t u8Channel, uint8_t u8Subchannel){
+  switch(u8Channel){
+  case 1:
+    CH1.u8SubChannel = u8Subchannel;
+    break;
+    
+  case 2:
+    CH2.u8SubChannel = u8Subchannel;
+    break;
+    
+  case 3:
+    CH3.u8SubChannel = u8Subchannel;
+    break;
   }
 }

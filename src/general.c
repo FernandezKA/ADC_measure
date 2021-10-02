@@ -4,9 +4,10 @@ uint8_t u8CountMeasure;
 uint8_t u8BuffMeasure[100U];
 uint8_t u8CurrentConfigurateADC = 1;
 uint8_t u8LastChannel = 2;
-uint8_t u8Prescaler_1 = 1;
-uint8_t u8Prescaler_2 = 1;
-uint8_t u8Prescaler_3 = 1;
+uint8_t u8UsedChannel_1 = 0;
+uint8_t u8UsedChannel_2 = 0;
+uint8_t u8UsedChannel_3 = 0;
+CS CH1, CH2, CH3;
 //Definitions EEPROM regions for constants
 uint32_t PRESCALER_1 =   0x4000;
 uint32_t PRESCALER_2 =   0x4010;
@@ -39,4 +40,13 @@ INTERRUPT_HANDLER(ADC1_IRQHandler, 22)
         vGetMultiplex(&u8LastChannel, u8CurrentConfigurateADC);
   }
   ADC1_ClearITPendingBit(ADC1_IT_EOC);
+}
+
+void vExportData(void){
+  CH1.u8Prescaler_1 = bCalibratingCoefficient[0];
+  CH1.u8Prescaler_2 = bCalibratingCoefficient[1];
+  CH2.u8Prescaler_1 = bCalibratingCoefficient[2];
+  CH2.u8Prescaler_2 = bCalibratingCoefficient[3];
+  CH3.u8Prescaler_1 = bCalibratingCoefficient[4];
+  CH3.u8Prescaler_2 = bCalibratingCoefficient[5];
 }
