@@ -7,11 +7,11 @@
 uint8_t u8GetMean(uint8_t *data, uint8_t u8Channel)
 {
   uint32_t u32SumValue = 0;
-  for (uint8_t i = 0; i < 100; i++)
+  for (uint8_t i = 0; i < SAMPLES; i++)
   {
     u32SumValue += data[i];
   }
-  uint8_t u8Result = u32SumValue / 100;
+  uint8_t u8Result = u32SumValue / SAMPLES;
   return u8Result;
 }
 //This function configure channel

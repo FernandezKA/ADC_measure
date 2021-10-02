@@ -109,14 +109,17 @@ INTERRUPT_HANDLER(UART1_RX_IRQHandler, 18)
   case 'w':
     MAIN = wait;
     break;
-  case 's':
+  case 'b':
     MAIN = save;
     break;
   case 'c':
     MAIN = calibrate;
     break;
-  case 'a':
+  case 's':
     MAIN = subprescaler;
+    break;
+  case 'h':
+    MAIN = help;
     break;
   default:
     MAIN = wait;
@@ -128,7 +131,13 @@ INTERRUPT_HANDLER(UART1_RX_IRQHandler, 18)
 uint8_t u8GetDigit(void){
   uint8_t u8EnteredChar = u8UART_Recieve();
   while(u8EnteredChar < 0x30 || u8EnteredChar > 0x39){
+    vUART_ArrayTransmit("Wrong symbol\n\r", 14);
     u8EnteredChar = u8UART_Recieve();
   }
   return u8EnteredChar - 0x30;
+}
+//This function print help
+void vPrintHelp(void){
+  vUART_ArrayTransmit("This is help page\n\r", 19);
+  vUART_ArrayTransmit("Available commands:c-calibrate,m-set mode,s-set prescaler,h-help,b-backup\n\r", 75);
 }

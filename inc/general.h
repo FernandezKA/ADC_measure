@@ -4,6 +4,7 @@
 #define TIM4_UPD_OVF_IRQ
 #define ADC1_IRQ
 #define UART1_RX_IRQ
+#define SAMPLES 200
 //#define DEBUG 
 
 #include "stm8s_conf.h"
@@ -18,7 +19,7 @@ extern uint32_t PRESCALER_3;
 extern uint32_t CONFIGURATION;
 //User constant
 extern uint8_t u8CountMeasure;
-extern uint8_t u8BuffMeasure[100U];
+extern uint8_t u8BuffMeasure[SAMPLES];
 //extern uint8_t u8CurrentChannel;
 extern uint8_t u8CurrentConfigurateADC;
 extern uint8_t u8LastChannel;
@@ -40,7 +41,8 @@ enum FSM{
   wait, 
   save,
   calibrate, 
-  subprescaler
+  subprescaler, 
+  help
 };
 extern enum FSM MAIN;
 /*enum action{
@@ -82,5 +84,6 @@ void   vExportData(void);
 void vSelechSub(uint8_t u8Channel, uint8_t u8Subchannel);
 //Input data
 uint8_t u8GetDigit(void);
+void vPrintHelp(void);
 #endif 
 

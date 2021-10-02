@@ -51,7 +51,11 @@ void main(void)
       asm("nop");
       MAIN = wait;
     break;
-      
+    
+    case help:
+      vPrintHelp();
+      MAIN = wait;
+      break;
     case calibrate:
       asm("sim");
       vUART_ArrayTransmit("Enter number of channel: \n\r", 27);

@@ -1,7 +1,7 @@
 #include "general.h"
 //User variables
 uint8_t u8CountMeasure;
-uint8_t u8BuffMeasure[100U];
+uint8_t u8BuffMeasure[SAMPLES];
 uint8_t u8CurrentConfigurateADC = 1;
 uint8_t u8LastChannel = 2;
 uint8_t u8UsedChannel_1 = 0;
@@ -33,7 +33,7 @@ INTERRUPT_HANDLER(TIM4_UPD_OVF_IRQHandler, 23)
 INTERRUPT_HANDLER(ADC1_IRQHandler, 22)
 {
   u8BuffMeasure[u8CountMeasure++] = ADC1->DRL;
-  if (u8CountMeasure == 100)
+  if (u8CountMeasure == SAMPLES)
   { //Select mode
     vUART_SendResult(u8LastChannel, u8GetMean(u8BuffMeasure, u8LastChannel));
         u8CountMeasure = 0;
