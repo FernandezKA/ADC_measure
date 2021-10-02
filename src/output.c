@@ -126,5 +126,9 @@ INTERRUPT_HANDLER(UART1_RX_IRQHandler, 18)
 }
 //This function return enter digit
 uint8_t u8GetDigit(void){
-  
+  uint8_t u8EnteredChar = u8UART_Recieve();
+  while(u8EnteredChar < 0x30 || u8EnteredChar > 0x39){
+    u8EnteredChar = u8UART_Recieve();
+  }
+  return u8EnteredChar - 0x30;
 }

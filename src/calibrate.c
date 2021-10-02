@@ -5,15 +5,15 @@ void vGetCalibrate(uint8_t u8ChannelNum){
   //Get info
    vUART_ArrayTransmit("Enter subnumber\n\r", 17);
   //Enter channel number
-  uint8_t u8Subnumber = u8UART_Recieve() - 0x30;
+  uint8_t u8Subnumber = u8GetDigit();
   //Enter voltage
   vUART_ArrayTransmit("Enter measured voltage\n\r", 24);
   vUART_ArrayTransmit("In form xx, x \n\r", 16);
   //2 gidit of whole, 1 digit of fraq
   //Recieve voltage
-  uint8_t u8WholePart = (u8UART_Recieve() - 0x30) * 10;
-  u8WholePart = u8WholePart + (u8UART_Recieve() - 0x30);
-  uint8_t u8FraqtionalPart = u8UART_Recieve() - 0x30;
+  uint8_t u8WholePart = (u8GetDigit()) * 10;
+  u8WholePart = u8WholePart + (u8GetDigit());
+  uint8_t u8FraqtionalPart = u8GetDigit();
   //This is ethalon voltage
   double dEthValue = u8WholePart + u8FraqtionalPart * 0.1;
   //Measure current channel 

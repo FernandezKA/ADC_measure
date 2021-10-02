@@ -41845,6 +41845,34 @@
     "scope": null
   },
   {
+    "ID": "c:@F@u8GetDigit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint8_t u8GetDigit(void)",
+    "location": {
+      "column": "9",
+      "line": "84",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
+    },
+    "name": "u8GetDigit",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@u8GetDigit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint8_t u8GetDigit(void)",
+    "location": {
+      "column": "9",
+      "line": "84",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
+    },
+    "name": "u8GetDigit",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
     "ID": "c:stm8s_exti.h@1289@macro@__STM8S_EXTI_H",
     "What": "MacroDef",
     "defdec": "Def",
@@ -55611,7 +55639,7 @@
     "scope": null
   },
   {
-    "ID": "c:calibrate.c@472@F@vGetCalibrate@u8WholePart",
+    "ID": "c:calibrate.c@461@F@vGetCalibrate@u8WholePart",
     "What": "Variable",
     "defdec": "Def",
     "display": "u8WholePart",
@@ -55625,7 +55653,7 @@
     "scope": null
   },
   {
-    "ID": "c:calibrate.c@587@F@vGetCalibrate@u8FraqtionalPart",
+    "ID": "c:calibrate.c@554@F@vGetCalibrate@u8FraqtionalPart",
     "What": "Variable",
     "defdec": "Def",
     "display": "u8FraqtionalPart",
@@ -55639,7 +55667,7 @@
     "scope": null
   },
   {
-    "ID": "c:calibrate.c@671@F@vGetCalibrate@dEthValue",
+    "ID": "c:calibrate.c@627@F@vGetCalibrate@dEthValue",
     "What": "Variable",
     "defdec": "Def",
     "display": "dEthValue",
@@ -55653,7 +55681,7 @@
     "scope": null
   },
   {
-    "ID": "c:calibrate.c@761@F@vGetCalibrate@u8LastChannelLocal",
+    "ID": "c:calibrate.c@717@F@vGetCalibrate@u8LastChannelLocal",
     "What": "Variable",
     "defdec": "Def",
     "display": "u8LastChannelLocal",
@@ -55667,7 +55695,7 @@
     "scope": null
   },
   {
-    "ID": "c:calibrate.c@841@F@vGetCalibrate@u32LocalSum",
+    "ID": "c:calibrate.c@797@F@vGetCalibrate@u32LocalSum",
     "What": "Variable",
     "defdec": "Def",
     "display": "u32LocalSum",
@@ -55681,7 +55709,7 @@
     "scope": null
   },
   {
-    "ID": "c:calibrate.c@877@F@vGetCalibrate@i",
+    "ID": "c:calibrate.c@833@F@vGetCalibrate@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
@@ -55695,7 +55723,7 @@
     "scope": null
   },
   {
-    "ID": "c:calibrate.c@947@F@vGetCalibrate@u8Mean",
+    "ID": "c:calibrate.c@903@F@vGetCalibrate@u8Mean",
     "What": "Variable",
     "defdec": "Def",
     "display": "u8Mean",
@@ -55709,7 +55737,7 @@
     "scope": null
   },
   {
-    "ID": "c:calibrate.c@1023@F@vGetCalibrate@u8DebugIndex",
+    "ID": "c:calibrate.c@979@F@vGetCalibrate@u8DebugIndex",
     "What": "Variable",
     "defdec": "Def",
     "display": "u8DebugIndex",
@@ -56143,7 +56171,7 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1390@F@main@u8CalibratedChannel",
+    "ID": "c:main.c@1368@F@main@u8CalibratedChannel",
     "What": "Variable",
     "defdec": "Def",
     "display": "u8CalibratedChannel",
@@ -56447,6 +56475,20 @@
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
     },
     "name": "u8GetDigit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:output.c@3076@F@u8GetDigit@u8EnteredChar",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "u8EnteredChar",
+    "location": {
+      "column": "11",
+      "line": "129",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
+    },
+    "name": "u8EnteredChar",
     "origin": "project_file",
     "scope": null
   },

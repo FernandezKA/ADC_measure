@@ -28,8 +28,8 @@ void main(void)
         asm("sim");
         vUART_ArrayTransmit("Enter channel, subchannel nums\n\r", 32);
         uint8_t u8Channel, u8Subchannel;
-        u8Channel = u8UART_Recieve() - 0x30;
-        u8Subchannel = u8UART_Recieve() - 0x30;
+        u8Channel = u8GetDigit();
+        u8Subchannel = u8GetDigit();
         vSelechSub(u8Channel,u8Subchannel);
         MAIN = wait;
         asm("rim");
@@ -55,7 +55,7 @@ void main(void)
     case calibrate:
       asm("sim");
       vUART_ArrayTransmit("Enter number of channel: \n\r", 27);
-      uint8_t u8CalibratedChannel = u8UART_Recieve() - 0x30;
+      uint8_t u8CalibratedChannel = u8GetDigit();
       vGetCalibrate(u8CalibratedChannel);
       vExportData();
       MAIN = wait;

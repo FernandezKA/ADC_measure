@@ -80,5 +80,7 @@ void vGetCalibrate(uint8_t u8ChannelNum);
 double dGetCalibratingCoefficient(uint8_t u8Channel, uint8_t u8Subnumber);
 void   vExportData(void);
 void vSelechSub(uint8_t u8Channel, uint8_t u8Subchannel);
+//Input data
+uint8_t u8GetDigit(void);
 #endif 
 
