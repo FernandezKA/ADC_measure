@@ -39,7 +39,14 @@ void main(void)
       //Multiplexing channel
       case select_mode:
         asm("sim");
-        vUART_ArrayTransmit("Please, enter number of mode \n\r", 31);
+        vUART_ArrayTransmit("Enter the number of modes \n\r", 28);
+        vUART_ArrayTransmit("-> 1 - CH.1\n\r", 13);
+        vUART_ArrayTransmit("-> 2 - CH.2\n\r", 13);
+        vUART_ArrayTransmit("-> 3 - CH.3\n\r", 13);
+        vUART_ArrayTransmit("-> 4 - CH. 1 + CH. 2 \n\r", 23);
+        vUART_ArrayTransmit("-> 5 - CH. 2 + CH. 3 \n\r", 23);
+        vUART_ArrayTransmit("-> 6 - CH. 1 + CH. 3 \n\r", 23);
+        vUART_ArrayTransmit("-> 7 - CH. 1 + CH. 2 + CH. 3 \n\r", 31);
         vSetRulesMul(&u8CurrentConfigurateADC);
         MAIN = wait;
         asm("rim");

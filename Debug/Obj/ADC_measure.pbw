@@ -56381,13 +56381,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1791@F@main@u8CalibratedChannel",
+    "ID": "c:main.c@2207@F@main@u8CalibratedChannel",
     "What": "Variable",
     "defdec": "Def",
     "display": "u8CalibratedChannel",
     "location": {
       "column": "15",
-      "line": "72",
+      "line": "79",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\main.c"
     },
     "name": "u8CalibratedChannel",
@@ -56401,7 +56401,7 @@
     "display": "void assert_failed(u8 *, u32)",
     "location": {
       "column": "6",
-      "line": "83",
+      "line": "90",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\main.c"
     },
     "name": "assert_failed",
