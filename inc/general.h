@@ -13,9 +13,7 @@
 #include "stm8s_flash.h"
 #include <cmath>
 //Definitions EEPROM regions for constants
-extern uint32_t PRESCALER_1;
-extern uint32_t PRESCALER_2;
-extern uint32_t PRESCALER_3;
+extern uint32_t PRESCALER;
 extern uint32_t CONFIGURATION;
 //User constant
 extern uint8_t u8CountMeasure;
@@ -69,6 +67,8 @@ void    vUpdateEEPROMConfig(uint8_t u8NumberConfig);
 void    vUpdateEEPROMChannel(uint8_t u8Channel, uint8_t u8Prescaler);
 uint8_t u8GetPrescaler(uint8_t u8Channel);
 void    vUploadValueEEPROM(uint8_t* pPrescaler_1, uint8_t* pPrescaler_2, uint8_t* pPrescaler_3, uint8_t* pMode);
+void vGetBackup(uint8_t* pu8Mode, double* pdCalibratingTable);
+void vGetRestore(uint8_t* pu8Mode, double* pdCalibratingTable);
 //General logic functions
 enum action eGetAction(void);
 void vSelectChannel(uint8_t);

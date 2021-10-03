@@ -34152,1436 +34152,6 @@
     "scope": null
   },
   {
-    "ID": "c:stm8s_i2c.h@1285@macro@__STM8S_I2C_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__STM8S_I2C_H",
-    "location": {
-      "column": "9",
-      "line": "30",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-    },
-    "name": "__STM8S_I2C_H",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@EA@I2C_DutyCycle_TypeDef",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "",
-    "fields": [
-      {
-        "ID": "c:@EA@I2C_DutyCycle_TypeDef@I2C_DUTYCYCLE_2",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "I2C_DUTYCYCLE_2",
-        "location": {
-          "column": "3",
-          "line": "46",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-        },
-        "name": "I2C_DUTYCYCLE_2",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@I2C_DutyCycle_TypeDef@I2C_DUTYCYCLE_16_9",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "I2C_DUTYCYCLE_16_9",
-        "location": {
-          "column": "3",
-          "line": "47",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-        },
-        "name": "I2C_DUTYCYCLE_16_9",
-        "origin": "user_include",
-        "scope": null
-      }
-    ],
-    "location": {
-      "column": "9",
-      "line": "44",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-    },
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@EA@I2C_Ack_TypeDef",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "",
-    "fields": [
-      {
-        "ID": "c:@EA@I2C_Ack_TypeDef@I2C_ACK_NONE",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "I2C_ACK_NONE",
-        "location": {
-          "column": "3",
-          "line": "55",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-        },
-        "name": "I2C_ACK_NONE",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@I2C_Ack_TypeDef@I2C_ACK_CURR",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "I2C_ACK_CURR",
-        "location": {
-          "column": "3",
-          "line": "56",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-        },
-        "name": "I2C_ACK_CURR",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@I2C_Ack_TypeDef@I2C_ACK_NEXT",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "I2C_ACK_NEXT",
-        "location": {
-          "column": "3",
-          "line": "57",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-        },
-        "name": "I2C_ACK_NEXT",
-        "origin": "user_include",
-        "scope": null
-      }
-    ],
-    "location": {
-      "column": "9",
-      "line": "53",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-    },
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@EA@I2C_AddMode_TypeDef",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "",
-    "fields": [
-      {
-        "ID": "c:@EA@I2C_AddMode_TypeDef@I2C_ADDMODE_7BIT",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "I2C_ADDMODE_7BIT",
-        "location": {
-          "column": "3",
-          "line": "65",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-        },
-        "name": "I2C_ADDMODE_7BIT",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@I2C_AddMode_TypeDef@I2C_ADDMODE_10BIT",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "I2C_ADDMODE_10BIT",
-        "location": {
-          "column": "3",
-          "line": "66",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-        },
-        "name": "I2C_ADDMODE_10BIT",
-        "origin": "user_include",
-        "scope": null
-      }
-    ],
-    "location": {
-      "column": "9",
-      "line": "63",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-    },
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@EA@I2C_IT_TypeDef",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "",
-    "fields": [
-      {
-        "ID": "c:@EA@I2C_IT_TypeDef@I2C_IT_ERR",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "I2C_IT_ERR",
-        "location": {
-          "column": "5",
-          "line": "75",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-        },
-        "name": "I2C_IT_ERR",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@I2C_IT_TypeDef@I2C_IT_EVT",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "I2C_IT_EVT",
-        "location": {
-          "column": "5",
-          "line": "76",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-        },
-        "name": "I2C_IT_EVT",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@I2C_IT_TypeDef@I2C_IT_BUF",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "I2C_IT_BUF",
-        "location": {
-          "column": "5",
-          "line": "77",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-        },
-        "name": "I2C_IT_BUF",
-        "origin": "user_include",
-        "scope": null
-      }
-    ],
-    "location": {
-      "column": "9",
-      "line": "73",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-    },
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@EA@I2C_Direction_TypeDef",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "",
-    "fields": [
-      {
-        "ID": "c:@EA@I2C_Direction_TypeDef@I2C_DIRECTION_TX",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "I2C_DIRECTION_TX",
-        "location": {
-          "column": "3",
-          "line": "86",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-        },
-        "name": "I2C_DIRECTION_TX",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@I2C_Direction_TypeDef@I2C_DIRECTION_RX",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "I2C_DIRECTION_RX",
-        "location": {
-          "column": "3",
-          "line": "87",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-        },
-        "name": "I2C_DIRECTION_RX",
-        "origin": "user_include",
-        "scope": null
-      }
-    ],
-    "location": {
-      "column": "9",
-      "line": "84",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-    },
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@EA@I2C_Flag_TypeDef",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "",
-    "fields": [
-      {
-        "ID": "c:@EA@I2C_Flag_TypeDef@I2C_FLAG_TXEMPTY",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "I2C_FLAG_TXEMPTY",
-        "location": {
-          "column": "3",
-          "line": "103",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-        },
-        "name": "I2C_FLAG_TXEMPTY",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@I2C_Flag_TypeDef@I2C_FLAG_RXNOTEMPTY",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "I2C_FLAG_RXNOTEMPTY",
-        "location": {
-          "column": "3",
-          "line": "104",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-        },
-        "name": "I2C_FLAG_RXNOTEMPTY",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@I2C_Flag_TypeDef@I2C_FLAG_STOPDETECTION",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "I2C_FLAG_STOPDETECTION",
-        "location": {
-          "column": "3",
-          "line": "105",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-        },
-        "name": "I2C_FLAG_STOPDETECTION",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@I2C_Flag_TypeDef@I2C_FLAG_HEADERSENT",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "I2C_FLAG_HEADERSENT",
-        "location": {
-          "column": "3",
-          "line": "106",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-        },
-        "name": "I2C_FLAG_HEADERSENT",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@I2C_Flag_TypeDef@I2C_FLAG_TRANSFERFINISHED",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "I2C_FLAG_TRANSFERFINISHED",
-        "location": {
-          "column": "3",
-          "line": "107",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-        },
-        "name": "I2C_FLAG_TRANSFERFINISHED",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@I2C_Flag_TypeDef@I2C_FLAG_ADDRESSSENTMATCHED",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "I2C_FLAG_ADDRESSSENTMATCHED",
-        "location": {
-          "column": "3",
-          "line": "108",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-        },
-        "name": "I2C_FLAG_ADDRESSSENTMATCHED",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@I2C_Flag_TypeDef@I2C_FLAG_STARTDETECTION",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "I2C_FLAG_STARTDETECTION",
-        "location": {
-          "column": "3",
-          "line": "109",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-        },
-        "name": "I2C_FLAG_STARTDETECTION",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@I2C_Flag_TypeDef@I2C_FLAG_WAKEUPFROMHALT",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "I2C_FLAG_WAKEUPFROMHALT",
-        "location": {
-          "column": "3",
-          "line": "112",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-        },
-        "name": "I2C_FLAG_WAKEUPFROMHALT",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@I2C_Flag_TypeDef@I2C_FLAG_OVERRUNUNDERRUN",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "I2C_FLAG_OVERRUNUNDERRUN",
-        "location": {
-          "column": "3",
-          "line": "113",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-        },
-        "name": "I2C_FLAG_OVERRUNUNDERRUN",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@I2C_Flag_TypeDef@I2C_FLAG_ACKNOWLEDGEFAILURE",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "I2C_FLAG_ACKNOWLEDGEFAILURE",
-        "location": {
-          "column": "3",
-          "line": "114",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-        },
-        "name": "I2C_FLAG_ACKNOWLEDGEFAILURE",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@I2C_Flag_TypeDef@I2C_FLAG_ARBITRATIONLOSS",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "I2C_FLAG_ARBITRATIONLOSS",
-        "location": {
-          "column": "3",
-          "line": "115",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-        },
-        "name": "I2C_FLAG_ARBITRATIONLOSS",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@I2C_Flag_TypeDef@I2C_FLAG_BUSERROR",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "I2C_FLAG_BUSERROR",
-        "location": {
-          "column": "3",
-          "line": "116",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-        },
-        "name": "I2C_FLAG_BUSERROR",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@I2C_Flag_TypeDef@I2C_FLAG_GENERALCALL",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "I2C_FLAG_GENERALCALL",
-        "location": {
-          "column": "3",
-          "line": "119",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-        },
-        "name": "I2C_FLAG_GENERALCALL",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@I2C_Flag_TypeDef@I2C_FLAG_TRANSMITTERRECEIVER",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "I2C_FLAG_TRANSMITTERRECEIVER",
-        "location": {
-          "column": "3",
-          "line": "120",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-        },
-        "name": "I2C_FLAG_TRANSMITTERRECEIVER",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@I2C_Flag_TypeDef@I2C_FLAG_BUSBUSY",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "I2C_FLAG_BUSBUSY",
-        "location": {
-          "column": "3",
-          "line": "121",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-        },
-        "name": "I2C_FLAG_BUSBUSY",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@I2C_Flag_TypeDef@I2C_FLAG_MASTERSLAVE",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "I2C_FLAG_MASTERSLAVE",
-        "location": {
-          "column": "3",
-          "line": "122",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-        },
-        "name": "I2C_FLAG_MASTERSLAVE",
-        "origin": "user_include",
-        "scope": null
-      }
-    ],
-    "location": {
-      "column": "9",
-      "line": "100",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-    },
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@EA@I2C_ITPendingBit_TypeDef",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "",
-    "fields": [
-      {
-        "ID": "c:@EA@I2C_ITPendingBit_TypeDef@I2C_ITPENDINGBIT_TXEMPTY",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "I2C_ITPENDINGBIT_TXEMPTY",
-        "location": {
-          "column": "5",
-          "line": "138",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-        },
-        "name": "I2C_ITPENDINGBIT_TXEMPTY",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@I2C_ITPendingBit_TypeDef@I2C_ITPENDINGBIT_RXNOTEMPTY",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "I2C_ITPENDINGBIT_RXNOTEMPTY",
-        "location": {
-          "column": "5",
-          "line": "139",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-        },
-        "name": "I2C_ITPENDINGBIT_RXNOTEMPTY",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@I2C_ITPendingBit_TypeDef@I2C_ITPENDINGBIT_STOPDETECTION",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "I2C_ITPENDINGBIT_STOPDETECTION",
-        "location": {
-          "column": "5",
-          "line": "140",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-        },
-        "name": "I2C_ITPENDINGBIT_STOPDETECTION",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@I2C_ITPendingBit_TypeDef@I2C_ITPENDINGBIT_HEADERSENT",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "I2C_ITPENDINGBIT_HEADERSENT",
-        "location": {
-          "column": "5",
-          "line": "141",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-        },
-        "name": "I2C_ITPENDINGBIT_HEADERSENT",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@I2C_ITPendingBit_TypeDef@I2C_ITPENDINGBIT_TRANSFERFINISHED",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "I2C_ITPENDINGBIT_TRANSFERFINISHED",
-        "location": {
-          "column": "5",
-          "line": "142",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-        },
-        "name": "I2C_ITPENDINGBIT_TRANSFERFINISHED",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@I2C_ITPendingBit_TypeDef@I2C_ITPENDINGBIT_ADDRESSSENTMATCHED",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "I2C_ITPENDINGBIT_ADDRESSSENTMATCHED",
-        "location": {
-          "column": "5",
-          "line": "143",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-        },
-        "name": "I2C_ITPENDINGBIT_ADDRESSSENTMATCHED",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@I2C_ITPendingBit_TypeDef@I2C_ITPENDINGBIT_STARTDETECTION",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "I2C_ITPENDINGBIT_STARTDETECTION",
-        "location": {
-          "column": "5",
-          "line": "144",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-        },
-        "name": "I2C_ITPENDINGBIT_STARTDETECTION",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@I2C_ITPendingBit_TypeDef@I2C_ITPENDINGBIT_WAKEUPFROMHALT",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "I2C_ITPENDINGBIT_WAKEUPFROMHALT",
-        "location": {
-          "column": "5",
-          "line": "147",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-        },
-        "name": "I2C_ITPENDINGBIT_WAKEUPFROMHALT",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@I2C_ITPendingBit_TypeDef@I2C_ITPENDINGBIT_OVERRUNUNDERRUN",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "I2C_ITPENDINGBIT_OVERRUNUNDERRUN",
-        "location": {
-          "column": "5",
-          "line": "148",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-        },
-        "name": "I2C_ITPENDINGBIT_OVERRUNUNDERRUN",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@I2C_ITPendingBit_TypeDef@I2C_ITPENDINGBIT_ACKNOWLEDGEFAILURE",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "I2C_ITPENDINGBIT_ACKNOWLEDGEFAILURE",
-        "location": {
-          "column": "5",
-          "line": "149",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-        },
-        "name": "I2C_ITPENDINGBIT_ACKNOWLEDGEFAILURE",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@I2C_ITPendingBit_TypeDef@I2C_ITPENDINGBIT_ARBITRATIONLOSS",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "I2C_ITPENDINGBIT_ARBITRATIONLOSS",
-        "location": {
-          "column": "5",
-          "line": "150",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-        },
-        "name": "I2C_ITPENDINGBIT_ARBITRATIONLOSS",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@I2C_ITPendingBit_TypeDef@I2C_ITPENDINGBIT_BUSERROR",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "I2C_ITPENDINGBIT_BUSERROR",
-        "location": {
-          "column": "5",
-          "line": "151",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-        },
-        "name": "I2C_ITPENDINGBIT_BUSERROR",
-        "origin": "user_include",
-        "scope": null
-      }
-    ],
-    "location": {
-      "column": "9",
-      "line": "135",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-    },
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@EA@I2C_Event_TypeDef",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "",
-    "fields": [
-      {
-        "ID": "c:@EA@I2C_Event_TypeDef@I2C_EVENT_MASTER_MODE_SELECT",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "I2C_EVENT_MASTER_MODE_SELECT",
-        "location": {
-          "column": "3",
-          "line": "178",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-        },
-        "name": "I2C_EVENT_MASTER_MODE_SELECT",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@I2C_Event_TypeDef@I2C_EVENT_MASTER_TRANSMITTER_MODE_SELECTED",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "I2C_EVENT_MASTER_TRANSMITTER_MODE_SELECTED",
-        "location": {
-          "column": "3",
-          "line": "207",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-        },
-        "name": "I2C_EVENT_MASTER_TRANSMITTER_MODE_SELECTED",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@I2C_Event_TypeDef@I2C_EVENT_MASTER_RECEIVER_MODE_SELECTED",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "I2C_EVENT_MASTER_RECEIVER_MODE_SELECTED",
-        "location": {
-          "column": "3",
-          "line": "208",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-        },
-        "name": "I2C_EVENT_MASTER_RECEIVER_MODE_SELECTED",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@I2C_Event_TypeDef@I2C_EVENT_MASTER_MODE_ADDRESS10",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "I2C_EVENT_MASTER_MODE_ADDRESS10",
-        "location": {
-          "column": "3",
-          "line": "210",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-        },
-        "name": "I2C_EVENT_MASTER_MODE_ADDRESS10",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@I2C_Event_TypeDef@I2C_EVENT_MASTER_BYTE_RECEIVED",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "I2C_EVENT_MASTER_BYTE_RECEIVED",
-        "location": {
-          "column": "3",
-          "line": "242",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-        },
-        "name": "I2C_EVENT_MASTER_BYTE_RECEIVED",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@I2C_Event_TypeDef@I2C_EVENT_MASTER_BYTE_TRANSMITTING",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "I2C_EVENT_MASTER_BYTE_TRANSMITTING",
-        "location": {
-          "column": "3",
-          "line": "246",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-        },
-        "name": "I2C_EVENT_MASTER_BYTE_TRANSMITTING",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@I2C_Event_TypeDef@I2C_EVENT_MASTER_BYTE_TRANSMITTED",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "I2C_EVENT_MASTER_BYTE_TRANSMITTED",
-        "location": {
-          "column": "3",
-          "line": "249",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-        },
-        "name": "I2C_EVENT_MASTER_BYTE_TRANSMITTED",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@I2C_Event_TypeDef@I2C_EVENT_SLAVE_RECEIVER_ADDRESS_MATCHED",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "I2C_EVENT_SLAVE_RECEIVER_ADDRESS_MATCHED",
-        "location": {
-          "column": "3",
-          "line": "280",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-        },
-        "name": "I2C_EVENT_SLAVE_RECEIVER_ADDRESS_MATCHED",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@I2C_Event_TypeDef@I2C_EVENT_SLAVE_TRANSMITTER_ADDRESS_MATCHED",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "I2C_EVENT_SLAVE_TRANSMITTER_ADDRESS_MATCHED",
-        "location": {
-          "column": "3",
-          "line": "281",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-        },
-        "name": "I2C_EVENT_SLAVE_TRANSMITTER_ADDRESS_MATCHED",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@I2C_Event_TypeDef@I2C_EVENT_SLAVE_GENERALCALLADDRESS_MATCHED",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "I2C_EVENT_SLAVE_GENERALCALLADDRESS_MATCHED",
-        "location": {
-          "column": "3",
-          "line": "284",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-        },
-        "name": "I2C_EVENT_SLAVE_GENERALCALLADDRESS_MATCHED",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@I2C_Event_TypeDef@I2C_EVENT_SLAVE_BYTE_RECEIVED",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "I2C_EVENT_SLAVE_BYTE_RECEIVED",
-        "location": {
-          "column": "3",
-          "line": "315",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-        },
-        "name": "I2C_EVENT_SLAVE_BYTE_RECEIVED",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@I2C_Event_TypeDef@I2C_EVENT_SLAVE_STOP_DETECTED",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "I2C_EVENT_SLAVE_STOP_DETECTED",
-        "location": {
-          "column": "3",
-          "line": "317",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-        },
-        "name": "I2C_EVENT_SLAVE_STOP_DETECTED",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@I2C_Event_TypeDef@I2C_EVENT_SLAVE_BYTE_TRANSMITTED",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "I2C_EVENT_SLAVE_BYTE_TRANSMITTED",
-        "location": {
-          "column": "3",
-          "line": "321",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-        },
-        "name": "I2C_EVENT_SLAVE_BYTE_TRANSMITTED",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@I2C_Event_TypeDef@I2C_EVENT_SLAVE_BYTE_TRANSMITTING",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "I2C_EVENT_SLAVE_BYTE_TRANSMITTING",
-        "location": {
-          "column": "3",
-          "line": "322",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-        },
-        "name": "I2C_EVENT_SLAVE_BYTE_TRANSMITTING",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@I2C_Event_TypeDef@I2C_EVENT_SLAVE_ACK_FAILURE",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "I2C_EVENT_SLAVE_ACK_FAILURE",
-        "location": {
-          "column": "3",
-          "line": "324",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-        },
-        "name": "I2C_EVENT_SLAVE_ACK_FAILURE",
-        "origin": "user_include",
-        "scope": null
-      }
-    ],
-    "location": {
-      "column": "9",
-      "line": "163",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-    },
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_i2c.h@14913@macro@I2C_MAX_STANDARD_FREQ",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "I2C_MAX_STANDARD_FREQ",
-    "location": {
-      "column": "9",
-      "line": "335",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-    },
-    "name": "I2C_MAX_STANDARD_FREQ",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_i2c.h@14963@macro@I2C_MAX_FAST_FREQ",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "I2C_MAX_FAST_FREQ",
-    "location": {
-      "column": "9",
-      "line": "336",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-    },
-    "name": "I2C_MAX_FAST_FREQ",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_i2c.h@15134@macro@I2C_MAX_INPUT_FREQ",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "I2C_MAX_INPUT_FREQ",
-    "location": {
-      "column": "10",
-      "line": "340",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-    },
-    "name": "I2C_MAX_INPUT_FREQ",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_i2c.h@15632@macro@IS_I2C_DUTYCYCLE_OK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_I2C_DUTYCYCLE_OK",
-    "location": {
-      "column": "9",
-      "line": "361",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-    },
-    "name": "IS_I2C_DUTYCYCLE_OK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_i2c.h@15856@macro@IS_I2C_ACK_OK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_I2C_ACK_OK",
-    "location": {
-      "column": "9",
-      "line": "368",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-    },
-    "name": "IS_I2C_ACK_OK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_i2c.h@16087@macro@IS_I2C_ADDMODE_OK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_I2C_ADDMODE_OK",
-    "location": {
-      "column": "9",
-      "line": "376",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-    },
-    "name": "IS_I2C_ADDMODE_OK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_i2c.h@16309@macro@IS_I2C_INTERRUPT_OK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_I2C_INTERRUPT_OK",
-    "location": {
-      "column": "9",
-      "line": "383",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-    },
-    "name": "IS_I2C_INTERRUPT_OK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_i2c.h@16745@macro@IS_I2C_DIRECTION_OK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_I2C_DIRECTION_OK",
-    "location": {
-      "column": "9",
-      "line": "394",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-    },
-    "name": "IS_I2C_DIRECTION_OK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_i2c.h@16946@macro@IS_I2C_FLAG_OK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_I2C_FLAG_OK",
-    "location": {
-      "column": "9",
-      "line": "401",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-    },
-    "name": "IS_I2C_FLAG_OK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_i2c.h@17822@macro@IS_I2C_CLEAR_FLAG_OK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_I2C_CLEAR_FLAG_OK",
-    "location": {
-      "column": "9",
-      "line": "422",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-    },
-    "name": "IS_I2C_CLEAR_FLAG_OK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_i2c.h@18089@macro@IS_I2C_ITPENDINGBIT_OK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_I2C_ITPENDINGBIT_OK",
-    "location": {
-      "column": "9",
-      "line": "428",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-    },
-    "name": "IS_I2C_ITPENDINGBIT_OK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_i2c.h@19038@macro@IS_I2C_CLEAR_ITPENDINGBIT_OK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_I2C_CLEAR_ITPENDINGBIT_OK",
-    "location": {
-      "column": "9",
-      "line": "446",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-    },
-    "name": "IS_I2C_CLEAR_ITPENDINGBIT_OK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_i2c.h@19516@macro@IS_I2C_EVENT_OK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_I2C_EVENT_OK",
-    "location": {
-      "column": "9",
-      "line": "456",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-    },
-    "name": "IS_I2C_EVENT_OK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_i2c.h@21019@macro@IS_I2C_OWN_ADDRESS_OK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_I2C_OWN_ADDRESS_OK",
-    "location": {
-      "column": "9",
-      "line": "476",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-    },
-    "name": "IS_I2C_OWN_ADDRESS_OK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_i2c.h@21130@macro@IS_I2C_ADDRESS_OK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_I2C_ADDRESS_OK",
-    "location": {
-      "column": "9",
-      "line": "480",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-    },
-    "name": "IS_I2C_ADDRESS_OK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_i2c.h@21343@macro@IS_I2C_INPUT_CLOCK_FREQ_OK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_I2C_INPUT_CLOCK_FREQ_OK",
-    "location": {
-      "column": "9",
-      "line": "486",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-    },
-    "name": "IS_I2C_INPUT_CLOCK_FREQ_OK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8s_i2c.h@21585@macro@IS_I2C_OUTPUT_CLOCK_FREQ_OK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_I2C_OUTPUT_CLOCK_FREQ_OK",
-    "location": {
-      "column": "9",
-      "line": "493",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-    },
-    "name": "IS_I2C_OUTPUT_CLOCK_FREQ_OK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@I2C_DeInit",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void I2C_DeInit(void)",
-    "location": {
-      "column": "6",
-      "line": "505",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-    },
-    "name": "I2C_DeInit",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@I2C_Init",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void I2C_Init(uint32_t, uint16_t, I2C_DutyCycle_TypeDef, I2C_Ack_TypeDef, I2C_AddMode_TypeDef, uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "506",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-    },
-    "name": "I2C_Init",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@I2C_Cmd",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void I2C_Cmd(FunctionalState)",
-    "location": {
-      "column": "6",
-      "line": "509",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-    },
-    "name": "I2C_Cmd",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@I2C_GeneralCallCmd",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void I2C_GeneralCallCmd(FunctionalState)",
-    "location": {
-      "column": "6",
-      "line": "510",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-    },
-    "name": "I2C_GeneralCallCmd",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@I2C_GenerateSTART",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void I2C_GenerateSTART(FunctionalState)",
-    "location": {
-      "column": "6",
-      "line": "511",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-    },
-    "name": "I2C_GenerateSTART",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@I2C_GenerateSTOP",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void I2C_GenerateSTOP(FunctionalState)",
-    "location": {
-      "column": "6",
-      "line": "512",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-    },
-    "name": "I2C_GenerateSTOP",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@I2C_SoftwareResetCmd",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void I2C_SoftwareResetCmd(FunctionalState)",
-    "location": {
-      "column": "6",
-      "line": "513",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-    },
-    "name": "I2C_SoftwareResetCmd",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@I2C_StretchClockCmd",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void I2C_StretchClockCmd(FunctionalState)",
-    "location": {
-      "column": "6",
-      "line": "514",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-    },
-    "name": "I2C_StretchClockCmd",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@I2C_AcknowledgeConfig",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void I2C_AcknowledgeConfig(I2C_Ack_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "515",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-    },
-    "name": "I2C_AcknowledgeConfig",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@I2C_FastModeDutyCycleConfig",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void I2C_FastModeDutyCycleConfig(I2C_DutyCycle_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "516",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-    },
-    "name": "I2C_FastModeDutyCycleConfig",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@I2C_ITConfig",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void I2C_ITConfig(I2C_IT_TypeDef, FunctionalState)",
-    "location": {
-      "column": "6",
-      "line": "517",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-    },
-    "name": "I2C_ITConfig",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@I2C_ReceiveData",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "uint8_t I2C_ReceiveData(void)",
-    "location": {
-      "column": "9",
-      "line": "518",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-    },
-    "name": "I2C_ReceiveData",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@I2C_Send7bitAddress",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void I2C_Send7bitAddress(uint8_t, I2C_Direction_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "519",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-    },
-    "name": "I2C_Send7bitAddress",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@I2C_SendData",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void I2C_SendData(uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "520",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-    },
-    "name": "I2C_SendData",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@I2C_CheckEvent",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "ErrorStatus I2C_CheckEvent(I2C_Event_TypeDef)",
-    "location": {
-      "column": "13",
-      "line": "603",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-    },
-    "name": "I2C_CheckEvent",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@I2C_GetLastEvent",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "I2C_Event_TypeDef I2C_GetLastEvent(void)",
-    "location": {
-      "column": "19",
-      "line": "609",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-    },
-    "name": "I2C_GetLastEvent",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@I2C_GetFlagStatus",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "FlagStatus I2C_GetFlagStatus(I2C_Flag_TypeDef)",
-    "location": {
-      "column": "12",
-      "line": "615",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-    },
-    "name": "I2C_GetFlagStatus",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@I2C_ClearFlag",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void I2C_ClearFlag(I2C_Flag_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "620",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-    },
-    "name": "I2C_ClearFlag",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@I2C_GetITStatus",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "ITStatus I2C_GetITStatus(I2C_ITPendingBit_TypeDef)",
-    "location": {
-      "column": "10",
-      "line": "621",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-    },
-    "name": "I2C_GetITStatus",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@I2C_ClearITPendingBit",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void I2C_ClearITPendingBit(I2C_ITPendingBit_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "622",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
-    },
-    "name": "I2C_ClearITPendingBit",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
     "ID": "c:stm8s_uart1.h@1295@macro@__STM8S_UART1_H",
     "What": "MacroDef",
     "defdec": "Def",
@@ -37422,78 +35992,50 @@
     "scope": null
   },
   {
-    "ID": "c:stm8s_exti.h@1289@macro@__STM8S_EXTI_H",
+    "ID": "c:stm8s_i2c.h@1285@macro@__STM8S_I2C_H",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "__STM8S_EXTI_H",
+    "display": "__STM8S_I2C_H",
     "location": {
       "column": "9",
       "line": "30",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
     },
-    "name": "__STM8S_EXTI_H",
+    "name": "__STM8S_I2C_H",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@EA@EXTI_Sensitivity_TypeDef",
+    "ID": "c:@EA@I2C_DutyCycle_TypeDef",
     "What": "Enum",
     "defdec": "Def",
     "display": "",
     "fields": [
       {
-        "ID": "c:@EA@EXTI_Sensitivity_TypeDef@EXTI_SENSITIVITY_FALL_LOW",
+        "ID": "c:@EA@I2C_DutyCycle_TypeDef@I2C_DUTYCYCLE_2",
         "What": "Enumerator",
         "defdec": "Def",
-        "display": "EXTI_SENSITIVITY_FALL_LOW",
-        "location": {
-          "column": "3",
-          "line": "45",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
-        },
-        "name": "EXTI_SENSITIVITY_FALL_LOW",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@EXTI_Sensitivity_TypeDef@EXTI_SENSITIVITY_RISE_ONLY",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "EXTI_SENSITIVITY_RISE_ONLY",
+        "display": "I2C_DUTYCYCLE_2",
         "location": {
           "column": "3",
           "line": "46",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
         },
-        "name": "EXTI_SENSITIVITY_RISE_ONLY",
+        "name": "I2C_DUTYCYCLE_2",
         "origin": "user_include",
         "scope": null
       },
       {
-        "ID": "c:@EA@EXTI_Sensitivity_TypeDef@EXTI_SENSITIVITY_FALL_ONLY",
+        "ID": "c:@EA@I2C_DutyCycle_TypeDef@I2C_DUTYCYCLE_16_9",
         "What": "Enumerator",
         "defdec": "Def",
-        "display": "EXTI_SENSITIVITY_FALL_ONLY",
+        "display": "I2C_DUTYCYCLE_16_9",
         "location": {
           "column": "3",
           "line": "47",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
         },
-        "name": "EXTI_SENSITIVITY_FALL_ONLY",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@EXTI_Sensitivity_TypeDef@EXTI_SENSITIVITY_RISE_FALL",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "EXTI_SENSITIVITY_RISE_FALL",
-        "location": {
-          "column": "3",
-          "line": "48",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
-        },
-        "name": "EXTI_SENSITIVITY_RISE_FALL",
+        "name": "I2C_DUTYCYCLE_16_9",
         "origin": "user_include",
         "scope": null
       }
@@ -37501,265 +36043,1381 @@
     "location": {
       "column": "9",
       "line": "44",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
     },
     "name": "",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@EA@EXTI_TLISensitivity_TypeDef",
+    "ID": "c:@EA@I2C_Ack_TypeDef",
     "What": "Enum",
     "defdec": "Def",
     "display": "",
     "fields": [
       {
-        "ID": "c:@EA@EXTI_TLISensitivity_TypeDef@EXTI_TLISENSITIVITY_FALL_ONLY",
+        "ID": "c:@EA@I2C_Ack_TypeDef@I2C_ACK_NONE",
         "What": "Enumerator",
         "defdec": "Def",
-        "display": "EXTI_TLISENSITIVITY_FALL_ONLY",
+        "display": "I2C_ACK_NONE",
         "location": {
           "column": "3",
           "line": "55",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
         },
-        "name": "EXTI_TLISENSITIVITY_FALL_ONLY",
+        "name": "I2C_ACK_NONE",
         "origin": "user_include",
         "scope": null
       },
       {
-        "ID": "c:@EA@EXTI_TLISensitivity_TypeDef@EXTI_TLISENSITIVITY_RISE_ONLY",
+        "ID": "c:@EA@I2C_Ack_TypeDef@I2C_ACK_CURR",
         "What": "Enumerator",
         "defdec": "Def",
-        "display": "EXTI_TLISENSITIVITY_RISE_ONLY",
+        "display": "I2C_ACK_CURR",
         "location": {
           "column": "3",
           "line": "56",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
         },
-        "name": "EXTI_TLISENSITIVITY_RISE_ONLY",
+        "name": "I2C_ACK_CURR",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@I2C_Ack_TypeDef@I2C_ACK_NEXT",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "I2C_ACK_NEXT",
+        "location": {
+          "column": "3",
+          "line": "57",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+        },
+        "name": "I2C_ACK_NEXT",
         "origin": "user_include",
         "scope": null
       }
     ],
     "location": {
       "column": "9",
-      "line": "54",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+      "line": "53",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
     },
     "name": "",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@EA@EXTI_Port_TypeDef",
+    "ID": "c:@EA@I2C_AddMode_TypeDef",
     "What": "Enum",
     "defdec": "Def",
     "display": "",
     "fields": [
       {
-        "ID": "c:@EA@EXTI_Port_TypeDef@EXTI_PORT_GPIOA",
+        "ID": "c:@EA@I2C_AddMode_TypeDef@I2C_ADDMODE_7BIT",
         "What": "Enumerator",
         "defdec": "Def",
-        "display": "EXTI_PORT_GPIOA",
-        "location": {
-          "column": "3",
-          "line": "63",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
-        },
-        "name": "EXTI_PORT_GPIOA",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@EXTI_Port_TypeDef@EXTI_PORT_GPIOB",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "EXTI_PORT_GPIOB",
-        "location": {
-          "column": "3",
-          "line": "64",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
-        },
-        "name": "EXTI_PORT_GPIOB",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@EXTI_Port_TypeDef@EXTI_PORT_GPIOC",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "EXTI_PORT_GPIOC",
+        "display": "I2C_ADDMODE_7BIT",
         "location": {
           "column": "3",
           "line": "65",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
         },
-        "name": "EXTI_PORT_GPIOC",
+        "name": "I2C_ADDMODE_7BIT",
         "origin": "user_include",
         "scope": null
       },
       {
-        "ID": "c:@EA@EXTI_Port_TypeDef@EXTI_PORT_GPIOD",
+        "ID": "c:@EA@I2C_AddMode_TypeDef@I2C_ADDMODE_10BIT",
         "What": "Enumerator",
         "defdec": "Def",
-        "display": "EXTI_PORT_GPIOD",
+        "display": "I2C_ADDMODE_10BIT",
         "location": {
           "column": "3",
           "line": "66",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
         },
-        "name": "EXTI_PORT_GPIOD",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@EXTI_Port_TypeDef@EXTI_PORT_GPIOE",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "EXTI_PORT_GPIOE",
-        "location": {
-          "column": "3",
-          "line": "67",
-          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
-        },
-        "name": "EXTI_PORT_GPIOE",
+        "name": "I2C_ADDMODE_10BIT",
         "origin": "user_include",
         "scope": null
       }
     ],
     "location": {
       "column": "9",
-      "line": "62",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+      "line": "63",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
     },
     "name": "",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:stm8s_exti.h@2992@macro@IS_EXTI_SENSITIVITY_OK",
-    "What": "MacroDef",
+    "ID": "c:@EA@I2C_IT_TypeDef",
+    "What": "Enum",
     "defdec": "Def",
-    "display": "IS_EXTI_SENSITIVITY_OK",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@I2C_IT_TypeDef@I2C_IT_ERR",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "I2C_IT_ERR",
+        "location": {
+          "column": "5",
+          "line": "75",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+        },
+        "name": "I2C_IT_ERR",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@I2C_IT_TypeDef@I2C_IT_EVT",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "I2C_IT_EVT",
+        "location": {
+          "column": "5",
+          "line": "76",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+        },
+        "name": "I2C_IT_EVT",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@I2C_IT_TypeDef@I2C_IT_BUF",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "I2C_IT_BUF",
+        "location": {
+          "column": "5",
+          "line": "77",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+        },
+        "name": "I2C_IT_BUF",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
     "location": {
       "column": "9",
-      "line": "83",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+      "line": "73",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
     },
-    "name": "IS_EXTI_SENSITIVITY_OK",
+    "name": "",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:stm8s_exti.h@3399@macro@IS_EXTI_TLISENSITIVITY_OK",
-    "What": "MacroDef",
+    "ID": "c:@EA@I2C_Direction_TypeDef",
+    "What": "Enum",
     "defdec": "Def",
-    "display": "IS_EXTI_TLISENSITIVITY_OK",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@I2C_Direction_TypeDef@I2C_DIRECTION_TX",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "I2C_DIRECTION_TX",
+        "location": {
+          "column": "3",
+          "line": "86",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+        },
+        "name": "I2C_DIRECTION_TX",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@I2C_Direction_TypeDef@I2C_DIRECTION_RX",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "I2C_DIRECTION_RX",
+        "location": {
+          "column": "3",
+          "line": "87",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+        },
+        "name": "I2C_DIRECTION_RX",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
     "location": {
       "column": "9",
-      "line": "92",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+      "line": "84",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
     },
-    "name": "IS_EXTI_TLISENSITIVITY_OK",
+    "name": "",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:stm8s_exti.h@3680@macro@IS_EXTI_PORT_OK",
-    "What": "MacroDef",
+    "ID": "c:@EA@I2C_Flag_TypeDef",
+    "What": "Enum",
     "defdec": "Def",
-    "display": "IS_EXTI_PORT_OK",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@I2C_Flag_TypeDef@I2C_FLAG_TXEMPTY",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "I2C_FLAG_TXEMPTY",
+        "location": {
+          "column": "3",
+          "line": "103",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+        },
+        "name": "I2C_FLAG_TXEMPTY",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@I2C_Flag_TypeDef@I2C_FLAG_RXNOTEMPTY",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "I2C_FLAG_RXNOTEMPTY",
+        "location": {
+          "column": "3",
+          "line": "104",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+        },
+        "name": "I2C_FLAG_RXNOTEMPTY",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@I2C_Flag_TypeDef@I2C_FLAG_STOPDETECTION",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "I2C_FLAG_STOPDETECTION",
+        "location": {
+          "column": "3",
+          "line": "105",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+        },
+        "name": "I2C_FLAG_STOPDETECTION",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@I2C_Flag_TypeDef@I2C_FLAG_HEADERSENT",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "I2C_FLAG_HEADERSENT",
+        "location": {
+          "column": "3",
+          "line": "106",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+        },
+        "name": "I2C_FLAG_HEADERSENT",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@I2C_Flag_TypeDef@I2C_FLAG_TRANSFERFINISHED",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "I2C_FLAG_TRANSFERFINISHED",
+        "location": {
+          "column": "3",
+          "line": "107",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+        },
+        "name": "I2C_FLAG_TRANSFERFINISHED",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@I2C_Flag_TypeDef@I2C_FLAG_ADDRESSSENTMATCHED",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "I2C_FLAG_ADDRESSSENTMATCHED",
+        "location": {
+          "column": "3",
+          "line": "108",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+        },
+        "name": "I2C_FLAG_ADDRESSSENTMATCHED",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@I2C_Flag_TypeDef@I2C_FLAG_STARTDETECTION",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "I2C_FLAG_STARTDETECTION",
+        "location": {
+          "column": "3",
+          "line": "109",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+        },
+        "name": "I2C_FLAG_STARTDETECTION",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@I2C_Flag_TypeDef@I2C_FLAG_WAKEUPFROMHALT",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "I2C_FLAG_WAKEUPFROMHALT",
+        "location": {
+          "column": "3",
+          "line": "112",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+        },
+        "name": "I2C_FLAG_WAKEUPFROMHALT",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@I2C_Flag_TypeDef@I2C_FLAG_OVERRUNUNDERRUN",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "I2C_FLAG_OVERRUNUNDERRUN",
+        "location": {
+          "column": "3",
+          "line": "113",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+        },
+        "name": "I2C_FLAG_OVERRUNUNDERRUN",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@I2C_Flag_TypeDef@I2C_FLAG_ACKNOWLEDGEFAILURE",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "I2C_FLAG_ACKNOWLEDGEFAILURE",
+        "location": {
+          "column": "3",
+          "line": "114",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+        },
+        "name": "I2C_FLAG_ACKNOWLEDGEFAILURE",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@I2C_Flag_TypeDef@I2C_FLAG_ARBITRATIONLOSS",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "I2C_FLAG_ARBITRATIONLOSS",
+        "location": {
+          "column": "3",
+          "line": "115",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+        },
+        "name": "I2C_FLAG_ARBITRATIONLOSS",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@I2C_Flag_TypeDef@I2C_FLAG_BUSERROR",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "I2C_FLAG_BUSERROR",
+        "location": {
+          "column": "3",
+          "line": "116",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+        },
+        "name": "I2C_FLAG_BUSERROR",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@I2C_Flag_TypeDef@I2C_FLAG_GENERALCALL",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "I2C_FLAG_GENERALCALL",
+        "location": {
+          "column": "3",
+          "line": "119",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+        },
+        "name": "I2C_FLAG_GENERALCALL",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@I2C_Flag_TypeDef@I2C_FLAG_TRANSMITTERRECEIVER",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "I2C_FLAG_TRANSMITTERRECEIVER",
+        "location": {
+          "column": "3",
+          "line": "120",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+        },
+        "name": "I2C_FLAG_TRANSMITTERRECEIVER",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@I2C_Flag_TypeDef@I2C_FLAG_BUSBUSY",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "I2C_FLAG_BUSBUSY",
+        "location": {
+          "column": "3",
+          "line": "121",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+        },
+        "name": "I2C_FLAG_BUSBUSY",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@I2C_Flag_TypeDef@I2C_FLAG_MASTERSLAVE",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "I2C_FLAG_MASTERSLAVE",
+        "location": {
+          "column": "3",
+          "line": "122",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+        },
+        "name": "I2C_FLAG_MASTERSLAVE",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
     "location": {
       "column": "9",
-      "line": "99",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+      "line": "100",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
     },
-    "name": "IS_EXTI_PORT_OK",
+    "name": "",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:stm8s_exti.h@4009@macro@IS_EXTI_PINMASK_OK",
-    "What": "MacroDef",
+    "ID": "c:@EA@I2C_ITPendingBit_TypeDef",
+    "What": "Enum",
     "defdec": "Def",
-    "display": "IS_EXTI_PINMASK_OK",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@I2C_ITPendingBit_TypeDef@I2C_ITPENDINGBIT_TXEMPTY",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "I2C_ITPENDINGBIT_TXEMPTY",
+        "location": {
+          "column": "5",
+          "line": "138",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+        },
+        "name": "I2C_ITPENDINGBIT_TXEMPTY",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@I2C_ITPendingBit_TypeDef@I2C_ITPENDINGBIT_RXNOTEMPTY",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "I2C_ITPENDINGBIT_RXNOTEMPTY",
+        "location": {
+          "column": "5",
+          "line": "139",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+        },
+        "name": "I2C_ITPENDINGBIT_RXNOTEMPTY",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@I2C_ITPendingBit_TypeDef@I2C_ITPENDINGBIT_STOPDETECTION",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "I2C_ITPENDINGBIT_STOPDETECTION",
+        "location": {
+          "column": "5",
+          "line": "140",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+        },
+        "name": "I2C_ITPENDINGBIT_STOPDETECTION",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@I2C_ITPendingBit_TypeDef@I2C_ITPENDINGBIT_HEADERSENT",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "I2C_ITPENDINGBIT_HEADERSENT",
+        "location": {
+          "column": "5",
+          "line": "141",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+        },
+        "name": "I2C_ITPENDINGBIT_HEADERSENT",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@I2C_ITPendingBit_TypeDef@I2C_ITPENDINGBIT_TRANSFERFINISHED",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "I2C_ITPENDINGBIT_TRANSFERFINISHED",
+        "location": {
+          "column": "5",
+          "line": "142",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+        },
+        "name": "I2C_ITPENDINGBIT_TRANSFERFINISHED",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@I2C_ITPendingBit_TypeDef@I2C_ITPENDINGBIT_ADDRESSSENTMATCHED",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "I2C_ITPENDINGBIT_ADDRESSSENTMATCHED",
+        "location": {
+          "column": "5",
+          "line": "143",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+        },
+        "name": "I2C_ITPENDINGBIT_ADDRESSSENTMATCHED",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@I2C_ITPendingBit_TypeDef@I2C_ITPENDINGBIT_STARTDETECTION",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "I2C_ITPENDINGBIT_STARTDETECTION",
+        "location": {
+          "column": "5",
+          "line": "144",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+        },
+        "name": "I2C_ITPENDINGBIT_STARTDETECTION",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@I2C_ITPendingBit_TypeDef@I2C_ITPENDINGBIT_WAKEUPFROMHALT",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "I2C_ITPENDINGBIT_WAKEUPFROMHALT",
+        "location": {
+          "column": "5",
+          "line": "147",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+        },
+        "name": "I2C_ITPENDINGBIT_WAKEUPFROMHALT",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@I2C_ITPendingBit_TypeDef@I2C_ITPENDINGBIT_OVERRUNUNDERRUN",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "I2C_ITPENDINGBIT_OVERRUNUNDERRUN",
+        "location": {
+          "column": "5",
+          "line": "148",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+        },
+        "name": "I2C_ITPENDINGBIT_OVERRUNUNDERRUN",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@I2C_ITPendingBit_TypeDef@I2C_ITPENDINGBIT_ACKNOWLEDGEFAILURE",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "I2C_ITPENDINGBIT_ACKNOWLEDGEFAILURE",
+        "location": {
+          "column": "5",
+          "line": "149",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+        },
+        "name": "I2C_ITPENDINGBIT_ACKNOWLEDGEFAILURE",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@I2C_ITPendingBit_TypeDef@I2C_ITPENDINGBIT_ARBITRATIONLOSS",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "I2C_ITPENDINGBIT_ARBITRATIONLOSS",
+        "location": {
+          "column": "5",
+          "line": "150",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+        },
+        "name": "I2C_ITPENDINGBIT_ARBITRATIONLOSS",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@I2C_ITPendingBit_TypeDef@I2C_ITPENDINGBIT_BUSERROR",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "I2C_ITPENDINGBIT_BUSERROR",
+        "location": {
+          "column": "5",
+          "line": "151",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+        },
+        "name": "I2C_ITPENDINGBIT_BUSERROR",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
     "location": {
       "column": "9",
-      "line": "109",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+      "line": "135",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
     },
-    "name": "IS_EXTI_PINMASK_OK",
+    "name": "",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@EXTI_DeInit",
+    "ID": "c:@EA@I2C_Event_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@I2C_Event_TypeDef@I2C_EVENT_MASTER_MODE_SELECT",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "I2C_EVENT_MASTER_MODE_SELECT",
+        "location": {
+          "column": "3",
+          "line": "178",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+        },
+        "name": "I2C_EVENT_MASTER_MODE_SELECT",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@I2C_Event_TypeDef@I2C_EVENT_MASTER_TRANSMITTER_MODE_SELECTED",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "I2C_EVENT_MASTER_TRANSMITTER_MODE_SELECTED",
+        "location": {
+          "column": "3",
+          "line": "207",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+        },
+        "name": "I2C_EVENT_MASTER_TRANSMITTER_MODE_SELECTED",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@I2C_Event_TypeDef@I2C_EVENT_MASTER_RECEIVER_MODE_SELECTED",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "I2C_EVENT_MASTER_RECEIVER_MODE_SELECTED",
+        "location": {
+          "column": "3",
+          "line": "208",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+        },
+        "name": "I2C_EVENT_MASTER_RECEIVER_MODE_SELECTED",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@I2C_Event_TypeDef@I2C_EVENT_MASTER_MODE_ADDRESS10",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "I2C_EVENT_MASTER_MODE_ADDRESS10",
+        "location": {
+          "column": "3",
+          "line": "210",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+        },
+        "name": "I2C_EVENT_MASTER_MODE_ADDRESS10",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@I2C_Event_TypeDef@I2C_EVENT_MASTER_BYTE_RECEIVED",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "I2C_EVENT_MASTER_BYTE_RECEIVED",
+        "location": {
+          "column": "3",
+          "line": "242",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+        },
+        "name": "I2C_EVENT_MASTER_BYTE_RECEIVED",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@I2C_Event_TypeDef@I2C_EVENT_MASTER_BYTE_TRANSMITTING",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "I2C_EVENT_MASTER_BYTE_TRANSMITTING",
+        "location": {
+          "column": "3",
+          "line": "246",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+        },
+        "name": "I2C_EVENT_MASTER_BYTE_TRANSMITTING",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@I2C_Event_TypeDef@I2C_EVENT_MASTER_BYTE_TRANSMITTED",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "I2C_EVENT_MASTER_BYTE_TRANSMITTED",
+        "location": {
+          "column": "3",
+          "line": "249",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+        },
+        "name": "I2C_EVENT_MASTER_BYTE_TRANSMITTED",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@I2C_Event_TypeDef@I2C_EVENT_SLAVE_RECEIVER_ADDRESS_MATCHED",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "I2C_EVENT_SLAVE_RECEIVER_ADDRESS_MATCHED",
+        "location": {
+          "column": "3",
+          "line": "280",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+        },
+        "name": "I2C_EVENT_SLAVE_RECEIVER_ADDRESS_MATCHED",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@I2C_Event_TypeDef@I2C_EVENT_SLAVE_TRANSMITTER_ADDRESS_MATCHED",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "I2C_EVENT_SLAVE_TRANSMITTER_ADDRESS_MATCHED",
+        "location": {
+          "column": "3",
+          "line": "281",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+        },
+        "name": "I2C_EVENT_SLAVE_TRANSMITTER_ADDRESS_MATCHED",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@I2C_Event_TypeDef@I2C_EVENT_SLAVE_GENERALCALLADDRESS_MATCHED",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "I2C_EVENT_SLAVE_GENERALCALLADDRESS_MATCHED",
+        "location": {
+          "column": "3",
+          "line": "284",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+        },
+        "name": "I2C_EVENT_SLAVE_GENERALCALLADDRESS_MATCHED",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@I2C_Event_TypeDef@I2C_EVENT_SLAVE_BYTE_RECEIVED",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "I2C_EVENT_SLAVE_BYTE_RECEIVED",
+        "location": {
+          "column": "3",
+          "line": "315",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+        },
+        "name": "I2C_EVENT_SLAVE_BYTE_RECEIVED",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@I2C_Event_TypeDef@I2C_EVENT_SLAVE_STOP_DETECTED",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "I2C_EVENT_SLAVE_STOP_DETECTED",
+        "location": {
+          "column": "3",
+          "line": "317",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+        },
+        "name": "I2C_EVENT_SLAVE_STOP_DETECTED",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@I2C_Event_TypeDef@I2C_EVENT_SLAVE_BYTE_TRANSMITTED",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "I2C_EVENT_SLAVE_BYTE_TRANSMITTED",
+        "location": {
+          "column": "3",
+          "line": "321",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+        },
+        "name": "I2C_EVENT_SLAVE_BYTE_TRANSMITTED",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@I2C_Event_TypeDef@I2C_EVENT_SLAVE_BYTE_TRANSMITTING",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "I2C_EVENT_SLAVE_BYTE_TRANSMITTING",
+        "location": {
+          "column": "3",
+          "line": "322",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+        },
+        "name": "I2C_EVENT_SLAVE_BYTE_TRANSMITTING",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@I2C_Event_TypeDef@I2C_EVENT_SLAVE_ACK_FAILURE",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "I2C_EVENT_SLAVE_ACK_FAILURE",
+        "location": {
+          "column": "3",
+          "line": "324",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+        },
+        "name": "I2C_EVENT_SLAVE_ACK_FAILURE",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "163",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_i2c.h@14913@macro@I2C_MAX_STANDARD_FREQ",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2C_MAX_STANDARD_FREQ",
+    "location": {
+      "column": "9",
+      "line": "335",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+    },
+    "name": "I2C_MAX_STANDARD_FREQ",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_i2c.h@14963@macro@I2C_MAX_FAST_FREQ",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2C_MAX_FAST_FREQ",
+    "location": {
+      "column": "9",
+      "line": "336",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+    },
+    "name": "I2C_MAX_FAST_FREQ",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_i2c.h@15134@macro@I2C_MAX_INPUT_FREQ",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2C_MAX_INPUT_FREQ",
+    "location": {
+      "column": "10",
+      "line": "340",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+    },
+    "name": "I2C_MAX_INPUT_FREQ",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_i2c.h@15632@macro@IS_I2C_DUTYCYCLE_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_I2C_DUTYCYCLE_OK",
+    "location": {
+      "column": "9",
+      "line": "361",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+    },
+    "name": "IS_I2C_DUTYCYCLE_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_i2c.h@15856@macro@IS_I2C_ACK_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_I2C_ACK_OK",
+    "location": {
+      "column": "9",
+      "line": "368",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+    },
+    "name": "IS_I2C_ACK_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_i2c.h@16087@macro@IS_I2C_ADDMODE_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_I2C_ADDMODE_OK",
+    "location": {
+      "column": "9",
+      "line": "376",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+    },
+    "name": "IS_I2C_ADDMODE_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_i2c.h@16309@macro@IS_I2C_INTERRUPT_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_I2C_INTERRUPT_OK",
+    "location": {
+      "column": "9",
+      "line": "383",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+    },
+    "name": "IS_I2C_INTERRUPT_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_i2c.h@16745@macro@IS_I2C_DIRECTION_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_I2C_DIRECTION_OK",
+    "location": {
+      "column": "9",
+      "line": "394",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+    },
+    "name": "IS_I2C_DIRECTION_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_i2c.h@16946@macro@IS_I2C_FLAG_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_I2C_FLAG_OK",
+    "location": {
+      "column": "9",
+      "line": "401",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+    },
+    "name": "IS_I2C_FLAG_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_i2c.h@17822@macro@IS_I2C_CLEAR_FLAG_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_I2C_CLEAR_FLAG_OK",
+    "location": {
+      "column": "9",
+      "line": "422",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+    },
+    "name": "IS_I2C_CLEAR_FLAG_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_i2c.h@18089@macro@IS_I2C_ITPENDINGBIT_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_I2C_ITPENDINGBIT_OK",
+    "location": {
+      "column": "9",
+      "line": "428",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+    },
+    "name": "IS_I2C_ITPENDINGBIT_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_i2c.h@19038@macro@IS_I2C_CLEAR_ITPENDINGBIT_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_I2C_CLEAR_ITPENDINGBIT_OK",
+    "location": {
+      "column": "9",
+      "line": "446",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+    },
+    "name": "IS_I2C_CLEAR_ITPENDINGBIT_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_i2c.h@19516@macro@IS_I2C_EVENT_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_I2C_EVENT_OK",
+    "location": {
+      "column": "9",
+      "line": "456",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+    },
+    "name": "IS_I2C_EVENT_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_i2c.h@21019@macro@IS_I2C_OWN_ADDRESS_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_I2C_OWN_ADDRESS_OK",
+    "location": {
+      "column": "9",
+      "line": "476",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+    },
+    "name": "IS_I2C_OWN_ADDRESS_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_i2c.h@21130@macro@IS_I2C_ADDRESS_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_I2C_ADDRESS_OK",
+    "location": {
+      "column": "9",
+      "line": "480",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+    },
+    "name": "IS_I2C_ADDRESS_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_i2c.h@21343@macro@IS_I2C_INPUT_CLOCK_FREQ_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_I2C_INPUT_CLOCK_FREQ_OK",
+    "location": {
+      "column": "9",
+      "line": "486",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+    },
+    "name": "IS_I2C_INPUT_CLOCK_FREQ_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_i2c.h@21585@macro@IS_I2C_OUTPUT_CLOCK_FREQ_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_I2C_OUTPUT_CLOCK_FREQ_OK",
+    "location": {
+      "column": "9",
+      "line": "493",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+    },
+    "name": "IS_I2C_OUTPUT_CLOCK_FREQ_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_DeInit",
     "What": "Function",
     "defdec": "Dec",
-    "display": "void EXTI_DeInit(void)",
+    "display": "void I2C_DeInit(void)",
     "location": {
       "column": "6",
-      "line": "121",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+      "line": "505",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
     },
-    "name": "EXTI_DeInit",
+    "name": "I2C_DeInit",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@EXTI_SetExtIntSensitivity",
+    "ID": "c:@F@I2C_Init",
     "What": "Function",
     "defdec": "Dec",
-    "display": "void EXTI_SetExtIntSensitivity(EXTI_Port_TypeDef, EXTI_Sensitivity_TypeDef)",
+    "display": "void I2C_Init(uint32_t, uint16_t, I2C_DutyCycle_TypeDef, I2C_Ack_TypeDef, I2C_AddMode_TypeDef, uint8_t)",
     "location": {
       "column": "6",
-      "line": "122",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+      "line": "506",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
     },
-    "name": "EXTI_SetExtIntSensitivity",
+    "name": "I2C_Init",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@EXTI_SetTLISensitivity",
+    "ID": "c:@F@I2C_Cmd",
     "What": "Function",
     "defdec": "Dec",
-    "display": "void EXTI_SetTLISensitivity(EXTI_TLISensitivity_TypeDef)",
+    "display": "void I2C_Cmd(FunctionalState)",
     "location": {
       "column": "6",
-      "line": "123",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+      "line": "509",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
     },
-    "name": "EXTI_SetTLISensitivity",
+    "name": "I2C_Cmd",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@EXTI_GetExtIntSensitivity",
+    "ID": "c:@F@I2C_GeneralCallCmd",
     "What": "Function",
     "defdec": "Dec",
-    "display": "EXTI_Sensitivity_TypeDef EXTI_GetExtIntSensitivity(EXTI_Port_TypeDef)",
+    "display": "void I2C_GeneralCallCmd(FunctionalState)",
     "location": {
-      "column": "26",
-      "line": "124",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+      "column": "6",
+      "line": "510",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
     },
-    "name": "EXTI_GetExtIntSensitivity",
+    "name": "I2C_GeneralCallCmd",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@EXTI_GetTLISensitivity",
+    "ID": "c:@F@I2C_GenerateSTART",
     "What": "Function",
     "defdec": "Dec",
-    "display": "EXTI_TLISensitivity_TypeDef EXTI_GetTLISensitivity(void)",
+    "display": "void I2C_GenerateSTART(FunctionalState)",
     "location": {
-      "column": "29",
-      "line": "125",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+      "column": "6",
+      "line": "511",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
     },
-    "name": "EXTI_GetTLISensitivity",
+    "name": "I2C_GenerateSTART",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_GenerateSTOP",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void I2C_GenerateSTOP(FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "512",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+    },
+    "name": "I2C_GenerateSTOP",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_SoftwareResetCmd",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void I2C_SoftwareResetCmd(FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "513",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+    },
+    "name": "I2C_SoftwareResetCmd",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_StretchClockCmd",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void I2C_StretchClockCmd(FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "514",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+    },
+    "name": "I2C_StretchClockCmd",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_AcknowledgeConfig",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void I2C_AcknowledgeConfig(I2C_Ack_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "515",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+    },
+    "name": "I2C_AcknowledgeConfig",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_FastModeDutyCycleConfig",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void I2C_FastModeDutyCycleConfig(I2C_DutyCycle_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "516",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+    },
+    "name": "I2C_FastModeDutyCycleConfig",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_ITConfig",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void I2C_ITConfig(I2C_IT_TypeDef, FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "517",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+    },
+    "name": "I2C_ITConfig",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_ReceiveData",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint8_t I2C_ReceiveData(void)",
+    "location": {
+      "column": "9",
+      "line": "518",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+    },
+    "name": "I2C_ReceiveData",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_Send7bitAddress",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void I2C_Send7bitAddress(uint8_t, I2C_Direction_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "519",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+    },
+    "name": "I2C_Send7bitAddress",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_SendData",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void I2C_SendData(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "520",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+    },
+    "name": "I2C_SendData",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_CheckEvent",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "ErrorStatus I2C_CheckEvent(I2C_Event_TypeDef)",
+    "location": {
+      "column": "13",
+      "line": "603",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+    },
+    "name": "I2C_CheckEvent",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_GetLastEvent",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "I2C_Event_TypeDef I2C_GetLastEvent(void)",
+    "location": {
+      "column": "19",
+      "line": "609",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+    },
+    "name": "I2C_GetLastEvent",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_GetFlagStatus",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "FlagStatus I2C_GetFlagStatus(I2C_Flag_TypeDef)",
+    "location": {
+      "column": "12",
+      "line": "615",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+    },
+    "name": "I2C_GetFlagStatus",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_ClearFlag",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void I2C_ClearFlag(I2C_Flag_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "620",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+    },
+    "name": "I2C_ClearFlag",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_GetITStatus",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "ITStatus I2C_GetITStatus(I2C_ITPendingBit_TypeDef)",
+    "location": {
+      "column": "10",
+      "line": "621",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+    },
+    "name": "I2C_GetITStatus",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_ClearITPendingBit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void I2C_ClearITPendingBit(I2C_ITPendingBit_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "622",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_i2c.h"
+    },
+    "name": "I2C_ClearITPendingBit",
     "origin": "user_include",
     "scope": null
   },
@@ -39292,86 +38950,30 @@
     "scope": null
   },
   {
-    "ID": "c:@PRESCALER_1",
+    "ID": "c:@PRESCALER",
     "What": "Variable",
     "defdec": "Dec",
-    "display": "PRESCALER_1",
+    "display": "PRESCALER",
     "location": {
       "column": "17",
       "line": "16",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
-    "name": "PRESCALER_1",
+    "name": "PRESCALER",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@PRESCALER_1",
+    "ID": "c:@PRESCALER",
     "What": "Variable",
     "defdec": "Dec",
-    "display": "PRESCALER_1",
+    "display": "PRESCALER",
     "location": {
       "column": "17",
       "line": "16",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
-    "name": "PRESCALER_1",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@PRESCALER_2",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "PRESCALER_2",
-    "location": {
-      "column": "17",
-      "line": "17",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
-    },
-    "name": "PRESCALER_2",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@PRESCALER_2",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "PRESCALER_2",
-    "location": {
-      "column": "17",
-      "line": "17",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
-    },
-    "name": "PRESCALER_2",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@PRESCALER_3",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "PRESCALER_3",
-    "location": {
-      "column": "17",
-      "line": "18",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
-    },
-    "name": "PRESCALER_3",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@PRESCALER_3",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "PRESCALER_3",
-    "location": {
-      "column": "17",
-      "line": "18",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
-    },
-    "name": "PRESCALER_3",
+    "name": "PRESCALER",
     "origin": "user_include",
     "scope": null
   },
@@ -39382,7 +38984,7 @@
     "display": "CONFIGURATION",
     "location": {
       "column": "17",
-      "line": "19",
+      "line": "17",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "CONFIGURATION",
@@ -39396,7 +38998,7 @@
     "display": "CONFIGURATION",
     "location": {
       "column": "17",
-      "line": "19",
+      "line": "17",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "CONFIGURATION",
@@ -39410,7 +39012,7 @@
     "display": "u8CountMeasure",
     "location": {
       "column": "16",
-      "line": "21",
+      "line": "19",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "u8CountMeasure",
@@ -39424,7 +39026,7 @@
     "display": "u8BuffMeasure",
     "location": {
       "column": "16",
-      "line": "22",
+      "line": "20",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "u8BuffMeasure",
@@ -39438,7 +39040,7 @@
     "display": "u8CurrentConfigurateADC",
     "location": {
       "column": "16",
-      "line": "24",
+      "line": "22",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "u8CurrentConfigurateADC",
@@ -39452,7 +39054,7 @@
     "display": "u8CurrentConfigurateADC",
     "location": {
       "column": "16",
-      "line": "24",
+      "line": "22",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "u8CurrentConfigurateADC",
@@ -39466,7 +39068,7 @@
     "display": "u8LastChannel",
     "location": {
       "column": "16",
-      "line": "25",
+      "line": "23",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "u8LastChannel",
@@ -39480,7 +39082,7 @@
     "display": "u8LastChannel",
     "location": {
       "column": "16",
-      "line": "25",
+      "line": "23",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "u8LastChannel",
@@ -39494,7 +39096,7 @@
     "display": "u8UsedChannel_1",
     "location": {
       "column": "16",
-      "line": "26",
+      "line": "24",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "u8UsedChannel_1",
@@ -39508,7 +39110,7 @@
     "display": "u8UsedChannel_1",
     "location": {
       "column": "16",
-      "line": "26",
+      "line": "24",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "u8UsedChannel_1",
@@ -39522,7 +39124,7 @@
     "display": "u8UsedChannel_2",
     "location": {
       "column": "16",
-      "line": "27",
+      "line": "25",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "u8UsedChannel_2",
@@ -39536,7 +39138,7 @@
     "display": "u8UsedChannel_2",
     "location": {
       "column": "16",
-      "line": "27",
+      "line": "25",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "u8UsedChannel_2",
@@ -39550,7 +39152,7 @@
     "display": "u8UsedChannel_3",
     "location": {
       "column": "16",
-      "line": "28",
+      "line": "26",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "u8UsedChannel_3",
@@ -39564,7 +39166,7 @@
     "display": "u8UsedChannel_3",
     "location": {
       "column": "16",
-      "line": "28",
+      "line": "26",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "u8UsedChannel_3",
@@ -39578,7 +39180,7 @@
     "display": "ChannelSet",
     "location": {
       "column": "8",
-      "line": "29",
+      "line": "27",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "members": [
@@ -39589,7 +39191,7 @@
         "display": "u8SubChannel",
         "location": {
           "column": "11",
-          "line": "30",
+          "line": "28",
           "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
         },
         "name": "u8SubChannel",
@@ -39603,7 +39205,7 @@
         "display": "u8Prescaler_1",
         "location": {
           "column": "10",
-          "line": "31",
+          "line": "29",
           "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
         },
         "name": "u8Prescaler_1",
@@ -39617,7 +39219,7 @@
         "display": "u8Prescaler_2",
         "location": {
           "column": "10",
-          "line": "32",
+          "line": "30",
           "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
         },
         "name": "u8Prescaler_2",
@@ -39636,7 +39238,7 @@
     "display": "struct ChannelSet",
     "location": {
       "column": "27",
-      "line": "34",
+      "line": "32",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "CS",
@@ -39650,7 +39252,7 @@
     "display": "CH1",
     "location": {
       "column": "11",
-      "line": "35",
+      "line": "33",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "CH1",
@@ -39664,7 +39266,7 @@
     "display": "CH2",
     "location": {
       "column": "16",
-      "line": "35",
+      "line": "33",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "CH2",
@@ -39678,7 +39280,7 @@
     "display": "CH3",
     "location": {
       "column": "21",
-      "line": "35",
+      "line": "33",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "CH3",
@@ -39692,7 +39294,7 @@
     "display": "bCalibratingCoefficient",
     "location": {
       "column": "15",
-      "line": "37",
+      "line": "35",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "bCalibratingCoefficient",
@@ -39712,7 +39314,7 @@
         "display": "select_mode",
         "location": {
           "column": "3",
-          "line": "40",
+          "line": "38",
           "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
         },
         "name": "select_mode",
@@ -39726,7 +39328,7 @@
         "display": "wait",
         "location": {
           "column": "3",
-          "line": "41",
+          "line": "39",
           "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
         },
         "name": "wait",
@@ -39740,7 +39342,7 @@
         "display": "save",
         "location": {
           "column": "3",
-          "line": "42",
+          "line": "40",
           "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
         },
         "name": "save",
@@ -39754,7 +39356,7 @@
         "display": "calibrate",
         "location": {
           "column": "3",
-          "line": "43",
+          "line": "41",
           "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
         },
         "name": "calibrate",
@@ -39768,7 +39370,7 @@
         "display": "subprescaler",
         "location": {
           "column": "3",
-          "line": "44",
+          "line": "42",
           "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
         },
         "name": "subprescaler",
@@ -39782,7 +39384,7 @@
         "display": "help",
         "location": {
           "column": "3",
-          "line": "45",
+          "line": "43",
           "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
         },
         "name": "help",
@@ -39792,7 +39394,7 @@
     ],
     "location": {
       "column": "6",
-      "line": "39",
+      "line": "37",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "FSM",
@@ -39806,7 +39408,7 @@
     "display": "MAIN",
     "location": {
       "column": "17",
-      "line": "47",
+      "line": "45",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "MAIN",
@@ -39820,7 +39422,7 @@
     "display": "MAIN",
     "location": {
       "column": "17",
-      "line": "47",
+      "line": "45",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "MAIN",
@@ -39834,7 +39436,7 @@
     "display": "void vInitCLK(void)",
     "location": {
       "column": "6",
-      "line": "54",
+      "line": "52",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vInitCLK",
@@ -39848,7 +39450,7 @@
     "display": "void vInitCLK(void)",
     "location": {
       "column": "6",
-      "line": "54",
+      "line": "52",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vInitCLK",
@@ -39862,7 +39464,7 @@
     "display": "void vInitADC(void)",
     "location": {
       "column": "6",
-      "line": "55",
+      "line": "53",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vInitADC",
@@ -39876,7 +39478,7 @@
     "display": "void vInitADC(void)",
     "location": {
       "column": "6",
-      "line": "55",
+      "line": "53",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vInitADC",
@@ -39890,7 +39492,7 @@
     "display": "void vInitUART(void)",
     "location": {
       "column": "6",
-      "line": "56",
+      "line": "54",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vInitUART",
@@ -39904,7 +39506,7 @@
     "display": "void vInitUART(void)",
     "location": {
       "column": "6",
-      "line": "56",
+      "line": "54",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vInitUART",
@@ -39918,7 +39520,7 @@
     "display": "void vInitTIM4(void)",
     "location": {
       "column": "6",
-      "line": "57",
+      "line": "55",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vInitTIM4",
@@ -39932,7 +39534,7 @@
     "display": "void vInitTIM4(void)",
     "location": {
       "column": "6",
-      "line": "57",
+      "line": "55",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vInitTIM4",
@@ -39946,7 +39548,7 @@
     "display": "void vInitGPIO(void)",
     "location": {
       "column": "6",
-      "line": "58",
+      "line": "56",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vInitGPIO",
@@ -39960,7 +39562,7 @@
     "display": "void vInitGPIO(void)",
     "location": {
       "column": "6",
-      "line": "58",
+      "line": "56",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vInitGPIO",
@@ -39974,7 +39576,7 @@
     "display": "void vSelectChannel(uint8_t)",
     "location": {
       "column": "6",
-      "line": "60",
+      "line": "58",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vSelectChannel",
@@ -39988,7 +39590,7 @@
     "display": "void vSelectChannel(uint8_t)",
     "location": {
       "column": "6",
-      "line": "60",
+      "line": "58",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vSelectChannel",
@@ -40002,7 +39604,7 @@
     "display": "uint8_t u8GetMean(uint8_t *, uint8_t)",
     "location": {
       "column": "9",
-      "line": "61",
+      "line": "59",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "u8GetMean",
@@ -40016,7 +39618,7 @@
     "display": "uint8_t u8GetMean(uint8_t *, uint8_t)",
     "location": {
       "column": "9",
-      "line": "61",
+      "line": "59",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "u8GetMean",
@@ -40030,7 +39632,7 @@
     "display": "bool vUART_Transmit(uint8_t)",
     "location": {
       "column": "6",
-      "line": "63",
+      "line": "61",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vUART_Transmit",
@@ -40044,7 +39646,7 @@
     "display": "bool vUART_Transmit(uint8_t)",
     "location": {
       "column": "6",
-      "line": "63",
+      "line": "61",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vUART_Transmit",
@@ -40058,7 +39660,7 @@
     "display": "bool vUART_ArrayTransmit(uint8_t *, uint8_t)",
     "location": {
       "column": "6",
-      "line": "64",
+      "line": "62",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vUART_ArrayTransmit",
@@ -40072,7 +39674,7 @@
     "display": "bool vUART_ArrayTransmit(uint8_t *, uint8_t)",
     "location": {
       "column": "6",
-      "line": "64",
+      "line": "62",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vUART_ArrayTransmit",
@@ -40086,7 +39688,7 @@
     "display": "uint8_t u8UART_Recieve(void)",
     "location": {
       "column": "9",
-      "line": "65",
+      "line": "63",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "u8UART_Recieve",
@@ -40100,7 +39702,7 @@
     "display": "uint8_t u8UART_Recieve(void)",
     "location": {
       "column": "9",
-      "line": "65",
+      "line": "63",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "u8UART_Recieve",
@@ -40114,7 +39716,7 @@
     "display": "void vUART_SendResult(uint8_t, uint8_t)",
     "location": {
       "column": "6",
-      "line": "66",
+      "line": "64",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vUART_SendResult",
@@ -40128,7 +39730,7 @@
     "display": "void vUART_SendResult(uint8_t, uint8_t)",
     "location": {
       "column": "6",
-      "line": "66",
+      "line": "64",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vUART_SendResult",
@@ -40142,7 +39744,7 @@
     "display": "void vUpdateEEPROMConfig(uint8_t)",
     "location": {
       "column": "9",
-      "line": "68",
+      "line": "66",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vUpdateEEPROMConfig",
@@ -40156,7 +39758,7 @@
     "display": "void vUpdateEEPROMConfig(uint8_t)",
     "location": {
       "column": "9",
-      "line": "68",
+      "line": "66",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vUpdateEEPROMConfig",
@@ -40170,7 +39772,7 @@
     "display": "void vUpdateEEPROMChannel(uint8_t, uint8_t)",
     "location": {
       "column": "9",
-      "line": "69",
+      "line": "67",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vUpdateEEPROMChannel",
@@ -40184,7 +39786,7 @@
     "display": "void vUpdateEEPROMChannel(uint8_t, uint8_t)",
     "location": {
       "column": "9",
-      "line": "69",
+      "line": "67",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vUpdateEEPROMChannel",
@@ -40198,7 +39800,7 @@
     "display": "uint8_t u8GetPrescaler(uint8_t)",
     "location": {
       "column": "9",
-      "line": "70",
+      "line": "68",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "u8GetPrescaler",
@@ -40212,7 +39814,7 @@
     "display": "void vUploadValueEEPROM(uint8_t *, uint8_t *, uint8_t *, uint8_t *)",
     "location": {
       "column": "9",
-      "line": "71",
+      "line": "69",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vUploadValueEEPROM",
@@ -40226,10 +39828,66 @@
     "display": "void vUploadValueEEPROM(uint8_t *, uint8_t *, uint8_t *, uint8_t *)",
     "location": {
       "column": "9",
-      "line": "71",
+      "line": "69",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
     },
     "name": "vUploadValueEEPROM",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vGetBackup",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void vGetBackup(uint8_t *, double *)",
+    "location": {
+      "column": "6",
+      "line": "70",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
+    },
+    "name": "vGetBackup",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vGetBackup",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void vGetBackup(uint8_t *, double *)",
+    "location": {
+      "column": "6",
+      "line": "70",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
+    },
+    "name": "vGetBackup",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vGetRestore",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void vGetRestore(uint8_t *, double *)",
+    "location": {
+      "column": "6",
+      "line": "71",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
+    },
+    "name": "vGetRestore",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vGetRestore",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void vGetRestore(uint8_t *, double *)",
+    "location": {
+      "column": "6",
+      "line": "71",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\inc\\general.h"
+    },
+    "name": "vGetRestore",
     "origin": "user_include",
     "scope": null
   },
@@ -42268,6 +41926,348 @@
     },
     "name": "_MIN",
     "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_exti.h@1289@macro@__STM8S_EXTI_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__STM8S_EXTI_H",
+    "location": {
+      "column": "9",
+      "line": "30",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+    },
+    "name": "__STM8S_EXTI_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@EXTI_Sensitivity_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@EXTI_Sensitivity_TypeDef@EXTI_SENSITIVITY_FALL_LOW",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "EXTI_SENSITIVITY_FALL_LOW",
+        "location": {
+          "column": "3",
+          "line": "45",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+        },
+        "name": "EXTI_SENSITIVITY_FALL_LOW",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@EXTI_Sensitivity_TypeDef@EXTI_SENSITIVITY_RISE_ONLY",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "EXTI_SENSITIVITY_RISE_ONLY",
+        "location": {
+          "column": "3",
+          "line": "46",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+        },
+        "name": "EXTI_SENSITIVITY_RISE_ONLY",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@EXTI_Sensitivity_TypeDef@EXTI_SENSITIVITY_FALL_ONLY",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "EXTI_SENSITIVITY_FALL_ONLY",
+        "location": {
+          "column": "3",
+          "line": "47",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+        },
+        "name": "EXTI_SENSITIVITY_FALL_ONLY",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@EXTI_Sensitivity_TypeDef@EXTI_SENSITIVITY_RISE_FALL",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "EXTI_SENSITIVITY_RISE_FALL",
+        "location": {
+          "column": "3",
+          "line": "48",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+        },
+        "name": "EXTI_SENSITIVITY_RISE_FALL",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "44",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@EXTI_TLISensitivity_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@EXTI_TLISensitivity_TypeDef@EXTI_TLISENSITIVITY_FALL_ONLY",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "EXTI_TLISENSITIVITY_FALL_ONLY",
+        "location": {
+          "column": "3",
+          "line": "55",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+        },
+        "name": "EXTI_TLISENSITIVITY_FALL_ONLY",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@EXTI_TLISensitivity_TypeDef@EXTI_TLISENSITIVITY_RISE_ONLY",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "EXTI_TLISENSITIVITY_RISE_ONLY",
+        "location": {
+          "column": "3",
+          "line": "56",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+        },
+        "name": "EXTI_TLISENSITIVITY_RISE_ONLY",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "54",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@EXTI_Port_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@EXTI_Port_TypeDef@EXTI_PORT_GPIOA",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "EXTI_PORT_GPIOA",
+        "location": {
+          "column": "3",
+          "line": "63",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+        },
+        "name": "EXTI_PORT_GPIOA",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@EXTI_Port_TypeDef@EXTI_PORT_GPIOB",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "EXTI_PORT_GPIOB",
+        "location": {
+          "column": "3",
+          "line": "64",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+        },
+        "name": "EXTI_PORT_GPIOB",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@EXTI_Port_TypeDef@EXTI_PORT_GPIOC",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "EXTI_PORT_GPIOC",
+        "location": {
+          "column": "3",
+          "line": "65",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+        },
+        "name": "EXTI_PORT_GPIOC",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@EXTI_Port_TypeDef@EXTI_PORT_GPIOD",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "EXTI_PORT_GPIOD",
+        "location": {
+          "column": "3",
+          "line": "66",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+        },
+        "name": "EXTI_PORT_GPIOD",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@EXTI_Port_TypeDef@EXTI_PORT_GPIOE",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "EXTI_PORT_GPIOE",
+        "location": {
+          "column": "3",
+          "line": "67",
+          "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+        },
+        "name": "EXTI_PORT_GPIOE",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "62",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_exti.h@2992@macro@IS_EXTI_SENSITIVITY_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_EXTI_SENSITIVITY_OK",
+    "location": {
+      "column": "9",
+      "line": "83",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+    },
+    "name": "IS_EXTI_SENSITIVITY_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_exti.h@3399@macro@IS_EXTI_TLISENSITIVITY_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_EXTI_TLISENSITIVITY_OK",
+    "location": {
+      "column": "9",
+      "line": "92",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+    },
+    "name": "IS_EXTI_TLISENSITIVITY_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_exti.h@3680@macro@IS_EXTI_PORT_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_EXTI_PORT_OK",
+    "location": {
+      "column": "9",
+      "line": "99",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+    },
+    "name": "IS_EXTI_PORT_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_exti.h@4009@macro@IS_EXTI_PINMASK_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_EXTI_PINMASK_OK",
+    "location": {
+      "column": "9",
+      "line": "109",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+    },
+    "name": "IS_EXTI_PINMASK_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@EXTI_DeInit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void EXTI_DeInit(void)",
+    "location": {
+      "column": "6",
+      "line": "121",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+    },
+    "name": "EXTI_DeInit",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@EXTI_SetExtIntSensitivity",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void EXTI_SetExtIntSensitivity(EXTI_Port_TypeDef, EXTI_Sensitivity_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "122",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+    },
+    "name": "EXTI_SetExtIntSensitivity",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@EXTI_SetTLISensitivity",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void EXTI_SetTLISensitivity(EXTI_TLISensitivity_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "123",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+    },
+    "name": "EXTI_SetTLISensitivity",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@EXTI_GetExtIntSensitivity",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "EXTI_Sensitivity_TypeDef EXTI_GetExtIntSensitivity(EXTI_Port_TypeDef)",
+    "location": {
+      "column": "26",
+      "line": "124",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+    },
+    "name": "EXTI_GetExtIntSensitivity",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@EXTI_GetTLISensitivity",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "EXTI_TLISensitivity_TypeDef EXTI_GetTLISensitivity(void)",
+    "location": {
+      "column": "29",
+      "line": "125",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\lib\\SPL\\inc\\stm8s_exti.h"
+    },
+    "name": "EXTI_GetTLISensitivity",
+    "origin": "user_include",
     "scope": null
   },
   {
@@ -56143,6 +56143,90 @@
     "scope": null
   },
   {
+    "ID": "c:@F@vGetBackup",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void vGetBackup(uint8_t *, double *)",
+    "location": {
+      "column": "6",
+      "line": "47",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\EEPROM.c"
+    },
+    "name": "vGetBackup",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:EEPROM.c@1593@F@vGetBackup@u8Table",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "u8Table",
+    "location": {
+      "column": "11",
+      "line": "48",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\EEPROM.c"
+    },
+    "name": "u8Table",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:EEPROM.c@1620@F@vGetBackup@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "15",
+      "line": "49",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\EEPROM.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:EEPROM.c@1800@F@vGetBackup@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "15",
+      "line": "54",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\EEPROM.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vGetRestore",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void vGetRestore(uint8_t *, double *)",
+    "location": {
+      "column": "6",
+      "line": "60",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\EEPROM.c"
+    },
+    "name": "vGetRestore",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:EEPROM.c@2074@F@vGetRestore@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "15",
+      "line": "62",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\EEPROM.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@u8CurrentChannel",
     "What": "Variable",
     "defdec": "Def",
@@ -56227,13 +56311,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1437@F@main@u8CalibratedChannel",
+    "ID": "c:main.c@1553@F@main@u8CalibratedChannel",
     "What": "Variable",
     "defdec": "Def",
     "display": "u8CalibratedChannel",
     "location": {
       "column": "15",
-      "line": "62",
+      "line": "66",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\main.c"
     },
     "name": "u8CalibratedChannel",
@@ -56247,7 +56331,7 @@
     "display": "void assert_failed(u8 *, u32)",
     "location": {
       "column": "6",
-      "line": "73",
+      "line": "77",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\main.c"
     },
     "name": "assert_failed",
@@ -56395,44 +56479,30 @@
     "scope": null
   },
   {
-    "ID": "c:@PRESCALER_1",
+    "ID": "c:general.c@u8LedCounter",
     "What": "Variable",
     "defdec": "Def",
-    "display": "PRESCALER_1",
+    "display": "u8LedCounter",
     "location": {
-      "column": "10",
-      "line": "12",
+      "column": "16",
+      "line": "11",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\general.c"
     },
-    "name": "PRESCALER_1",
+    "name": "u8LedCounter",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:@PRESCALER_2",
+    "ID": "c:@PRESCALER",
     "What": "Variable",
     "defdec": "Def",
-    "display": "PRESCALER_2",
+    "display": "PRESCALER",
     "location": {
       "column": "10",
       "line": "13",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\general.c"
     },
-    "name": "PRESCALER_2",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@PRESCALER_3",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "PRESCALER_3",
-    "location": {
-      "column": "10",
-      "line": "14",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\general.c"
-    },
-    "name": "PRESCALER_3",
+    "name": "PRESCALER",
     "origin": "project_file",
     "scope": null
   },
@@ -56443,7 +56513,7 @@
     "display": "CONFIGURATION",
     "location": {
       "column": "10",
-      "line": "15",
+      "line": "14",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\general.c"
     },
     "name": "CONFIGURATION",
@@ -56457,7 +56527,7 @@
     "display": "void TIM4_UPD_OVF_IRQHandler(void)",
     "location": {
       "column": "1",
-      "line": "25",
+      "line": "24",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\general.c"
     },
     "name": "TIM4_UPD_OVF_IRQHandler",
@@ -56471,7 +56541,7 @@
     "display": "void ADC1_IRQHandler(void)",
     "location": {
       "column": "1",
-      "line": "33",
+      "line": "39",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\general.c"
     },
     "name": "ADC1_IRQHandler",
@@ -56485,7 +56555,7 @@
     "display": "void vExportData(void)",
     "location": {
       "column": "6",
-      "line": "45",
+      "line": "51",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\general.c"
     },
     "name": "vExportData",

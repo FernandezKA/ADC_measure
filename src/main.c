@@ -53,8 +53,12 @@ void main(void)
     break;
     
     case help:
+      asm("sim");
       vPrintHelp();
+      vUART_ArrayTransmit("Press any key\n\r", 15);
+      u8UART_Recieve();
       MAIN = wait;
+      asm("rim");
       break;
     case calibrate:
       asm("sim");

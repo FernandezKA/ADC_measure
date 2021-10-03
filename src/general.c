@@ -8,10 +8,9 @@ uint8_t u8UsedChannel_1 = 0;
 uint8_t u8UsedChannel_2 = 0;
 uint8_t u8UsedChannel_3 = 0;
 CS CH1, CH2, CH3;
+static uint8_t u8LedCounter = 0x00;
 //Definitions EEPROM regions for constants
-uint32_t PRESCALER_1 =   0x4000;
-uint32_t PRESCALER_2 =   0x4010;
-uint32_t PRESCALER_3 =   0x4020;
+uint32_t PRESCALER =   0x4000;
 uint32_t CONFIGURATION = 0x4030;
 //User procedure
 
@@ -26,6 +25,13 @@ INTERRUPT_HANDLER(TIM4_UPD_OVF_IRQHandler, 23)
 {
   //Time call is 1 mS
   TIM4->SR1 &= ~TIM4_SR1_UIF; //Clear IRQ flag
+  if(u8LedCounter < 100){
+    u8LedCounter += 1;
+  }
+  else{
+    u8LedCounter = 0x00;
+    GPIOB->ODR^=(1<<5);
+  }
   ADC1->CR1 |= ADC1_CR1_ADON; //Get sample
 }
 
