@@ -45,21 +45,32 @@ void    vUploadValueEEPROM(uint8_t* pPrescaler_1, uint8_t* pPrescaler_2, uint8_t
 }   
 //Save current settings
 void vGetBackup(uint8_t* pu8Mode, double* pdCalibratingTable){
-  uint8_t u8Table[6];
+  uint16_t u16Table[8];
   for(uint8_t i = 0; i < 6; i++){
-    u8Table[i] = (uint8_t) pdCalibratingTable[i] * 10;
+    double dDebugTemp = pdCalibratingTable[i] * 5000;
+    u16Table[i] = (uint8_t) (dDebugTemp);
   }
   FLASH_Unlock(FLASH_MEMTYPE_DATA);
   FLASH_ProgramByte(CONFIGURATION, *pu8Mode);
-  for(uint8_t i = 0; i < 6; ++i){
-    FLASH_ProgramByte(PRESCALER + i, u8Table[i]);
+  for(uint8_t i = 0; i < 6; i++){
+    FLASH_ProgramByte(PRESCALER + 2*i, (u16Table[i]&0xFF00)>> 8);
+    FLASH_ProgramByte(PRESCALER + 2*i + 1, u16Table[i]);
   }
   FLASH_Lock(FLASH_MEMTYPE_DATA);
 }
 //Restore backup data from EEPROM
 void vGetRestore(uint8_t* pu8Mode, double* pdCalibratingTable){
   *pu8Mode = FLASH_ReadByte(CONFIGURATION);
-  for(uint8_t i = 0; i < 6; ++i){
-    pdCalibratingTable[i] = (double) FLASH_ReadByte(PRESCALER + i) / 10;
+  uint8_t u16TempData;
+  uint8_t MSB, LSB;
+  for(uint8_t i = 0; i < 6; i++){
+    MSB = FLASH_ReadByte(PRESCALER + 2*i);
+    LSB = FLASH_ReadByte(PRESCALER + 2*i + 1);
+    u16TempData = MSB << 8;
+    u16TempData |= LSB;
+    double dDebug = u16TempData;
+    dDebug /= 5000;
+    pdCalibratingTable[i] = dDebug;
   }
+  asm("nop");
 }

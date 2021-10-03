@@ -56157,21 +56157,21 @@
     "scope": null
   },
   {
-    "ID": "c:EEPROM.c@1593@F@vGetBackup@u8Table",
+    "ID": "c:EEPROM.c@1593@F@vGetBackup@u16Table",
     "What": "Variable",
     "defdec": "Def",
-    "display": "u8Table",
+    "display": "u16Table",
     "location": {
-      "column": "11",
+      "column": "12",
       "line": "48",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\EEPROM.c"
     },
-    "name": "u8Table",
+    "name": "u16Table",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:EEPROM.c@1620@F@vGetBackup@i",
+    "ID": "c:EEPROM.c@1622@F@vGetBackup@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
@@ -56185,13 +56185,27 @@
     "scope": null
   },
   {
-    "ID": "c:EEPROM.c@1800@F@vGetBackup@i",
+    "ID": "c:EEPROM.c@1655@F@vGetBackup@dDebugTemp",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "dDebugTemp",
+    "location": {
+      "column": "12",
+      "line": "50",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\EEPROM.c"
+    },
+    "name": "dDebugTemp",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:EEPROM.c@1844@F@vGetBackup@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "15",
-      "line": "54",
+      "line": "55",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\EEPROM.c"
     },
     "name": "i",
@@ -56205,7 +56219,7 @@
     "display": "void vGetRestore(uint8_t *, double *)",
     "location": {
       "column": "6",
-      "line": "60",
+      "line": "62",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\EEPROM.c"
     },
     "name": "vGetRestore",
@@ -56213,16 +56227,72 @@
     "scope": null
   },
   {
-    "ID": "c:EEPROM.c@2074@F@vGetRestore@i",
+    "ID": "c:EEPROM.c@2188@F@vGetRestore@u16TempData",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "u16TempData",
+    "location": {
+      "column": "11",
+      "line": "64",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\EEPROM.c"
+    },
+    "name": "u16TempData",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:EEPROM.c@2212@F@vGetRestore@MSB",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "MSB",
+    "location": {
+      "column": "11",
+      "line": "65",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\EEPROM.c"
+    },
+    "name": "MSB",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:EEPROM.c@2212@F@vGetRestore@LSB",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "LSB",
+    "location": {
+      "column": "16",
+      "line": "65",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\EEPROM.c"
+    },
+    "name": "LSB",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:EEPROM.c@2237@F@vGetRestore@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "15",
-      "line": "62",
+      "line": "66",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\EEPROM.c"
     },
     "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:EEPROM.c@2416@F@vGetRestore@dDebug",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "dDebug",
+    "location": {
+      "column": "12",
+      "line": "71",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\EEPROM.c"
+    },
+    "name": "dDebug",
     "origin": "project_file",
     "scope": null
   },
@@ -56275,7 +56345,7 @@
     "display": "void main(void)",
     "location": {
       "column": "6",
-      "line": "18",
+      "line": "20",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\main.c"
     },
     "name": "main",
@@ -56283,13 +56353,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@655@F@main@u8Channel",
+    "ID": "c:main.c@740@F@main@u8Channel",
     "What": "Variable",
     "defdec": "Def",
     "display": "u8Channel",
     "location": {
       "column": "17",
-      "line": "30",
+      "line": "32",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\main.c"
     },
     "name": "u8Channel",
@@ -56297,13 +56367,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@655@F@main@u8Subchannel",
+    "ID": "c:main.c@740@F@main@u8Subchannel",
     "What": "Variable",
     "defdec": "Dec",
     "display": "u8Subchannel",
     "location": {
       "column": "28",
-      "line": "30",
+      "line": "32",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\main.c"
     },
     "name": "u8Subchannel",
@@ -56311,13 +56381,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1553@F@main@u8CalibratedChannel",
+    "ID": "c:main.c@1791@F@main@u8CalibratedChannel",
     "What": "Variable",
     "defdec": "Def",
     "display": "u8CalibratedChannel",
     "location": {
       "column": "15",
-      "line": "66",
+      "line": "72",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\main.c"
     },
     "name": "u8CalibratedChannel",
@@ -56331,7 +56401,7 @@
     "display": "void assert_failed(u8 *, u32)",
     "location": {
       "column": "6",
-      "line": "77",
+      "line": "83",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\main.c"
     },
     "name": "assert_failed",

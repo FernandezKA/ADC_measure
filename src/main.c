@@ -12,6 +12,8 @@ void SysInit(void)
   vInitADC();
   vInitGPIO();
   //vUploadValueEEPROM(&u8Prescaler_1, &u8Prescaler_2, &u8Prescaler_3, &u8CurrentConfigurateADC);//Load old value from EEPROM
+  vGetRestore(&u8CurrentConfigurateADC, bCalibratingCoefficient);
+  vExportData();
   asm("rim");
 }
 
@@ -48,8 +50,11 @@ void main(void)
     break;
       
     case save:
-      asm("nop");
+      asm("sim");
+      vUART_ArrayTransmit("Save completed  \n\r", 18);
+      vGetBackup(&u8CurrentConfigurateADC, bCalibratingCoefficient);
       MAIN = wait;
+      asm("rim");
     break;
     
     case help:
@@ -60,6 +65,7 @@ void main(void)
       MAIN = wait;
       asm("rim");
       break;
+      
     case calibrate:
       asm("sim");
       vUART_ArrayTransmit("Enter number of channel: \n\r", 27);
