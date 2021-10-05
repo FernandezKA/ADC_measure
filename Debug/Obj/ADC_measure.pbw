@@ -56345,7 +56345,7 @@
     "display": "void main(void)",
     "location": {
       "column": "6",
-      "line": "20",
+      "line": "21",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\main.c"
     },
     "name": "main",
@@ -56353,13 +56353,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@740@F@main@u8Channel",
+    "ID": "c:main.c@757@F@main@u8Channel",
     "What": "Variable",
     "defdec": "Def",
     "display": "u8Channel",
     "location": {
       "column": "17",
-      "line": "32",
+      "line": "33",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\main.c"
     },
     "name": "u8Channel",
@@ -56367,13 +56367,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@740@F@main@u8Subchannel",
+    "ID": "c:main.c@757@F@main@u8Subchannel",
     "What": "Variable",
     "defdec": "Dec",
     "display": "u8Subchannel",
     "location": {
       "column": "28",
-      "line": "32",
+      "line": "33",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\main.c"
     },
     "name": "u8Subchannel",
@@ -56381,13 +56381,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@2207@F@main@u8CalibratedChannel",
+    "ID": "c:main.c@2224@F@main@u8CalibratedChannel",
     "What": "Variable",
     "defdec": "Def",
     "display": "u8CalibratedChannel",
     "location": {
       "column": "15",
-      "line": "79",
+      "line": "80",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\main.c"
     },
     "name": "u8CalibratedChannel",
@@ -56401,10 +56401,318 @@
     "display": "void assert_failed(u8 *, u32)",
     "location": {
       "column": "6",
-      "line": "90",
+      "line": "91",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\main.c"
     },
     "name": "assert_failed",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vUART_Transmit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "bool vUART_Transmit(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "6",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
+    },
+    "name": "vUART_Transmit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:output.c@265@F@vUART_Transmit@isSend",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "isSend",
+    "location": {
+      "column": "8",
+      "line": "8",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
+    },
+    "name": "isSend",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vUART_ArrayTransmit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "bool vUART_ArrayTransmit(uint8_t *, uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "17",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
+    },
+    "name": "vUART_ArrayTransmit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:output.c@509@F@vUART_ArrayTransmit@isSend",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "isSend",
+    "location": {
+      "column": "8",
+      "line": "19",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
+    },
+    "name": "isSend",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:output.c@538@F@vUART_ArrayTransmit@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "16",
+      "line": "20",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:output.c@578@F@vUART_ArrayTransmit@bSendByte",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "bSendByte",
+    "location": {
+      "column": "10",
+      "line": "22",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
+    },
+    "name": "bSendByte",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@u8UART_Recieve",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "uint8_t u8UART_Recieve(void)",
+    "location": {
+      "column": "9",
+      "line": "32",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
+    },
+    "name": "u8UART_Recieve",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vUART_SendResult",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void vUART_SendResult(uint8_t, uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "41",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
+    },
+    "name": "vUART_SendResult",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:output.c@1029@F@vUART_SendResult@dCoeff",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "dCoeff",
+    "location": {
+      "column": "10",
+      "line": "42",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
+    },
+    "name": "dCoeff",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:output.c@1051@F@vUART_SendResult@u8UsedChannel",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "u8UsedChannel",
+    "location": {
+      "column": "11",
+      "line": "43",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
+    },
+    "name": "u8UsedChannel",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:output.c@1093@F@vUART_SendResult@u8UsedSubChannel",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "u8UsedSubChannel",
+    "location": {
+      "column": "11",
+      "line": "44",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
+    },
+    "name": "u8UsedSubChannel",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:output.c@1743@F@vUART_SendResult@dResult",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "dResult",
+    "location": {
+      "column": "10",
+      "line": "76",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
+    },
+    "name": "dResult",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:output.c@1780@F@vUART_SendResult@dFirst",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "dFirst",
+    "location": {
+      "column": "10",
+      "line": "77",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
+    },
+    "name": "dFirst",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:output.c@1780@F@vUART_SendResult@dSecond",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "dSecond",
+    "location": {
+      "column": "18",
+      "line": "77",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
+    },
+    "name": "dSecond",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:output.c@1849@F@vUART_SendResult@u8FirstDigit",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "u8FirstDigit",
+    "location": {
+      "column": "11",
+      "line": "79",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
+    },
+    "name": "u8FirstDigit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:output.c@1892@F@vUART_SendResult@u8SecondDigit",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "u8SecondDigit",
+    "location": {
+      "column": "11",
+      "line": "80",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
+    },
+    "name": "u8SecondDigit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:output.c@1944@F@vUART_SendResult@u8aResultArray",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "u8aResultArray",
+    "location": {
+      "column": "11",
+      "line": "81",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
+    },
+    "name": "u8aResultArray",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_RX_IRQHandler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void UART1_RX_IRQHandler(void)",
+    "location": {
+      "column": "1",
+      "line": "102",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
+    },
+    "name": "UART1_RX_IRQHandler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:output.c@2641@F@UART1_RX_IRQHandler@u8RecievedCommand",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "u8RecievedCommand",
+    "location": {
+      "column": "11",
+      "line": "104",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
+    },
+    "name": "u8RecievedCommand",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@u8GetDigit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "uint8_t u8GetDigit(void)",
+    "location": {
+      "column": "9",
+      "line": "131",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
+    },
+    "name": "u8GetDigit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:output.c@3141@F@u8GetDigit@u8EnteredChar",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "u8EnteredChar",
+    "location": {
+      "column": "11",
+      "line": "132",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
+    },
+    "name": "u8EnteredChar",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vPrintHelp",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void vPrintHelp(void)",
+    "location": {
+      "column": "6",
+      "line": "140",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
+    },
+    "name": "vPrintHelp",
     "origin": "project_file",
     "scope": null
   },
@@ -56629,314 +56937,6 @@
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\general.c"
     },
     "name": "vExportData",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@vUART_Transmit",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "bool vUART_Transmit(uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "6",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
-    },
-    "name": "vUART_Transmit",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:output.c@265@F@vUART_Transmit@isSend",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "isSend",
-    "location": {
-      "column": "8",
-      "line": "8",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
-    },
-    "name": "isSend",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@vUART_ArrayTransmit",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "bool vUART_ArrayTransmit(uint8_t *, uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "17",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
-    },
-    "name": "vUART_ArrayTransmit",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:output.c@509@F@vUART_ArrayTransmit@isSend",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "isSend",
-    "location": {
-      "column": "8",
-      "line": "19",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
-    },
-    "name": "isSend",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:output.c@538@F@vUART_ArrayTransmit@i",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "i",
-    "location": {
-      "column": "16",
-      "line": "20",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
-    },
-    "name": "i",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:output.c@578@F@vUART_ArrayTransmit@bSendByte",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "bSendByte",
-    "location": {
-      "column": "10",
-      "line": "22",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
-    },
-    "name": "bSendByte",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@u8UART_Recieve",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "uint8_t u8UART_Recieve(void)",
-    "location": {
-      "column": "9",
-      "line": "32",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
-    },
-    "name": "u8UART_Recieve",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@vUART_SendResult",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void vUART_SendResult(uint8_t, uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "41",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
-    },
-    "name": "vUART_SendResult",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:output.c@1029@F@vUART_SendResult@dCoeff",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "dCoeff",
-    "location": {
-      "column": "10",
-      "line": "42",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
-    },
-    "name": "dCoeff",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:output.c@1051@F@vUART_SendResult@u8UsedChannel",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "u8UsedChannel",
-    "location": {
-      "column": "11",
-      "line": "43",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
-    },
-    "name": "u8UsedChannel",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:output.c@1093@F@vUART_SendResult@u8UsedSubChannel",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "u8UsedSubChannel",
-    "location": {
-      "column": "11",
-      "line": "44",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
-    },
-    "name": "u8UsedSubChannel",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:output.c@1743@F@vUART_SendResult@dResult",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "dResult",
-    "location": {
-      "column": "10",
-      "line": "76",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
-    },
-    "name": "dResult",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:output.c@1780@F@vUART_SendResult@dFirst",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "dFirst",
-    "location": {
-      "column": "10",
-      "line": "77",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
-    },
-    "name": "dFirst",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:output.c@1780@F@vUART_SendResult@dSecond",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "dSecond",
-    "location": {
-      "column": "18",
-      "line": "77",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
-    },
-    "name": "dSecond",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:output.c@1849@F@vUART_SendResult@u8FirstDigit",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "u8FirstDigit",
-    "location": {
-      "column": "11",
-      "line": "79",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
-    },
-    "name": "u8FirstDigit",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:output.c@1899@F@vUART_SendResult@u8SecondDigit",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "u8SecondDigit",
-    "location": {
-      "column": "11",
-      "line": "80",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
-    },
-    "name": "u8SecondDigit",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:output.c@1951@F@vUART_SendResult@u8aResultArray",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "u8aResultArray",
-    "location": {
-      "column": "11",
-      "line": "81",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
-    },
-    "name": "u8aResultArray",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@UART1_RX_IRQHandler",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void UART1_RX_IRQHandler(void)",
-    "location": {
-      "column": "1",
-      "line": "102",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
-    },
-    "name": "UART1_RX_IRQHandler",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:output.c@2619@F@UART1_RX_IRQHandler@u8RecievedCommand",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "u8RecievedCommand",
-    "location": {
-      "column": "11",
-      "line": "104",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
-    },
-    "name": "u8RecievedCommand",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@u8GetDigit",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "uint8_t u8GetDigit(void)",
-    "location": {
-      "column": "9",
-      "line": "131",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
-    },
-    "name": "u8GetDigit",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:output.c@3119@F@u8GetDigit@u8EnteredChar",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "u8EnteredChar",
-    "location": {
-      "column": "11",
-      "line": "132",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
-    },
-    "name": "u8EnteredChar",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@vPrintHelp",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void vPrintHelp(void)",
-    "location": {
-      "column": "6",
-      "line": "140",
-      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
-    },
-    "name": "vPrintHelp",
     "origin": "project_file",
     "scope": null
   },

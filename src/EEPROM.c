@@ -47,7 +47,7 @@ void    vUploadValueEEPROM(uint8_t* pPrescaler_1, uint8_t* pPrescaler_2, uint8_t
 void vGetBackup(uint8_t* pu8Mode, double* pdCalibratingTable){
   uint16_t u16Table[8];
   for(uint8_t i = 0; i < 6; i++){
-    double dDebugTemp = pdCalibratingTable[i] * 5000;
+    double dDebugTemp = pdCalibratingTable[i] * 1500;
     u16Table[i] = (uint8_t) (dDebugTemp);
   }
   FLASH_Unlock(FLASH_MEMTYPE_DATA);
@@ -69,7 +69,7 @@ void vGetRestore(uint8_t* pu8Mode, double* pdCalibratingTable){
     u16TempData = MSB << 8;
     u16TempData |= LSB;
     double dDebug = u16TempData;
-    dDebug /= 5000;
+    dDebug /= 1500;
     pdCalibratingTable[i] = dDebug;
   }
   asm("nop");

@@ -76,7 +76,7 @@ void vUART_SendResult(uint8_t u8Channel,uint8_t u8Result){
   double dResult = u8Result*dCoeff;
   double dFirst, dSecond;
   dSecond = modf(dResult, &dFirst) * 10;
-  uint8_t u8FirstDigit =(uint8_t) dFirst + 0x30;
+  uint8_t u8FirstDigit =(uint8_t) dFirst;
   uint8_t u8SecondDigit =(uint8_t) dSecond + 0x30;
   uint8_t u8aResultArray[17];
   u8aResultArray[0]= 'c';
@@ -90,9 +90,9 @@ void vUART_SendResult(uint8_t u8Channel,uint8_t u8Result){
   u8aResultArray[8]= 'v';
   u8aResultArray[9]= 'o';
   u8aResultArray[10]= 'l';
-  u8aResultArray[11]= 't';
-  u8aResultArray[12]= '.';
-  u8aResultArray[13]= u8FirstDigit;
+  u8aResultArray[11]= '.';
+  u8aResultArray[12]= u8FirstDigit/10 + 0x30;
+  u8aResultArray[13]= u8FirstDigit%10 + 0x30;
   u8aResultArray[14]= ',';
   u8aResultArray[15]= u8SecondDigit;
   u8aResultArray[16]= '\r';
