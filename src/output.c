@@ -125,7 +125,6 @@ INTERRUPT_HANDLER(UART1_RX_IRQHandler, 18)
     MAIN = wait;
     break;
   }
-  //TODO write FSM for definition
 }
 //This function return enter digit
 uint8_t u8GetDigit(void){

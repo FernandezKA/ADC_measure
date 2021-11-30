@@ -21,6 +21,7 @@ uint32_t CONFIGURATION = 0x4030;
 //IRQ Handlers
 /******************************************************************************/
 //IRQ handler for TIM4
+//This interrupt define sampling frequency and indicate device activity with LED 
 INTERRUPT_HANDLER(TIM4_UPD_OVF_IRQHandler, 23)
 {
   //Time call is 1 mS
@@ -36,10 +37,11 @@ INTERRUPT_HANDLER(TIM4_UPD_OVF_IRQHandler, 23)
 }
 
 //IRQ handler for ADC1
+//This interrupt handled after end of measure ADC value
 INTERRUPT_HANDLER(ADC1_IRQHandler, 22)
 {
-  u8BuffMeasure[u8CountMeasure++] = ADC1->DRL;
-  if (u8CountMeasure == SAMPLES)
+  u8BuffMeasure[u8CountMeasure++] = ADC1->DRL;//Handle only 8 bits
+  if (u8CountMeasure == SAMPLES)//We use sum for find mean value
   { //Select mode
     vUART_SendResult(u8LastChannel, u8GetMean(u8BuffMeasure, u8LastChannel));
         u8CountMeasure = 0;

@@ -12,7 +12,7 @@ void SysInit(void)
   vInitADC();
   vInitGPIO();
   //vUploadValueEEPROM(&u8Prescaler_1, &u8Prescaler_2, &u8Prescaler_3, &u8CurrentConfigurateADC);//Load old value from EEPROM
-  vGetRestore(&u8CurrentConfigurateADC, bCalibratingCoefficient);
+  //vGetRestore(&u8CurrentConfigurateADC, bCalibratingCoefficient);
   vExportData();
   vPrintHelp();
   asm("rim");
