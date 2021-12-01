@@ -33,6 +33,7 @@ typedef struct ChannelSet CS;
 extern CS CH1, CH2, CH3;
 //Calibrate
 extern double bCalibratingCoefficient[6];
+extern bool shortOut;
 //FSM for rules device
 enum FSM{
   select_mode = 0,
@@ -40,7 +41,8 @@ enum FSM{
   save,
   calibrate, 
   subprescaler, 
-  help
+  help, 
+  out
 };
 extern enum FSM MAIN;
 /*enum action{

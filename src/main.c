@@ -3,6 +3,7 @@
 //User variables
 uint8_t u8CurrentChannel = 0;
 enum FSM MAIN = wait;
+bool shortOut = TRUE;
 //Main function
 void SysInit(void)
 {
@@ -74,12 +75,30 @@ void main(void)
       asm("rim");
       break;
       
-    case calibrate:
+   /* case calibrate:
       asm("sim");
       vUART_ArrayTransmit("Enter number of channel: \n\r", 27);
       uint8_t u8CalibratedChannel = u8GetDigit();
       vGetCalibrate(u8CalibratedChannel);
       vExportData();
+      MAIN = wait;
+      asm("rim");
+      break;
+     */ 
+    case out:
+      asm("sim");
+      vUART_ArrayTransmit("Select type output message\n\r", 28);
+      vUART_ArrayTransmit("0 - short out, 1 - normal\n\r", 27);
+      uint8_t u8SelOut = u8GetDigit();
+      if(u8SelOut == 0){
+        shortOut = TRUE;
+      }
+      else if (u8SelOut == 1){
+        shortOut = FALSE;
+      }
+      else{
+        vUART_ArrayTransmit("Mistake\n\r",9); 
+      }
       MAIN = wait;
       asm("rim");
       break;
