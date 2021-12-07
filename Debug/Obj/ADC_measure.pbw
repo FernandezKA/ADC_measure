@@ -55849,7 +55849,7 @@
     "scope": null
   },
   {
-    "ID": "c:calibrate.c@290@F@vGetCalibrate@u8Subnumber",
+    "ID": "c:calibrate.c@260@F@vGetCalibrate@u8Subnumber",
     "What": "Variable",
     "defdec": "Def",
     "display": "u8Subnumber",
@@ -55863,7 +55863,7 @@
     "scope": null
   },
   {
-    "ID": "c:calibrate.c@516@F@vGetCalibrate@u8WholePart",
+    "ID": "c:calibrate.c@486@F@vGetCalibrate@u8WholePart",
     "What": "Variable",
     "defdec": "Def",
     "display": "u8WholePart",
@@ -55877,7 +55877,7 @@
     "scope": null
   },
   {
-    "ID": "c:calibrate.c@609@F@vGetCalibrate@u8FraqtionalPart",
+    "ID": "c:calibrate.c@579@F@vGetCalibrate@u8FraqtionalPart",
     "What": "Variable",
     "defdec": "Def",
     "display": "u8FraqtionalPart",
@@ -55891,7 +55891,7 @@
     "scope": null
   },
   {
-    "ID": "c:calibrate.c@682@F@vGetCalibrate@dEthValue",
+    "ID": "c:calibrate.c@652@F@vGetCalibrate@dEthValue",
     "What": "Variable",
     "defdec": "Def",
     "display": "dEthValue",
@@ -55905,7 +55905,7 @@
     "scope": null
   },
   {
-    "ID": "c:calibrate.c@772@F@vGetCalibrate@u8LastChannelLocal",
+    "ID": "c:calibrate.c@742@F@vGetCalibrate@u8LastChannelLocal",
     "What": "Variable",
     "defdec": "Def",
     "display": "u8LastChannelLocal",
@@ -55919,7 +55919,7 @@
     "scope": null
   },
   {
-    "ID": "c:calibrate.c@852@F@vGetCalibrate@u32LocalSum",
+    "ID": "c:calibrate.c@822@F@vGetCalibrate@u32LocalSum",
     "What": "Variable",
     "defdec": "Def",
     "display": "u32LocalSum",
@@ -55933,7 +55933,7 @@
     "scope": null
   },
   {
-    "ID": "c:calibrate.c@888@F@vGetCalibrate@i",
+    "ID": "c:calibrate.c@858@F@vGetCalibrate@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
@@ -55947,7 +55947,7 @@
     "scope": null
   },
   {
-    "ID": "c:calibrate.c@958@F@vGetCalibrate@u8Mean",
+    "ID": "c:calibrate.c@928@F@vGetCalibrate@u8Mean",
     "What": "Variable",
     "defdec": "Def",
     "display": "u8Mean",
@@ -55961,7 +55961,7 @@
     "scope": null
   },
   {
-    "ID": "c:calibrate.c@1034@F@vGetCalibrate@u8DebugIndex",
+    "ID": "c:calibrate.c@1004@F@vGetCalibrate@u8DebugIndex",
     "What": "Variable",
     "defdec": "Def",
     "display": "u8DebugIndex",
@@ -56135,7 +56135,7 @@
     "display": "void vInitUART(void)",
     "location": {
       "column": "6",
-      "line": "31",
+      "line": "32",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\config.c"
     },
     "name": "vInitUART",
@@ -56149,7 +56149,7 @@
     "display": "void vInitGPIO(void)",
     "location": {
       "column": "6",
-      "line": "39",
+      "line": "40",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\config.c"
     },
     "name": "vInitGPIO",
@@ -56619,13 +56619,27 @@
     "scope": null
   },
   {
-    "ID": "c:output.c@1037@F@vUART_SendResult@dCoeff",
+    "ID": "c:output.c@1037@F@vUART_SendResult@Result",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "Result",
+    "location": {
+      "column": "10",
+      "line": "43",
+      "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
+    },
+    "name": "Result",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:output.c@1079@F@vUART_SendResult@dCoeff",
     "What": "Variable",
     "defdec": "Def",
     "display": "dCoeff",
     "location": {
       "column": "10",
-      "line": "43",
+      "line": "44",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
     },
     "name": "dCoeff",
@@ -56633,13 +56647,13 @@
     "scope": null
   },
   {
-    "ID": "c:output.c@1059@F@vUART_SendResult@u8UsedChannel",
+    "ID": "c:output.c@1101@F@vUART_SendResult@u8UsedChannel",
     "What": "Variable",
     "defdec": "Def",
     "display": "u8UsedChannel",
     "location": {
       "column": "11",
-      "line": "44",
+      "line": "45",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
     },
     "name": "u8UsedChannel",
@@ -56647,13 +56661,13 @@
     "scope": null
   },
   {
-    "ID": "c:output.c@1101@F@vUART_SendResult@u8UsedSubChannel",
+    "ID": "c:output.c@1143@F@vUART_SendResult@u8UsedSubChannel",
     "What": "Variable",
     "defdec": "Def",
     "display": "u8UsedSubChannel",
     "location": {
       "column": "11",
-      "line": "45",
+      "line": "46",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
     },
     "name": "u8UsedSubChannel",
@@ -56661,13 +56675,13 @@
     "scope": null
   },
   {
-    "ID": "c:output.c@1781@F@vUART_SendResult@dResult",
+    "ID": "c:output.c@1823@F@vUART_SendResult@dResult",
     "What": "Variable",
     "defdec": "Def",
     "display": "dResult",
     "location": {
       "column": "10",
-      "line": "84",
+      "line": "85",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
     },
     "name": "dResult",
@@ -56675,13 +56689,13 @@
     "scope": null
   },
   {
-    "ID": "c:output.c@1820@F@vUART_SendResult@dFirst",
+    "ID": "c:output.c@1860@F@vUART_SendResult@dFirst",
     "What": "Variable",
     "defdec": "Def",
     "display": "dFirst",
     "location": {
       "column": "10",
-      "line": "85",
+      "line": "86",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
     },
     "name": "dFirst",
@@ -56689,13 +56703,13 @@
     "scope": null
   },
   {
-    "ID": "c:output.c@1820@F@vUART_SendResult@dSecond",
+    "ID": "c:output.c@1860@F@vUART_SendResult@dSecond",
     "What": "Variable",
     "defdec": "Dec",
     "display": "dSecond",
     "location": {
       "column": "18",
-      "line": "85",
+      "line": "86",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
     },
     "name": "dSecond",
@@ -56703,13 +56717,13 @@
     "scope": null
   },
   {
-    "ID": "c:output.c@1889@F@vUART_SendResult@u8FirstDigit",
+    "ID": "c:output.c@1929@F@vUART_SendResult@u8FirstDigit",
     "What": "Variable",
     "defdec": "Def",
     "display": "u8FirstDigit",
     "location": {
       "column": "11",
-      "line": "87",
+      "line": "88",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
     },
     "name": "u8FirstDigit",
@@ -56717,13 +56731,13 @@
     "scope": null
   },
   {
-    "ID": "c:output.c@1932@F@vUART_SendResult@u8SecondDigit",
+    "ID": "c:output.c@1972@F@vUART_SendResult@u8SecondDigit",
     "What": "Variable",
     "defdec": "Def",
     "display": "u8SecondDigit",
     "location": {
       "column": "11",
-      "line": "88",
+      "line": "89",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
     },
     "name": "u8SecondDigit",
@@ -56731,13 +56745,13 @@
     "scope": null
   },
   {
-    "ID": "c:output.c@2008@F@vUART_SendResult@u8aResultArray",
+    "ID": "c:output.c@2048@F@vUART_SendResult@u8aResultArray",
     "What": "Variable",
     "defdec": "Def",
     "display": "u8aResultArray",
     "location": {
       "column": "13",
-      "line": "91",
+      "line": "92",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
     },
     "name": "u8aResultArray",
@@ -56745,13 +56759,13 @@
     "scope": null
   },
   {
-    "ID": "c:output.c@2495@F@vUART_SendResult@u8aResultArray",
+    "ID": "c:output.c@2535@F@vUART_SendResult@u8aResultArray",
     "What": "Variable",
     "defdec": "Def",
     "display": "u8aResultArray",
     "location": {
       "column": "13",
-      "line": "106",
+      "line": "107",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
     },
     "name": "u8aResultArray",
@@ -56765,7 +56779,7 @@
     "display": "void UART1_RX_IRQHandler(void)",
     "location": {
       "column": "1",
-      "line": "128",
+      "line": "129",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
     },
     "name": "UART1_RX_IRQHandler",
@@ -56773,13 +56787,13 @@
     "scope": null
   },
   {
-    "ID": "c:output.c@3255@F@UART1_RX_IRQHandler@u8RecievedCommand",
+    "ID": "c:output.c@3295@F@UART1_RX_IRQHandler@u8RecievedCommand",
     "What": "Variable",
     "defdec": "Def",
     "display": "u8RecievedCommand",
     "location": {
       "column": "11",
-      "line": "130",
+      "line": "131",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
     },
     "name": "u8RecievedCommand",
@@ -56793,7 +56807,7 @@
     "display": "uint8_t u8GetDigit(void)",
     "location": {
       "column": "9",
-      "line": "160",
+      "line": "161",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
     },
     "name": "u8GetDigit",
@@ -56801,13 +56815,13 @@
     "scope": null
   },
   {
-    "ID": "c:output.c@3773@F@u8GetDigit@u8EnteredChar",
+    "ID": "c:output.c@3813@F@u8GetDigit@u8EnteredChar",
     "What": "Variable",
     "defdec": "Def",
     "display": "u8EnteredChar",
     "location": {
       "column": "11",
-      "line": "162",
+      "line": "163",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
     },
     "name": "u8EnteredChar",
@@ -56821,7 +56835,7 @@
     "display": "void vPrintHelp(void)",
     "location": {
       "column": "6",
-      "line": "171",
+      "line": "172",
       "path": "C:\\dev\\MCU\\STM8\\ADC_measure\\src\\output.c"
     },
     "name": "vPrintHelp",

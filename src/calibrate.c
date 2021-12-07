@@ -1,5 +1,5 @@
 #include "general.h"
-double bCalibratingCoefficient[6]  = {3.65e-2, 4.6e-2, 3.65e-2, 4.6e-2, 3.65e-2, 4.6e-2};
+double bCalibratingCoefficient[6]  = {3, 14, 3, 14, 3, 14};
 //This function get calibrating device
 void vGetCalibrate(uint8_t u8ChannelNum){
   //Get info

@@ -40,10 +40,10 @@ INTERRUPT_HANDLER(TIM4_UPD_OVF_IRQHandler, 23)
 //This interrupt handled after end of measure ADC value
 INTERRUPT_HANDLER(ADC1_IRQHandler, 22)
 {
-  u8BuffMeasure[u8CountMeasure++] = ADC1->DRL;//Handle only 8 bits
+  u8BuffMeasure[u8CountMeasure++] = ADC1->DRH;//Handle only 8 bits
   if (u8CountMeasure == SAMPLES)//We use sum for find mean value
   { //Select mode
-    vUART_SendResult(u8LastChannel, u8GetMean(u8BuffMeasure, u8LastChannel));
+        vUART_SendResult(u8LastChannel, u8GetMean(u8BuffMeasure, u8LastChannel));
         u8CountMeasure = 0;
         vGetMultiplex(&u8LastChannel, u8CurrentConfigurateADC);
   }
