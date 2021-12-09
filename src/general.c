@@ -31,7 +31,7 @@ INTERRUPT_HANDLER(TIM4_UPD_OVF_IRQHandler, 23)
   }
   else{
     u8LedCounter = 0x00;
-    GPIOB->ODR^=(1<<5);
+    GPIOB->ODR^=(1<<4);
   }
   ADC1->CR1 |= ADC1_CR1_ADON; //Get sample
 }

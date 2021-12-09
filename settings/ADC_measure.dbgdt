@@ -780,7 +780,7 @@
                     <item>Result</item>
                     <item>dResult</item>
                     <item>dCoeff</item>
-                    <item></item>
+                    <item />
                 </expressions>
                 <col-names>
                     <item>Expression</item>

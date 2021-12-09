@@ -40,9 +40,9 @@ void vInitUART(void)
 void vInitGPIO(void)
 {
   //LED at devboard
-  GPIOB->DDR |= (1 << 5); //Set as out
-  GPIOB->CR2 |= (1 << 5); //Set push-pull
-  GPIOB->ODR |= (1 << 5); //Invert at active high
+  GPIOB->DDR |= (1 << 4); //Set as out
+  GPIOB->CR2 |= (1 << 4); //Set push-pull
+  GPIOB->ODR |= (1 << 4); //Invert at active high
   //Configure input channel for ADC
   GPIO_Init(GPIOC, GPIO_PIN_4, GPIO_MODE_IN_FL_NO_IT); //Channel 2
   GPIO_Init(GPIOD, GPIO_PIN_2, GPIO_MODE_IN_FL_NO_IT); //Channel 3
