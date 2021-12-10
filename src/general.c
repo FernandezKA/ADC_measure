@@ -8,6 +8,8 @@ uint8_t u8UsedChannel_1 = 0;
 uint8_t u8UsedChannel_2 = 0;
 uint8_t u8UsedChannel_3 = 0;
 CS CH1, CH2, CH3;
+double CH1_Last, CH2_Last, CH3_Last;
+enum OutMode OutModeVar;
 static uint8_t u8LedCounter = 0x00;
 //Definitions EEPROM regions for constants
 uint32_t PRESCALER =   0x4000;

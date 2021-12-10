@@ -74,31 +74,38 @@ void main(void)
       MAIN = wait;
       asm("rim");
       break;
-      
-   /* case calibrate:
-      asm("sim");
-      vUART_ArrayTransmit("Enter number of channel: \n\r", 27);
-      uint8_t u8CalibratedChannel = u8GetDigit();
-      vGetCalibrate(u8CalibratedChannel);
-      vExportData();
-      MAIN = wait;
-      asm("rim");
-      break;
-     */ 
     case out:
       asm("sim");
       vUART_ArrayTransmit("Select type output message\n\r", 28);
-      vUART_ArrayTransmit("0 - short out, 1 - normal\n\r", 27);
-      uint8_t u8SelOut = u8GetDigit();
+      vUART_ArrayTransmit("0 - short out, 1 - normal, 2 - all channels\n\r", 45);
+      static uint8_t u8SelOut;
+      u8SelOut = u8GetDigit();
       if(u8SelOut == 0){
-        shortOut = TRUE;
+        OutModeVar = short_out;
       }
       else if (u8SelOut == 1){
-        shortOut = FALSE;
+        OutModeVar = long_out;
+      }
+      else if(u8SelOut == 2){
+        u8CurrentConfigurateADC = 0x07;//Enable multiplex all of channels
+        OutModeVar = full_out;
       }
       else{
         vUART_ArrayTransmit("Mistake\n\r",9); 
       }
+      MAIN = wait;
+      asm("rim");
+      break;
+      
+    case prescalers:
+      asm("sim");
+      static unsigned char InfoMsg[] = {"0-0-0\n\r"};
+      InfoMsg[0] = CH1.u8SubChannel + 48;
+      InfoMsg[2] = CH2.u8SubChannel+48;
+      InfoMsg[4] = CH3.u8SubChannel+48;
+      vUART_ArrayTransmit(InfoMsg, 7);
+      vUART_ArrayTransmit("Press any key\n\r", 15);
+      u8UART_Recieve();
       MAIN = wait;
       asm("rim");
       break;

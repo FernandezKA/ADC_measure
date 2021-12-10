@@ -24,6 +24,7 @@ extern uint8_t u8LastChannel;
 extern uint8_t u8UsedChannel_1;
 extern uint8_t u8UsedChannel_2;
 extern uint8_t u8UsedChannel_3;
+extern double CH1_Last, CH2_Last, CH3_Last;
 struct ChannelSet{
   uint8_t u8SubChannel;
   double u8Prescaler_1;
@@ -42,8 +43,15 @@ enum FSM{
   calibrate, 
   subprescaler, 
   help, 
-  out
+  out, 
+  prescalers
 };
+enum OutMode{
+  short_out, 
+  long_out, 
+  full_out
+};
+extern enum OutMode OutModeVar;
 extern enum FSM MAIN;
 /*enum action{
   prescaler = 0,
