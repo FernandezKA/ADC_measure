@@ -12,8 +12,6 @@ void SysInit(void)
   vInitTIM4();
   vInitADC();
   vInitGPIO();
-  //vUploadValueEEPROM(&u8Prescaler_1, &u8Prescaler_2, &u8Prescaler_3, &u8CurrentConfigurateADC);//Load old value from EEPROM
-  //vGetRestore(&u8CurrentConfigurateADC, bCalibratingCoefficient);
   vExportData();
   vPrintHelp();
   asm("rim");
@@ -22,6 +20,7 @@ void SysInit(void)
 void main(void)
 {
   SysInit();
+  getRestore(&u8CurrentConfigurateADC, &OutModeVar, &CH1.u8SubChannel, &CH2.u8SubChannel, &CH3.u8SubChannel);
 #ifndef DEBUG
   vUART_ArrayTransmit("Enter commands: \n\r", 18);
 #endif
@@ -30,11 +29,13 @@ void main(void)
     switch(MAIN){
       case subprescaler: 
         asm("sim");
-        vUART_ArrayTransmit("Enter channel, subchannel nums\n\r", 32);
+        vUART_ArrayTransmit("Enter channel number\n\r", 22);
         uint8_t u8Channel, u8Subchannel;
         u8Channel = u8GetDigit();
+        vUART_ArrayTransmit("Enter subchannel number\n\r", 25);
         u8Subchannel = u8GetDigit();
         vSelechSub(u8Channel,u8Subchannel);
+        getBackup(&u8CurrentConfigurateADC, &OutModeVar, &CH1.u8SubChannel, &CH2.u8SubChannel, &CH3.u8SubChannel);
         MAIN = wait;
         asm("rim");
       break;
@@ -51,6 +52,7 @@ void main(void)
         vUART_ArrayTransmit("-> 7 - CH. 1 + CH. 2 + CH. 3 \n\r", 31);
         vSetRulesMul(&u8CurrentConfigurateADC);
         MAIN = wait;
+        getBackup(&u8CurrentConfigurateADC, &OutModeVar, &CH1.u8SubChannel, &CH2.u8SubChannel, &CH3.u8SubChannel);
         asm("rim");
       break;
      
@@ -58,14 +60,6 @@ void main(void)
       //MAIN = wait;
     break;
       
-    case save:
-      asm("sim");
-      vUART_ArrayTransmit("Save completed  \n\r", 18);
-      vGetBackup(&u8CurrentConfigurateADC, bCalibratingCoefficient);
-      MAIN = wait;
-      asm("rim");
-    break;
-    
     case help:
       asm("sim");
       vPrintHelp();
@@ -87,13 +81,13 @@ void main(void)
         OutModeVar = long_out;
       }
       else if(u8SelOut == 2){
-        u8CurrentConfigurateADC = 0x07;//Enable multiplex all of channels
         OutModeVar = full_out;
       }
       else{
         vUART_ArrayTransmit("Mistake\n\r",9); 
       }
       MAIN = wait;
+      getBackup(&u8CurrentConfigurateADC, &OutModeVar, &CH1.u8SubChannel, &CH2.u8SubChannel, &CH3.u8SubChannel);
       asm("rim");
       break;
       

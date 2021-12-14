@@ -12,8 +12,11 @@ double CH1_Last, CH2_Last, CH3_Last;
 enum OutMode OutModeVar;
 static uint8_t u8LedCounter = 0x00;
 //Definitions EEPROM regions for constants
-uint32_t PRESCALER =   0x4000;
-uint32_t CONFIGURATION = 0x4030;
+uint32_t CONFIGURATION = 0x4010;
+uint32_t OUTPUT = 0x4020;
+uint32_t PRESCALER_1 =   0x4030;
+uint32_t PRESCALER_2 =   0x4040;
+uint32_t PRESCALER_3 =   0x4050;
 //User procedure
 
 /******************************************************************************/
@@ -33,7 +36,8 @@ INTERRUPT_HANDLER(TIM4_UPD_OVF_IRQHandler, 23)
   }
   else{
     u8LedCounter = 0x00;
-    GPIOB->ODR^=(1<<4);
+    GPIOB->ODR^=(1<<5);
+    GPIOC->ODR^=(1<<6);
   }
   ADC1->CR1 |= ADC1_CR1_ADON; //Get sample
 }

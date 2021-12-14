@@ -140,6 +140,99 @@ case 4:
     break;
     
   case full_out:
+    switch(u8CurrentConfigurateADC){
+    case 1:
+      CH2_Last = 0;
+      CH3_Last = 0;
+      dSecond = modf(CH1_Last, &dFirst) * 10;
+      u8FirstDigit = (uint8_t)dFirst;
+      u8SecondDigit = (uint8_t)dSecond + 0x30;
+      Out[0] = u8FirstDigit/10 + 0x30;
+      Out[1] = u8FirstDigit%10 + 0x30;
+      Out[3] = u8SecondDigit;
+      vUART_ArrayTransmit(Out, 4);
+      break;
+      
+    case 2:
+      CH1_Last = 0;
+      CH3_Last = 0;
+      dSecond = modf(CH2_Last, &dFirst) * 10;
+      u8FirstDigit = (uint8_t)dFirst;
+      u8SecondDigit = (uint8_t)dSecond + 0x30;
+      Out[0] = u8FirstDigit/10 + 0x30;
+      Out[1] = u8FirstDigit%10 + 0x30;
+      Out[3] = u8SecondDigit;
+      vUART_ArrayTransmit(Out, 4);
+      vUART_ArrayTransmit("\n\r", 2);
+      break;
+      
+    case 3:
+      CH1_Last = 0;
+      CH2_Last = 0;
+      dSecond = modf(CH3_Last, &dFirst) * 10;
+      u8FirstDigit = (uint8_t)dFirst;
+      u8SecondDigit = (uint8_t)dSecond + 0x30;
+      Out[0] = u8FirstDigit/10 + 0x30;
+      Out[1] = u8FirstDigit%10 + 0x30;
+      Out[3] = u8SecondDigit;
+      vUART_ArrayTransmit(Out, 4);
+      vUART_ArrayTransmit("\n\r", 2);
+      break;
+      
+    case 4:
+      CH3_Last = 0;
+      dSecond = modf(CH1_Last, &dFirst) * 10;
+      u8FirstDigit = (uint8_t)dFirst;
+      u8SecondDigit = (uint8_t)dSecond + 0x30;
+      Out[0] = u8FirstDigit/10 + 0x30;
+      Out[1] = u8FirstDigit%10 + 0x30;
+      Out[3] = u8SecondDigit;
+      dSecond = modf(CH2_Last, &dFirst) * 10;
+      u8FirstDigit = (uint8_t)dFirst;
+      u8SecondDigit = (uint8_t)dSecond + 0x30;
+      Out[5] = u8FirstDigit/10 + 0x30;
+      Out[6] = u8FirstDigit%10 + 0x30;
+      Out[8] = u8SecondDigit;
+      vUART_ArrayTransmit(Out, 9);
+      vUART_ArrayTransmit("\n\r", 2);
+      break;
+      
+    case 5:
+      CH1_Last = 0;
+      dSecond = modf(CH2_Last, &dFirst) * 10;
+      u8FirstDigit = (uint8_t)dFirst;
+      u8SecondDigit = (uint8_t)dSecond + 0x30;
+      Out[0] = u8FirstDigit/10 + 0x30;
+      Out[1] = u8FirstDigit%10 + 0x30;
+      Out[3] = u8SecondDigit;
+      dSecond = modf(CH3_Last, &dFirst) * 10;
+      u8FirstDigit = (uint8_t)dFirst;
+      u8SecondDigit = (uint8_t)dSecond + 0x30;
+      Out[5] = u8FirstDigit/10 + 0x30;
+      Out[6] = u8FirstDigit%10 + 0x30;
+      Out[8] = u8SecondDigit;
+      vUART_ArrayTransmit(Out, 9);
+      vUART_ArrayTransmit("\n\r", 2);
+      break;
+      
+    case 6:
+      CH2_Last = 0;
+      dSecond = modf(CH1_Last, &dFirst) * 10;
+      u8FirstDigit = (uint8_t)dFirst;
+      u8SecondDigit = (uint8_t)dSecond + 0x30;
+      Out[0] = u8FirstDigit/10 + 0x30;
+      Out[1] = u8FirstDigit%10 + 0x30;
+      Out[3] = u8SecondDigit;
+      dSecond = modf(CH3_Last, &dFirst) * 10;
+      u8FirstDigit = (uint8_t)dFirst;
+      u8SecondDigit = (uint8_t)dSecond + 0x30;
+      Out[5] = u8FirstDigit/10 + 0x30;
+      Out[6] = u8FirstDigit%10 + 0x30;
+      Out[8] = u8SecondDigit;
+      vUART_ArrayTransmit(Out, 9);
+      vUART_ArrayTransmit("\n\r", 2);
+      break;
+    case 7:
   dSecond = modf(CH1_Last, &dFirst) * 10;
   u8FirstDigit = (uint8_t)dFirst;
   u8SecondDigit = (uint8_t)dSecond + 0x30;
@@ -159,6 +252,8 @@ case 4:
   Out[11] = u8FirstDigit%10 + 0x30;
   Out[13] = u8SecondDigit;
   vUART_ArrayTransmit(Out, 16);
+      break;
+    }
     break;
   }
 }
@@ -173,9 +268,6 @@ INTERRUPT_HANDLER(UART1_RX_IRQHandler, 18)
     break;
   case 'q':
     MAIN = wait;
-    break;
-  case 'b':
-    MAIN = save;
     break;
   case 'p':
    MAIN = prescalers;
@@ -209,5 +301,5 @@ uint8_t u8GetDigit(void)
 void vPrintHelp(void)
 {
   vUART_ArrayTransmit("This is help page\n\r", 19);
-  vUART_ArrayTransmit("Available commands:m-set mode,s-set subprescaler,o-set output,h-help,b-backup\n\r", 79);
+  vUART_ArrayTransmit("Available commands:m-set mode,s-set subprescaler,p-watch prescalers,o-set output,h-help\n\r", 89);
 }

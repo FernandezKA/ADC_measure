@@ -41,8 +41,15 @@ void vInitGPIO(void)
 {
   //LED at devboard
   GPIOB->DDR |= (1 << 4); //Set as out
+  GPIOB->CR1 |= (1 << 4); //Set push-pull
   GPIOB->CR2 |= (1 << 4); //Set push-pull
   GPIOB->ODR |= (1 << 4); //Invert at active high
+  
+  GPIOC->DDR |= (1 << 6); //Set as out
+  GPIOC->CR1 |= (1 << 6); //Set push-pull
+  GPIOC->CR2 |= (1 << 6); //Set push-pull
+  GPIOC->ODR |= (1 << 6); //Invert at active high
+  
   //Configure input channel for ADC
   GPIO_Init(GPIOC, GPIO_PIN_4, GPIO_MODE_IN_FL_NO_IT); //Channel 2
   GPIO_Init(GPIOD, GPIO_PIN_2, GPIO_MODE_IN_FL_NO_IT); //Channel 3

@@ -13,8 +13,11 @@
 #include "stm8s_flash.h"
 #include <cmath>
 //Definitions EEPROM regions for constants
-extern uint32_t PRESCALER;
 extern uint32_t CONFIGURATION;
+extern uint32_t OUTPUT;
+extern uint32_t PRESCALER_1;
+extern uint32_t PRESCALER_2;
+extern uint32_t PRESCALER_3;
 //User constant
 extern uint8_t u8CountMeasure;
 extern uint8_t u8BuffMeasure[SAMPLES];
@@ -39,7 +42,6 @@ extern bool shortOut;
 enum FSM{
   select_mode = 0,
   wait, 
-  save,
   calibrate, 
   subprescaler, 
   help, 
@@ -73,12 +75,8 @@ bool vUART_ArrayTransmit(uint8_t* data, uint8_t size);
 uint8_t u8UART_Recieve(void);
 void vUART_SendResult(uint8_t u8Channel,uint8_t u8Result);
 //EEPROM
-void    vUpdateEEPROMConfig(uint8_t u8NumberConfig);
-void    vUpdateEEPROMChannel(uint8_t u8Channel, uint8_t u8Prescaler);
-uint8_t u8GetPrescaler(uint8_t u8Channel);
-void    vUploadValueEEPROM(uint8_t* pPrescaler_1, uint8_t* pPrescaler_2, uint8_t* pPrescaler_3, uint8_t* pMode);
-void vGetBackup(uint8_t* pu8Mode, double* pdCalibratingTable);
-void vGetRestore(uint8_t* pu8Mode, double* pdCalibratingTable);
+void getBackup(uint8_t* w_mode, enum OutMode* o_mode, uint8_t* SCH1, uint8_t* SCH2, uint8_t* SCH3);
+void getRestore(uint8_t* w_mode, enum OutMode* o_mode, uint8_t* SCH1, uint8_t* SCH2, uint8_t* SCH3);
 //General logic functions
 enum action eGetAction(void);
 void vSelectChannel(uint8_t);
